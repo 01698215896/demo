@@ -1,0 +1,149 @@
+<div class="containers">
+  <div class="loginbox">
+    <div class="containerss">
+      <div class="containerss_bg">
+        <img src="../../assets/image/bg.jpg" alt="" />
+      </div>
+      <p>Soccer Verses</p>
+    </div>
+    <div class="box">
+      <div class="box_bg">
+        <img src="../../assets/image/bg0.jpg" alt="" />
+      </div>
+      <div class="box1">
+        <div class="title">
+          <h1 [class.active]="activeTab === 0" (click)="setActiveTab(0)">
+            Login
+          </h1>
+          <h1 [class.active]="activeTab === 1" (click)="setActiveTab(1)">
+            Resgiter
+          </h1>
+        </div>
+        <div class="chung">
+          <div id="loginform" *ngIf="activeTab === 0">
+            <form >
+              <div class="formIP">
+                <i class="fa-solid fa-user"></i>
+                <input
+                  type="text"
+                  formControlName="id"
+                  placeholder="Username..."
+                />
+              </div>
+              <small class="text-danger">Username required</small>
+              <div class="formIP">
+                <i class="fa-solid fa-key"></i>
+                <input
+                  type="password"
+                  formControlName="password"
+                  placeholder="Password..."
+                />
+              </div>
+              <small class="text-danger">Password required</small>
+              <div class="link">
+                <button type="submit" [disabled]="isWaitingForResponse">
+                  <ng-container
+                    *ngIf="!isWaitingForResponse; else loadingAnimation"
+                  >
+                    Login
+                  </ng-container>
+                </button>
+                <ng-template #loadingAnimation>
+                  <div class="animation-container">
+                    <i class="fa-solid fa-spinner fa-spin"></i>
+                  </div>
+                </ng-template>
+                <div class="div">
+                  <a href="#taomoiform"
+                    >Register Account <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div id="taomoiform" *ngIf="activeTab === 1">
+            <form>
+              <div class="formIP">
+                <input
+                  type="text"
+                  formControlName="firstName"
+                  placeholder="Firstname..."
+                  style="padding-left: 10px; margin-right: 10px"
+                />
+                <input
+                  type="text"
+                  formControlName="lastName"
+                  placeholder="Lastname..."
+                  style="padding-left: 10px; margin-left: 10px"
+                />
+              </div>
+              <small class="text-danger">Fistname & Lastname required</small>
+
+              <div class="formIP">
+                <i class="fa-solid fa-user"></i>
+                <input
+                  type="text"
+                  formControlName="id"
+                  placeholder="Username..."
+                />
+              </div>
+              <small class="text-danger">Username required</small>
+
+              <div class="formIP">
+                <i class="fa-solid fa-envelope"></i>
+                <input
+                  type="email"
+                  formControlName="email"
+                  placeholder="Email..."
+                />
+              </div>
+              <small class="text-danger">Email required</small>
+
+              <div class="formIP">
+                <i class="fa-solid fa-key"></i>
+                <input
+                  type="password"
+                  formControlName="password"
+                  placeholder="Password..."
+                />
+              </div>
+              <small class="text-danger">Password required</small>
+
+              <div class="formIP">
+                <i class="fa-solid fa-key"></i>
+                <input
+                  type="password"
+                  formControlName="confirmPassword"
+                  placeholder="Confirm Password..."
+                />
+              </div>
+              <small class="text-danger">ConfirmPassword required</small>
+
+              <div class="link">
+                <!-- <button type="submit">{{ 'Resgiter' </button> -->
+                <button type="submit" [disabled]="isWaitingForResponse">
+                  <ng-container
+                    *ngIf="!isWaitingForResponse; else loadingAnimation"
+                  >
+                    Resgiter"
+                  </ng-container>
+                </button>
+                <ng-template #loadingAnimation>
+                  <div class="animation-container">
+                    <i class="fa-solid fa-spinner fa-spin"></i>
+                  </div>
+                </ng-template>
+                <div class="div">
+                  <a href="#loginform"
+                    >Login Account" <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

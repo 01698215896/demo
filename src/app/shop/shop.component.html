@@ -1,0 +1,89 @@
+<div class="shop">
+  <div class="shop_title">
+    <div class="shop_title-img">
+      <img src="../../assets/image/bn3.jpg" alt="" />
+    </div>
+    <div class="shop_title-text">
+      <h1>SHOP</h1>
+      <p>Home > <span>Shop</span></p>
+    </div>
+  </div>
+
+  <div class="shop_content">
+    <div class="shop_content-product">
+      <div class="shop_content-product-option">
+        <p>Showing results</p>
+        <select name="" id="">
+          <option value="">option1</option>
+          <option value="">option2</option>
+          <option value="">option3</option>
+          <option value="">option4</option>
+        </select>
+      </div>
+      <div class="shop_content-product-item">
+        <!-- item 1 -->
+        <div class="shop_content-product-item1" *ngFor="let data of data">
+          <div class="shop_content-product-item1-img">
+            <img src="{{data.img}}" alt="" />
+          </div>
+          <div class="shop_content-product-item1-content">
+            <h1>{{data.tentrandau}}</h1>
+            <div class="texxt">
+
+              <p>{{data.giaidau}}</p>
+              <p style="color: #26282c;"> <i class="fa-solid fa-ticket"></i> {{data.condu}}</p>
+            </div>
+
+            <div class="icon_text">
+              <div class="icon_text1">
+                <i class="fa-solid fa-calendar-days"></i>
+                <p>{{data.thoigian}}</p>
+              </div>
+              <div class="icon_text1">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>{{data.diadiem}}</p>
+              </div>
+            </div>
+            <div class="bttn">
+              <p style="font-size: 20px; color: #e91e63;">{{data.giave}}</p>
+              <button class="btn1 tt">Buy Tickets</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="shop_content_filter">
+      <div class="shop_content_filter-box">
+        <div class="shop_content_filter-box-cha">
+          <h1>Filter by price</h1>
+          <input type="range" name="" id="" />
+          <div class="shop_content_filter-box-btn">
+            <button class="btn">Filter</button>
+            <p>Price: $20 — $40</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="shop_content_filter-box resize_box">
+        <div class="shop_content_filter-box1">
+          <h1>Upcoming Events</h1>
+          <p>Importance of Foundation Course</p>
+          <p>December 16 @ 3:00 pm - December 23 @ 6:00 pm</p>
+          <p>View All Events</p>
+        </div>
+      </div>
+      <div class="shop_content-box">
+        <div class="Teacher_box resize resize1">
+          <h3>Become a Teacher</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry. Lorem Ipsum is simply dummy text of the
+            printing and typesetting industry.
+          </p>
+          <button class="btn Join">Join With US</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

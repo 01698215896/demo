@@ -1,0 +1,174 @@
+<div class="box_bg"></div>
+
+<div class="container1">
+  <div class="box">
+    <div class="box1">
+      <div class="top">
+        <div class="top_img">
+          <img src="../../assets/image/bgxanh.svg" alt="" />
+        </div>
+        <div class="text">
+          <h1 style="color: #fff">Matchweek 38</h1>
+          <div class="text_img">
+            <img src="../../assets/image/lg1.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="bot">
+        <p>All times shown are your local time</p>
+        <p
+          style="
+            font-size: 22px;
+            font-weight: 400;
+            color: #37003c;
+            padding: 20px 0;
+          "
+        >
+          Sunday 28 May
+        </p>
+        <div class="box_item" *ngFor="let x of data">
+          <!-- item 1 -->
+          <div class="box_item1" (click)="resultG(x.IDMatch)">
+            <div class="item1">
+              <h1>{{ x.HomeTeam }}</h1>
+              <div class="item1-img">
+                <img src="{{ x.urlH }}" alt="" />
+              </div>
+            </div>
+            <div class="item1">
+              <p>{{ x.Result }}</p>
+            </div>
+            <div class="item1 item111">
+              <div class="item1-img">
+                <img src="{{ x.urlG }}" alt="" />
+              </div>
+              <h1>{{ x.Guestteam }}</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="box3">
+      <div class="box2">
+        <div class="bg_box2">
+          <img src="../../assets/image/bgnen.png" alt="" />
+        </div>
+        <div class="box2_item">
+          <div class="content">
+            <div class="time_content">
+              <div class="time_content1">{{ DateandTime }}</div>
+              <div class="time_content1">Emirates Stadium, London</div>
+              <div class="time_content1">Att: 60,095</div>
+            </div>
+          </div>
+          <div class="box_content">
+            <div class="box_content1">
+              <div class="tron1">
+                <div class="box_content1_re">
+                  <div class="imgao">
+                    <img src="../../assets/image/aston.jpg" alt="" />
+                  </div>
+                  <img [src]="urlH" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="box_content11">
+              <p>{{ Result }}</p>
+              <p>Half Time: 3-0</p>
+            </div>
+            <div class="box_content3">
+              <div class="tron">
+                <div class="box_content1_re">
+                  <div class="imgao">
+                    <img src="../../assets/image/aston.jpg" alt="" />
+                  </div>
+                  <img [src]="urlG" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="goald">
+          <div class="doikhach" *ngFor="let dk of GoalH">
+            <h3>{{ dk.Time }}</h3>
+            <p>{{ dk.Player }}</p>
+          </div>
+          <div class="doinha" *ngFor="let dn of GoalH">
+            <h3>{{ dn.Time }}</h3>
+            <p>{{ dn.Player }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="box3_content1">
+        <div class="box3_content1-click">
+          <button class="active">Lines-Up</button>
+          <button>Stats</button>
+        </div>
+        <div class="box3_content1-lineup">
+          <div class="logo">
+            <div class="logo1">
+              <div class="logo1-text">
+                <h2>{{ HomeTeam }}</h2>
+                <p>4-3-3</p>
+              </div>
+
+              <div class="logo1-img">
+                <img [src]="urlH" alt="" />
+              </div>
+            </div>
+            <div class="logo1">
+              <div class="logo1-img">
+                <img [src]="urlG" alt="" />
+              </div>
+              <div class="logo1-text">
+                <h2>{{ Guestteam }}</h2>
+                <p>4-3-3</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="giaidau">
+        <div class="giaidau_item ii">
+          <!-- item 1 -->
+          <div class="giaidau_item1" *ngFor="let u of dataplayer">
+            <div class="giaidau_item1-content">
+              <p (click)="show(u.IDPlayer)" style="cursor: pointer;"><b>{{ u.PlayerName }}</b></p>
+              <div class="giaidau_item1-content-avt">
+                <p>{{ u.CurrentTeam }}</p>
+              </div>
+            </div>
+            <div class="avt">
+              <img src="{{ u.img }}" alt="" />
+            </div>
+            <div class="stt">
+              <p>{{ u.IDPlayer }}</p>
+            </div>
+          </div>
+        </div>
+        <div class="giaidau_item2">
+          <div class="giaidau_item_img">
+            <img src="../../assets/image/sanbong.jpg" alt="" />
+          </div>
+        </div>
+        <div class="giaidau_item ii">
+          <!-- item 1 -->
+          <div class="giaidau_item1 res" *ngFor="let v of dataplayer1">
+            <div class="stt">
+              <p>{{ v.IDPlayer }}</p>
+            </div>
+            <div class="avt">
+              <img src="{{ v.img }}" alt="" />
+            </div>
+            <div class="giaidau_item1-content">
+              <p (click)="show(v.IDPlayer)" style="cursor: pointer;"><b>{{ v.PlayerName }}</b></p>
+              <div class="giaidau_item1-content-avt">
+                <p>{{ v.CurrentTeam }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,297 @@
+<div class="content">
+  <div
+    id="carouselExampleIndicators"
+    class="carousel slide"
+    data-bs-ride="carousel"
+  >
+    <div class="carousel-indicators">
+      <button
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide-to="0"
+        class="active"
+        aria-current="true"
+        aria-label="Slide 1"
+      ></button>
+      <button
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide-to="1"
+        aria-label="Slide 2"
+      ></button>
+      <button
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide-to="2"
+        aria-label="Slide 3"
+      ></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../../assets/image/bn1.jpg" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img src="../../assets/image/bn2.jpg" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img src="../../assets/image/bn3.jpg" class="d-block w-100" alt="..." />
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+<div class="carosel1">
+  <div class="container1">
+    <div class="carosel_test">
+      <h1>Match Schedule</h1>
+      <span> </span>
+    </div>
+    <!-- event 1 -->
+    <div class="event">
+      <div class="event1" *ngFor="let data2 of data2" (click)="router1()">
+        <p>{{ data2.DateandTime }}</p>
+        <div class="content_img">
+          <div class="content_img-logo">
+            <img src="../../assets/image/logo1.svg" alt="" />
+          </div>
+          <p>{{ data2.Result }}</p>
+          <div class="content_img-logo">
+            <img src="../../assets/image/logo2.svg" alt="" />
+          </div>
+        </div>
+        <p>Permier Leagen</p>
+      </div>
+
+      <div class="event1">
+        <p style="font-size: 18px; color: brown; text-align: left">Result</p>
+        <h2>THE LAST MATCH ></h2>
+      </div>
+    </div>
+    <!-- event 2 -->
+    <div class="event">
+      <div class="event1" *ngFor="let data3 of data3" (click)="router1()">
+        <p>{{ data3.DateandTime }}</p>
+        <div class="content_img">
+          <div class="content_img-logo">
+            <img src="../../assets/image/logo1.svg" alt="" />
+          </div>
+          <p>{{ data3.Result }}</p>
+          <div class="content_img-logo">
+            <img src="../../assets/image/logo2.svg" alt="" />
+          </div>
+        </div>
+        <p>Permier Leagen</p>
+      </div>
+
+      <div class="event1">
+        <p style="font-size: 18px; color: brown; text-align: left">Result</p>
+        <h2>COMMING UP ></h2>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="carosel1 text">
+  <div class="xephang">
+    <div class="carosel_test">
+      <h1>Player Stats</h1>
+      <span> </span>
+    </div>
+    <div class="container1">
+      <div class="xephang_box">
+        <div class="xephang_box1">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Rank</th>
+                <th scope="col">Player</th>
+                <th scope="col">Club</th>
+                <th scope="col">Stats</th>
+              </tr>
+            </thead>
+            <tbody *ngFor="let data of data">
+              <tr>
+                <th scope="row">{{ data.id }}</th>
+                <td style="cursor: pointer" (click)="profile(data.id)">
+                  <b>{{ data.tencauthu }}</b>
+                </td>
+                <td>{{ data.doituyen }}</td>
+                <td>{{ data.soban }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="xephang_box2">
+          <img src="../../assets/image/ms.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="carosel1 text">
+  <div class="xephang">
+    <div class="carosel_test">
+      <h1>League Standing</h1>
+      <span> </span>
+    </div>
+    <div class="container1">
+      <div class="fillter">
+        <p>Filter |</p>
+        <button class="btn1 btn_re active" (click)="op1()">Option1</button>
+        <button class="btn1 btn_re" (click)="op2()">Option2</button>
+
+      </div>
+      <div class="xephang_box">
+        <div class="xephang_box2">
+          <img src="../../assets/image/bxh.jpg" alt="" />
+        </div>
+        <div class="xephang_box1">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Rank</th>
+                <th scope="col">Football Team</th>
+                <th scope="col">Wins</th>
+                <th scope="col">Draws</th>
+                <th scope="col">Defeats</th>
+                <th scope="col">Score</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let x of datachart">
+                <th scope="row">{{ x.IDCharts }}</th>
+                <td><b>{{ x.Footballteam }}</b></td>
+                <td>{{ x.Numberofwins }}</td>
+                <td>{{ x.Numberofdraws }}</td>
+                <td>{{ x.Numberofdefeats }}</td>
+                <td>{{ x.Score }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="carosel1 text">
+  <div class="xephang">
+    <div class="carosel_test">
+      <h1>League Standing</h1>
+      <span> </span>
+    </div>
+  </div>
+  <div class="container1">
+    <div class="Events_box">
+      <div class="Events_box-item">
+        <!-- event 1 -->
+        <div
+          class="Events_box-item-icon"
+          *ngFor="let data of data1"
+          (click)="event(data.IDNews)"
+        >
+          <div class="Events_box-item-icon-tt">
+            <h1></h1>
+            <p>{{ data.IDNews }}</p>
+            <p></p>
+          </div>
+          <div class="Events_box-item-icon-avt">
+            <img src="{{ data.imgbg }}" alt="" />
+          </div>
+          <div class="Events_box-item-icon-text">
+            <p>
+              <i class="fa-solid fa-calendar-days"></i>{{ data.DateSubmitted }}
+            </p>
+            <h1>{{ data.Title }}</h1>
+            <p><i class="fa-solid fa-address-book"></i> PSC Convention Hall</p>
+          </div>
+        </div>
+      </div>
+      <div class="Events_box-item1">
+        <img src="../../assets/image/bg11.png" alt="" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="carosel1 text1">
+  <div class="xephang">
+    <div class="carosel_test">
+      <h1>League Standing</h1>
+      <span> </span>
+    </div>
+  </div>
+  <div class="About text1">
+    <div class="About_text">
+      <div class="About_text1">
+        <h1>About Our Company</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio.
+          Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.
+          <br />
+          <br />
+          Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+          <br />
+          <br />
+          Donec nec justo eget felis facilisis fermentum. Aliquam porttitor
+          mauris sit amet orci. Aenean dignissim pellentesque felis.
+        </p>
+        <button class="btn1">Read More</button>
+      </div>
+    </div>
+    <div class="About_img">
+      <div class="About_img1">
+        <img src="../../assets/image/bg22.jpg" alt="" />
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="carosel1 text1 text2">
+  <div class="xephang">
+    <div class="carosel_test">
+      <h1>Our Sponsors</h1>
+      <span> </span>
+    </div>
+  </div>
+  <div class="Sponsors">
+    <div class="Sponsors_box">
+      <div class="Sponsors_box-img">
+        <img src="../../assets/image/lg11.png" alt="" />
+      </div>
+      <div class="Sponsors_box-img">
+        <img src="../../assets/image/lg22.png" alt="" />
+      </div>
+      <div class="Sponsors_box-img">
+        <img src="../../assets/image/lg33.png" alt="" />
+      </div>
+      <div class="Sponsors_box-img">
+        <img src="../../assets/image/lg44.png" alt="" />
+      </div>
+      <div class="Sponsors_box-img">
+        <img src="../../assets/image/lg55.png" alt="" />
+      </div>
+      <div class="Sponsors_box-img">
+        <img src="../../assets/image/lg66.png" alt="" />
+      </div>
+    </div>
+  </div>
+</div>

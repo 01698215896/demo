@@ -1,0 +1,161 @@
+<div class="banener_avt">
+  <div class="banner">
+    <img src="../../assets/image/bghalan.jpg" alt="" />
+  </div>
+  <div class="avt">
+    <img [src]="avt" alt="" />
+
+    <div class="logo">
+      <img [src]="logo" alt="" />
+    </div>
+  </div>
+</div>
+
+<div class="container1">
+  <div class="box1">
+    <div class="content">
+      <div class="content1">Club</div>
+      <div class="content2">
+        <p>{{doituyen}}</p>
+        <img src="../../assets/image/ma.png" alt="" />
+      </div>
+    </div>
+    <div class="content">
+      <div class="content1">Position</div>
+      <div class="content2">
+        <p>Position</p>
+      </div>
+    </div>
+    <p>Follow {{tencauthu}}</p>
+    <div class="content test">
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-facebook"></i>
+    </div>
+    <h2>Premier League Record</h2>
+    <div class="content">
+      <div class="content1">Appearances</div>
+      <div class="content2">
+        <p>{{chiecgiayvang}}</p>
+      </div>
+    </div>
+    <div class="content">
+      <div class="content1">Goals</div>
+      <div class="content2">
+        <p>{{cauthumuagiai}}</p>
+      </div>
+    </div>
+    <div class="content">
+      <div class="content1">Assists</div>
+      <div class="content2">
+        <p>{{giaicauthutre}}</p>
+      </div>
+    </div>
+
+    <h2>Honours & Awards</h2>
+    <div class="content">
+      <div class="content1">Golden Boot</div>
+      <div class="content2">
+        <p>{{vodichngoaihang}}</p>
+      </div>
+    </div>
+    <div class="content">
+      <div class="content1 font">{{ngaysinh}}</div>
+    </div>
+    <div class="content">
+      <div class="content1 font">Player of the Season</div>
+      <div class="content2">
+        <p>1</p>
+      </div>
+    </div>
+    <div class="content">
+      <div class="content1 font">2022/23</div>
+    </div>
+    <div class="content">
+      <div class="content1">Premier League Champion</div>
+      <div class="content2">
+        <p>1</p>
+      </div>
+    </div>
+    <div class="content">
+      <div class="content1 font">2022/23</div>
+    </div>
+    <div class="content">
+      <div class="content1">Player of the Month</div>
+      <div class="content2">
+        <p>1</p>
+      </div>
+    </div>
+    <div class="content">
+      <div class="content1 font">August 2022</div>
+    </div>
+  </div>
+
+  <div class="box2">
+    <h2>Personal Details</h2>
+    <div class="box_item">
+      <div class="box_item1">
+        <p>Nationality</p>
+        <h3>{{doituyen}}</h3>
+      </div>
+      <div class="box_item1">
+        <p>Date of Birth</p>
+        <h3>{{ngaysinh}}</h3>
+      </div>
+      <div class="box_item1">
+        <p>Height</p>
+        <h3>{{chieucao}}</h3>
+      </div>
+    </div>
+    <h2>Premier League Playing Career</h2>
+
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col">Season</th>
+          <th scope="col">Club</th>
+          <th scope="col">Apps (Subs)</th>
+          <th scope="col">Goals</th>
+        
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>2023/2024</th>
+          <td>{{doituyen}}</td>
+          <td>{{chiecgiayvang}}</td>
+          <td>{{soban}}</td>
+        
+        </tr>
+   
+      </tbody>
+    </table>
+    <div class="tintuc">
+           <!-- item 2 -->
+        <div class="Events_box-item">
+          <div class="bao">
+
+            <div class="Events_box-item-icon" *ngFor="let data of data2" (click)='event(data.IDNews)'>
+              <div class="Events_box-item-icon-tt">
+                <h1></h1>
+                <p>{{data.IDNews}}</p>
+                <p></p>
+              </div>
+              <div class="Events_box-item-icon-avt">
+                <img src="{{data.imgbg}}" alt="" />
+              </div>
+              <div class="Events_box-item-icon-text">
+                <p>
+                  <i class="fa-solid fa-calendar-days"></i>{{data.DateSubmitted}}
+                </p>
+                <h1>{{data.Title}}</h1>
+                <p>
+                  <i class="fa-solid fa-address-book"></i> PSC Convention Hall
+                </p>
+              </div>
+            </div>
+          </div>
+          </div>
+    </div>
+  
+  </div>
+</div>

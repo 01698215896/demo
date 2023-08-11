@@ -1,0 +1,95 @@
+<div class="container_blog">
+  <div class="blog_banner">
+    <div class="blog_banner-img">
+      <img src="../../assets/image/bn1.jpg" alt="" />
+    </div>
+    <div class="blog_banner-text">
+      <div class="blog_banner-text1">
+        <h3>BLOG</h3>
+        <p>Home / Blog</p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="blog_body">
+      <div class="blog_body-box1">
+        <div class="blog_body-box1-banner">
+          <img src="../../assets/image/bg11.png" alt="" />
+        </div>
+        <div class="blog_body-box1-content">
+          <div class="blog_body-box1-content-title">
+            <p>
+              ACCESSORIES <span>/ {{ DateSubmitted }}</span>
+            </p>
+            <h2>{{Title}}</h2>
+          </div>
+        </div>
+        <div class="blog_body-box1-content-content">
+          <p>
+            {{ Content }}
+          </p>
+        </div>
+        <div class="blog_body-box1-show">
+          <h3>RELATED POTS</h3>
+          <div class="bao">
+            <div class="blog_body-box1-show-RELATED" *ngFor="let data1 of data">
+              <div class="blog_body-box1-show-RELATED1">
+                <div class="blog_body-box1-show-RELATED1-img">
+                  <img src="{{data1.imgbg}}" alt="" />
+                </div>
+                <h3>{{data1.Title}}</h3>
+                <p>By: {{data1.auth}} / {{data1.DateSubmitted}}</p>
+              </div>
+              
+            </div>
+          </div>
+        
+        </div>
+      </div>
+      <div class="blog_body-box">
+        <div class="blog_profile">
+          <div class="blog_profile1">
+            <div class="blog_profile-img">
+              <img [src]="avt" alt="" />
+            </div>
+            <div class="blog_profile-tt">
+              <h3>{{auth}}</h3>
+              <p>{{email}}</p>
+              <div class="blog_profile-tt-icon">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-google-plus-g"></i>
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="CATEGORIES">
+          <h3>CATEGORIES</h3>
+          <p>Accessories</p>
+          <p>Art – Travel</p>
+          <p>Bowls</p>
+          <p>Dinnerware Sets</p>
+          <p>Explore Dinnerware</p>
+          <p>Mugs & Cups</p>
+          <p>Plates</p>
+          <p>Uncategorized</p>
+        </div>
+        <div class="TAGS">
+          <h3>TAGS</h3>
+          <div class="TAGS-icon">
+            <p>Casual</p>
+            <p>Classic</p>
+            <p>Creative</p>
+            <p>Minimal</p>
+            <p>Style</p>
+            <p>Elegant</p>
+            <p>Basic</p>
+          </div>
+        </div>
+       
+       
+      </div>
+    </div>
+  </div>
+</div>
