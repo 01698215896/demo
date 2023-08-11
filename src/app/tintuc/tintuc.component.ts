@@ -21,19 +21,30 @@ export class TintucComponent implements OnInit {
   ngOnInit(): void {
     this.dataService.fetchData().subscribe((data) => {
       this.data = data.NewsBoard;
-
+      
       const id = sessionStorage.getItem('dataEvent');
-      this.savedata = this.data.find((data) => data.IDNews == id);
-      console.log(this.savedata);
-      this.Title = this.savedata.Title;
-      this.Content = this.savedata.Content;
-      this.img = this.savedata.imgbg;
+      if(id){
+        this.savedata = this.data.find((data) => data.IDNews == id);
+        console.log(this.savedata);
+        this.Title = this.savedata.Title;
+        this.Content = this.savedata.Content;
+        this.img = this.savedata.imgbg;
+        this.avt = this.savedata.imgavt;
+        this.auth = this.savedata.auth;
+        this.email = this.savedata.email;
+        this.DateSubmitted = this.savedata.DateSubmitted;
+      }else {
+        this.savedata = this.data.find((data) => data.IDNews == "01");
+        console.log(this.savedata);
+        this.Title = this.savedata.Title;
+        this.Content = this.savedata.Content;
+        this.img = this.savedata.imgbg;
+        this.avt = this.savedata.imgavt;
+        this.auth = this.savedata.auth;
+        this.email = this.savedata.email;
+        this.DateSubmitted = this.savedata.DateSubmitted;
+      }
 
-      this.avt = this.savedata.imgavt;
-      this.auth = this.savedata.auth;
-      this.email = this.savedata.email;
-
-      this.DateSubmitted = this.savedata.DateSubmitted;
     });
   }
 }

@@ -13,6 +13,18 @@ import { ProfileComponent } from './profile/profile.component';
 import { MatchdetailsComponent } from './matchdetails/matchdetails.component';
 import { TintucComponent } from './tintuc/tintuc.component';
 import { ShopComponent } from './shop/shop.component';
+import { RouterModule,Routes  } from '@angular/router';
+
+const routes: Routes = [
+  {path: "", component: HomeComponent},
+  {path: "about", component: AboutComponent},
+  {path: "contact", component: ContactComponent},
+  {path: "profile", component: ProfileComponent},
+  {path: "login", component: LoginComponent},
+  {path: "matchdetails", component: MatchdetailsComponent},
+  {path: "tintuc", component: TintucComponent},
+  {path: "shop", component: ShopComponent},
+];  
 
 @NgModule({
   declarations: [
@@ -27,7 +39,12 @@ import { ShopComponent } from './shop/shop.component';
     TintucComponent,
     ShopComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    HttpClientModule,
+    RouterModule.forRoot(routes, { useHash: true }),
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

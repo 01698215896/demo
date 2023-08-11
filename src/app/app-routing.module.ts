@@ -19,10 +19,6 @@ const routes: Routes = [
   {path: "tintuc", component: TintucComponent},
   {path: "shop", component: ShopComponent},
   {path: "profile1", component: ProfileComponent},
-
-
-
-
 ];
 
 @NgModule({
