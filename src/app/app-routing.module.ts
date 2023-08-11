@@ -18,6 +18,8 @@ const routes: Routes = [
   {path: "matchdetails", component: MatchdetailsComponent},
   {path: "tintuc", component: TintucComponent},
   {path: "shop", component: ShopComponent},
+  {path: "profile1", component: ProfileComponent},
+
 
 
 

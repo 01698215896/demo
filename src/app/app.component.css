@@ -66,9 +66,7 @@
   background: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
-.bar{
-  display: none;
-}
+
 .ppp {
   position: fixed;
   top: 0;
@@ -240,9 +238,8 @@ ul.menu_cha li:hover ul.menu_con {
   border-radius: 8px;
   width: 35px;
   height: 35px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ 
+  display: none;
 }
 .bar i{
   width: 35px;
