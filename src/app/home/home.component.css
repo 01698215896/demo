@@ -387,9 +387,10 @@ p {
 }
 
 .fillter {
-  margin: 20px auto;
+  margin-top: 50px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .fillter p {
   font-size: 20px;

@@ -155,3 +155,60 @@ img {
 .event1 {
   text-align: center;
 }
+
+
+
+.containerqq {
+  margin: 30px 0;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: grid;
+  grid-template-columns: 30% 30% 30% ;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.fiter {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.fiter input {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+.fiter i {
+  width: 50px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0b1627;
+  border: 1px solid #0b1627;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.fiter i:hover {
+  background: none;
+  color: #0b1627;
+  border: none;
+}
+.fiter1 select {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  height: 40px;
+
+}

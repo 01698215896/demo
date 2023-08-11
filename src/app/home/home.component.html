@@ -153,9 +153,9 @@
     </div>
     <div class="container1">
       <div class="fillter">
-        <p>Filter |</p>
-        <button class="btn1 btn_re active" (click)="op1()">Option1</button>
-        <button class="btn1 btn_re" (click)="op2()">Option2</button>
+        <button class="btn1 btn_re active" (click)="op1(0)" [class.active]="activeTab === 0">
+          English Premier League</button>
+        <button class="btn1 btn_re" (click)="op2(1)" [class.active]="activeTab === 1">UEFA Champions League </button>
       </div>
       <div class="xephang_box">
         <div class="xephang_box2">

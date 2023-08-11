@@ -14,7 +14,7 @@ export class HomeComponent implements OnInit {
   data3: any[] = [];
   datachart: any[] = [];
   datachart1: any[] = [];
-
+  activeTab = 0;
   savedata: number = 0;
   constructor(private dataService: DataService, private router: Router) {}
   ngOnInit(): void {
@@ -35,6 +35,7 @@ export class HomeComponent implements OnInit {
     });
   }
 
+
   profile(id: string) {
     sessionStorage.setItem('dataPlayer', JSON.stringify(id));
     this.router.navigate(['/profile']);
@@ -47,16 +48,18 @@ export class HomeComponent implements OnInit {
   router1() {
     this.router.navigate(['/matchdetails']);
   }
-  op1() {
+  op1(index: number) {
     this.dataService.fetchData().subscribe((data) => {
       this.datachart = data.Charts1;
     });
+    this.activeTab = index;
   }
-  op2() {
+  op2(index: number) {
     this.dataService.fetchData().subscribe((data) => {
       this.datachart = data.Charts2;
       console.log(this.datachart);
     });
+    this.activeTab = index;
   }
   tt() {
     this.router.navigate(['listmatch']);

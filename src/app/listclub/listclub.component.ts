@@ -14,6 +14,7 @@ export class ListclubComponent implements OnInit {
   name: string = '';
   data2: any[] = [];
   data3: any;
+  data4: any[] = [];
   socauthu: string = '';
   sobanthang: string = '';
   sotranthamgia: string = '';
@@ -38,6 +39,7 @@ export class ListclubComponent implements OnInit {
       this.sotranthamgia = this.data1.sotranthamgia;
       this.socauthu = this.data1.socauthu;
       this.data2 = this.data1.Bangcauthu;
+      this.data4 = this.data2
     });
   }
 
@@ -47,29 +49,27 @@ export class ListclubComponent implements OnInit {
 
   playOnChange(event: any): void {
     const inputValue = event.target.value.toUpperCase();
-    this.data2 = this.data2.filter((data) =>
+    this.data2 = this.data4.filter((data) =>
       data.PlayerName.toUpperCase().includes(inputValue)
     );
   }
 
-  playsoccer(event: any) {
-    const inputValue = event.target.value.toUpperCase();
-    this.data2 = this.data2.filter((data) =>
-      data.PlayerName.toUpperCase().includes(inputValue)
+  playsoccer() {
+    this.data2 = this.data4.sort((a,b) =>
+      a.PlayerName.localeCompare(b.PlayerName)
     );
   }
   playpos(event: any) {
     const inputValue = event.target.value.toUpperCase();
-    this.data2 = this.data2.filter((data) =>
+    this.data2 = this.data4.filter((data) =>
       data.Nationality.toUpperCase().includes(inputValue)
     );
   }
   playop(event: any) {
     const inputValue = event.target.value.toUpperCase();
-    this.data2 = this.data2.filter((data) =>
+    this.data2 = this.data4.filter((data) =>
       data.Competitionposition.toUpperCase().includes(inputValue)
 
     );
-    console.log(this.data2);
   }
 }

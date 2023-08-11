@@ -10,13 +10,19 @@
   </div>
 </div>
 <div class="container1">
-  <div class="fiter">
-    <input
-      type="text"
-      placeholder="Search Name.."
-      (change)="playOnChange($event)"
-    />
-    <i class="fa-brands fa-searchengin"></i>
+  <div class="bao">
+
+    <div class="fiter" (click)="playsoccer()" style="width: fit-content">
+      <i class="fa-solid fa-arrow-up-a-z"></i>
+    </div>
+    <div class="fiter">
+      <input
+        type="text"
+        placeholder="Search Name.."
+        (change)="playOnChange($event)"
+      />
+      <i class="fa-brands fa-searchengin"></i>
+    </div>
   </div>
   <div class="club_box">
     <div class="club_box_item">
@@ -45,9 +51,9 @@
       </div>
       <div class="container1">
         <div class="fillter">
-          <p>Filter |</p>
-          <button class="btn1 btn_re active" (click)="op1()">Option1</button>
-          <button class="btn1 btn_re" (click)="op2()">Option2</button>
+          
+          <button class="btn1 btn_re active" (click)="op1()">English Premier League</button>
+          <button class="btn1 btn_re" (click)="op2()">UEFA Champions League</button>
         </div>
         <div class="xephang_box">
           <div class="xephang_box2">

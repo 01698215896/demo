@@ -35,22 +35,18 @@
     </div>
   </div>
   <div class="containerqq">
-    <div class="fiter">
-        <input
-          type="text"
-          placeholder="Search Name.."
-          (change)="playOnChange($event)"
-        />
-        <i class="fa-brands fa-searchengin"></i>
-      </div>
+    <div class="fiter" (click)="playsoccer()" style="width: fit-content">
+      <i class="fa-solid fa-arrow-up-a-z"></i>
+    </div>
     <div class="fiter">
       <input
         type="text"
-        placeholder="Search Stats"
-        (change)="playsoccer($event)"
+        placeholder="Search Name.."
+        (change)="playOnChange($event)"
       />
       <i class="fa-brands fa-searchengin"></i>
     </div>
+
     <div class="fiter">
       <input
         type="text"
@@ -85,14 +81,22 @@
           <div class="thongso1-img">
             <img src="../../assets/image/bg.jpg" alt="" />
           </div>
-          <p>Position</p>
-          <h3>{{ data.Competitionposition }}</h3>
-          <p>Number</p>
-          <h3>{{ data.Number }}</h3>
-          <p>Team</p>
-          <h3>{{ data.CurrentTeam }}</h3>
-          <p>Date Of Birth</p>
-          <h3>{{ data.Dateofbirth }}</h3>
+          <div class="iitem">
+            <p>Position</p>
+            <h3>{{ data.Competitionposition }}</h3>
+          </div>
+          <div class="iitem">
+            <p>Number</p>
+            <h3>{{ data.Number }}</h3>
+          </div>
+          <div class="iitem">
+            <p>Team</p>
+            <h3>{{ data.CurrentTeam }}</h3>
+          </div>
+          <div class="iitem">
+            <p>Scored</p>
+            <h3>{{ data.banthang }}</h3>
+          </div>
         </div>
         <div class="thongso-img">
           <img src="{{ data.img }}" alt="" />

@@ -87,6 +87,7 @@
   justify-content: space-between;
   align-items: center;
   margin: 30px 0;
+  margin-right: 20px;
 }
 .fiter input {
   border: none;
@@ -113,11 +114,11 @@
   border: none;
 }
 
-
 .fillter {
-  margin: 20px auto;
+  margin-top: 50px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .fillter p {
   font-size: 20px;
@@ -177,7 +178,10 @@ table {
   position: relative;
 }
 
-
+.bao{
+  display: flex;
+  align-items: center;
+}
 
 .carosel_test span {
   position: absolute;
@@ -198,3 +202,57 @@ table {
   color: #303d48;
   font-size: 50px;
 }
+
+@media screen and (max-width: 780px) {
+.club_box_item{
+  grid-template-columns: 100%;
+  
+}
+.xephang_box{
+  grid-template-columns: 100%;
+}
+.fiter{
+  width: 60%;
+}
+
+button.btn1{
+  width: 100%;
+  margin-top:50px ;
+}
+button.btn1:nth-last-child(1){
+  width: 100%;
+  margin: 10px 0;
+}
+.fillter{
+  display: unset;
+  margin-top: 200px;
+
+}
+}
+
+@media screen and (max-width: 420px) {
+  .club_box_item{
+    grid-template-columns: 100%;
+    
+  }
+  .xephang_box{
+    grid-template-columns: 100%;
+  }
+  .fiter{
+    width: 60%;
+  }
+  
+  button.btn1{
+    width: 100%;
+    margin-top:50px ;
+  }
+  button.btn1:nth-last-child(1){
+    width: 100%;
+    margin: 10px 0;
+  }
+  .fillter{
+    display: unset;
+    margin-top: 200px;
+  
+  }
+  }

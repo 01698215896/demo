@@ -92,9 +92,9 @@
     {
       "id": "03",
       "logo": "assets/image/fc.jpg",
-      "sobanthang":"18",
-      "socauthu":"12",
-      "sotranthamgia":"3",
+      "sobanthang": "18",
+      "socauthu": "12",
+      "sotranthamgia": "3",
       "name": "Real Madrid",
 
       "Bangcauthu": [
@@ -105,6 +105,9 @@
           "Nationality": "Belgium",
           "Competitionposition": "GK",
           "Number": "1",
+          "tocdo": "20",
+          "tancong": "0",
+          "phongthu": "80",
           "img": "assets/image/000.png",
           "CurrentTeam": "Real Madrid"
         },
@@ -115,6 +118,10 @@
           "Nationality": "Spain",
           "Competitionposition": "LB",
           "Number": "06",
+          "banthang": "5",
+          "tocdo": "80",
+          "tancong": "80",
+          "phongthu": "60",
           "img": "assets/image/09.png",
           "CurrentTeam": "Real Madrid"
         },
@@ -125,6 +132,10 @@
           "Nationality": "Spain",
           "Competitionposition": "RB",
           "Number": "02",
+          "banthang": "7",
+          "tocdo": "100",
+          "tancong": "90",
+          "phongthu": "70",
           "img": "assets/image/090.png",
           "CurrentTeam": "Real Madrid"
         },
@@ -135,6 +146,10 @@
           "Nationality": "Brazil",
           "Competitionposition": "CB",
           "Number": "03",
+          "banthang": "1",
+          "tocdo": "100",
+          "tancong": "20",
+          "phongthu": "100",
           "img": "assets/image/0909.png",
           "CurrentTeam": "Real Madrid"
         },
@@ -145,6 +160,10 @@
           "Nationality": "Spain",
           "Competitionposition": "CB",
           "Number": "16",
+          "banthang": "2",
+          "tocdo": "70",
+          "tancong": "20",
+          "phongthu": "60",
           "img": "assets/image/0808.png",
           "CurrentTeam": "Real Madrid"
         },
@@ -155,6 +174,10 @@
           "Nationality": "Spain",
           "Competitionposition": "CM",
           "Number": "19",
+          "banthang": "4",
+          "tocdo": "40",
+          "tancong": "0",
+          "phongthu": "80",
           "img": "assets/image/DaniCeballos.png",
           "CurrentTeam": "Real Madrid"
         },
@@ -165,6 +188,10 @@
           "Nationality": "Germany",
           "Competitionposition": "CDM",
           "Number": "08",
+          "banthang": "5",
+          "tocdo": "50",
+          "tancong": "70",
+          "phongthu": "40",
           "img": "assets/image/EdenHazard.png",
           "CurrentTeam": "Real Madrid"
         },
@@ -175,6 +202,10 @@
           "Nationality": "Uruguay",
           "Competitionposition": "CM",
           "Number": "23",
+          "banthang": "3",
+          "tocdo": "40",
+          "tancong": "30",
+          "phongthu": "10",
           "img": "assets/image/FedericoValverde.png",
           "CurrentTeam": "Real Madrid"
         },
@@ -185,6 +216,10 @@
           "Nationality": "France",
           "Competitionposition": "ST",
           "Number": "09",
+          "banthang": "6",
+          "tocdo": "90",
+          "tancong": "87",
+          "phongthu": "0",
           "img": "assets/image/Rodrygo.png",
           "CurrentTeam": "Real Madrid"
         },
@@ -195,6 +230,10 @@
           "Nationality": "Belgium",
           "Competitionposition": "LW",
           "Number": "07",
+          "banthang": "11",
+          "tocdo": "93",
+          "tancong": "95",
+          "phongthu": "0",
           "img": "assets/image/ThibautCourtois.png",
           "CurrentTeam": "Real Madrid"
         },
@@ -205,6 +244,10 @@
           "Nationality": "Brazil",
           "Competitionposition": "RW",
           "Number": "11",
+          "banthang": "15",
+          "tocdo": "83",
+          "tancong": "82",
+          "phongthu": "0",
           "img": "assets/image/2.png",
           "CurrentTeam": "Real Madrid"
         }
@@ -213,9 +256,9 @@
     {
       "id": "02",
       "logo": "assets/image/fcb.jpg",
-      "sobanthang":"4",
-      "socauthu":"12",
-      "sotranthamgia":"3",
+      "sobanthang": "4",
+      "socauthu": "12",
+      "sotranthamgia": "3",
       "name": "FC Barcelona",
       "Bangcauthu": [
         {
@@ -225,6 +268,9 @@
           "Nationality": "GK",
           "Competitionposition": "GK",
           "Number": "01",
+          "tocdo": "23",
+          "tancong": "0",
+          "phongthu": "90",
           "img": "assets/image/AndreasChristensen.png",
           "CurrentTeam": "FC Barcelona"
         },
@@ -235,6 +281,10 @@
           "Nationality": "Spain",
           "Competitionposition": "LB",
           "Number": "18",
+          "banthang": "13",
+          "tocdo": "90",
+          "tancong": "73",
+          "phongthu": "56",
           "img": "assets/image/FrenkiedeJong.png",
           "CurrentTeam": "FC Barcelona"
         },
@@ -245,6 +295,10 @@
           "Nationality": "Ha Lan",
           "Competitionposition": "RB",
           "Number": "02",
+          "banthang": "4",
+          "tocdo": "80",
+          "tancong": "76",
+          "phongthu": "0",
           "img": "assets/image/JordiAlba.png",
           "CurrentTeam": "FC Barcelona"
         },
@@ -255,6 +309,10 @@
           "Nationality": "Denmark",
           "Competitionposition": "CB",
           "Number": "15",
+          "banthang": "3",
+          "tocdo": "45",
+          "tancong": "22",
+          "phongthu": "55",
           "img": "assets/image/MTerStegen.png",
           "CurrentTeam": "FC Barcelona"
         },
@@ -265,6 +323,10 @@
           "Nationality": "Uruguay",
           "Competitionposition": "CB",
           "Number": "04",
+          "banthang": "5",
+          "tocdo": "65",
+          "tancong": "12",
+          "phongthu": "87",
           "img": "assets/image/Ousmane Dembele.png",
           "CurrentTeam": "FC Barcelona"
         },
@@ -275,6 +337,10 @@
           "Nationality": "Spain",
           "Competitionposition": "CDM",
           "Number": "05",
+          "banthang": "7",
+          "tocdo": "54",
+          "tancong": "23",
+          "phongthu": "11",
           "img": "assets/image/Pedri.png",
           "CurrentTeam": "FC Barcelona"
         },
@@ -285,6 +351,10 @@
           "Nationality": "Spain",
           "Competitionposition": "CM",
           "Number": "08",
+          "banthang": "5",
+          "tocdo": "12",
+          "tancong": "34",
+          "phongthu": "98",
           "img": "assets/image/Raphinha.png",
           "CurrentTeam": "FC Barcelona"
         },
@@ -295,6 +365,10 @@
           "Nationality": "Netherlands",
           "Competitionposition": "CM",
           "Number": "21",
+          "banthang": "6",
+          "tocdo": "32",
+          "tancong": "12",
+          "phongthu": "89",
           "img": "assets/image/RonaldAraujo.png",
           "CurrentTeam": "FC Barcelona"
         },
@@ -305,6 +379,10 @@
           "Nationality": "France",
           "Competitionposition": "RW",
           "Number": "07",
+          "banthang": "3",
+          "tocdo": "76",
+          "tancong": "32",
+          "phongthu": "11",
           "img": "assets/image/SDest.png",
           "CurrentTeam": "FC Barcelona"
         },
@@ -315,6 +393,10 @@
           "Nationality": "Brazil",
           "Competitionposition": "RW",
           "Number": "22",
+          "banthang": "1",
+          "tocdo": "89",
+          "tancong": "34",
+          "phongthu": "13",
           "img": "assets/image/SergioBusquets.png",
           "CurrentTeam": "FC Barcelona"
         },
@@ -325,6 +407,10 @@
           "Nationality": "ba Lan",
           "Competitionposition": "ST",
           "Number": "09",
+          "banthang": "5",
+          "tocdo": "34",
+          "tancong": "12",
+          "phongthu": "22",
           "img": "assets/image/JordiAlba.png",
           "CurrentTeam": "FC Barcelona"
         }
@@ -333,9 +419,9 @@
     {
       "id": "03",
       "logo": "assets/image/bayern.jpg",
-      "sobanthang":"23",
-      "socauthu":"12",
-      "sotranthamgia":"34",
+      "sobanthang": "23",
+      "socauthu": "12",
+      "sotranthamgia": "34",
       "name": "Bayern Munich",
       "Bangcauthu": [
         {
@@ -345,6 +431,9 @@
           "Nationality": "Germany",
           "Competitionposition": "GK",
           "Number": "01",
+          "tocdo": "34",
+          "tancong": "11",
+          "phongthu": "11",
           "img": "assets/image/ADavies.png",
           "CurrentTeam": "FC Bayern Munich"
         },
@@ -355,6 +444,10 @@
           "Nationality": "France",
           "Competitionposition": "RB",
           "Number": "05",
+          "banthang": "3",
+          "tocdo": "87",
+          "tancong": "67",
+          "phongthu": "12",
           "img": "assets/image/BenjaminPavard.png",
           "CurrentTeam": "FC Bayern Munich"
         },
@@ -365,6 +458,10 @@
           "Nationality": "Canada",
           "Competitionposition": "LB",
           "Number": "19",
+          "banthang": "7",
+          "tocdo": "12",
+          "tancong": "45",
+          "phongthu": "77",
           "img": "assets/image/ChoupoMoting.png",
           "CurrentTeam": "FC Bayern Munich"
         },
@@ -375,6 +472,10 @@
           "Nationality": "HA LAN",
           "Competitionposition": "CB",
           "Number": "04",
+          "banthang": "1",
+          "tocdo": "76",
+          "tancong": "34",
+          "phongthu": "23",
           "img": "assets/image/Dayot Upamecano.png",
           "CurrentTeam": "FC Bayern Munich"
         },
@@ -385,6 +486,10 @@
           "Nationality": "France",
           "Competitionposition": "CB",
           "Number": "02",
+          "banthang": "1",
+          "tocdo": "87",
+          "tancong": "33",
+          "phongthu": "22",
           "img": "assets/image/JoshuaKimmich.png",
           "CurrentTeam": "FC Bayern Munich"
         },
@@ -395,6 +500,10 @@
           "Nationality": "Germany",
           "Competitionposition": "CM",
           "Number": "06",
+          "banthang": "2",
+          "tocdo": "32",
+          "tancong": "12",
+          "phongthu": "67",
           "img": "assets/image/KingsleyComan.png",
           "CurrentTeam": "FC Bayern Munich"
         },
@@ -405,6 +514,10 @@
           "Nationality": "Germany",
           "Competitionposition": "CM",
           "Number": "08",
+          "banthang": "4",
+          "tocdo": "65",
+          "tancong": "43",
+          "phongthu": "89",
           "img": "assets/image/LeonGoretzka.png",
           "CurrentTeam": "FC Bayern Munich"
         },
@@ -415,6 +528,10 @@
           "Nationality": "Germany",
           "Competitionposition": "CAM",
           "Number": "25",
+          "banthang": "9",
+          "tocdo": "43",
+          "tancong": "22",
+          "phongthu": "66",
           "img": "assets/image/LeroySane.png",
           "CurrentTeam": "FC Bayern Munich"
         },
@@ -425,6 +542,10 @@
           "Nationality": "Germany",
           "Competitionposition": "RM",
           "Number": "10",
+          "banthang": "11",
+          "tocdo": "67",
+          "tancong": "98",
+          "phongthu": "21",
           "img": "assets/image/MDeLigt.png",
           "CurrentTeam": "FC Bayern Munich"
         },
@@ -435,6 +556,10 @@
           "Nationality": "France",
           "Competitionposition": "LM",
           "Number": "11",
+          "banthang": "7",
+          "tocdo": "32",
+          "tancong": "67",
+          "phongthu": "98",
           "img": "assets/image/ThomasMuller.png",
           "CurrentTeam": "FC Bayern Munich"
         },
@@ -445,6 +570,10 @@
           "Nationality": "Germany",
           "Competitionposition": "ST",
           "Number": "13",
+          "banthang": "1",
+          "tocdo": "32",
+          "tancong": "55",
+          "phongthu": "77",
           "img": "assets/image/ChoupoMoting.png",
           "CurrentTeam": "FC Bayern Munich"
         }
@@ -454,9 +583,9 @@
     {
       "id": "04",
       "logo": "assets/image/chelsea.jpg",
-      "sobanthang":"35",
-      "socauthu":"12",
-      "sotranthamgia":"54",
+      "sobanthang": "35",
+      "socauthu": "12",
+      "sotranthamgia": "54",
       "name": "Chelsea",
       "Bangcauthu": [
         {
@@ -466,6 +595,9 @@
           "Nationality": "Spain",
           "Competitionposition": "GK",
           "Number": "01",
+          "tocdo": "23",
+          "tancong": "0",
+          "phongthu": "100",
           "img": "assets/image/1.png",
           "CurrentTeam": "Chelsea"
         },
@@ -476,6 +608,10 @@
           "Nationality": "France",
           "Competitionposition": "RB",
           "Number": "27",
+          "banthang": "2",
+          "tocdo": "43",
+          "tancong": "32",
+          "phongthu": "16",
           "img": "assets/image/2.png",
           "CurrentTeam": "Chelsea"
         },
@@ -486,6 +622,10 @@
           "Nationality": "England",
           "Competitionposition": "LB",
           "Number": "21",
+          "banthang": "8",
+          "tocdo": "43",
+          "tancong": "67",
+          "phongthu": "45",
           "img": "assets/image/AndreSantos.png",
           "CurrentTeam": "Chelsea"
         },
@@ -496,6 +636,10 @@
           "Nationality": "Brazil",
           "Competitionposition": "CB",
           "Number": "06",
+          "banthang": "7",
+          "tocdo": "43",
+          "tancong": "12",
+          "phongthu": "67",
           "img": "assets/image/CarneyChukwuemeka.png",
           "CurrentTeam": "Chelsea"
         },
@@ -506,6 +650,10 @@
           "Nationality": "England",
           "Competitionposition": "CB",
           "Number": "26",
+          "banthang": "1",
+          "tocdo": "87",
+          "tancong": "34",
+          "phongthu": "67",
           "img": "assets/image/ChristopherNkunku.png",
           "CurrentTeam": "Chelsea"
         },
@@ -516,6 +664,10 @@
           "Nationality": "Brazil",
           "Competitionposition": "CM",
           "Number": "39",
+          "banthang": "5",
+          "tocdo": "34",
+          "tancong": "22",
+          "phongthu": "14",
           "img": "assets/image/ConorGallagher.png",
           "CurrentTeam": "Chelsea"
         },
@@ -526,6 +678,10 @@
           "Nationality": "England",
           "Competitionposition": "CM",
           "Number": "23",
+          "banthang": "4",
+          "tocdo": "33",
+          "tancong": "89",
+          "phongthu": "23",
           "img": "assets/image/IanMaatsen.png",
           "CurrentTeam": "Chelsea"
         },
@@ -536,6 +692,10 @@
           "Nationality": "Austria",
           "Competitionposition": "CAM",
           "Number": "17",
+          "banthang": "6",
+          "tocdo": "12",
+          "tancong": "45",
+          "phongthu": "87",
           "img": "assets/image/KepaArrizabalaga.png",
           "CurrentTeam": "Chelsea"
         },
@@ -546,6 +706,10 @@
           "Nationality": "Jamaica",
           "Competitionposition": "RW",
           "Number": "07",
+          "banthang": "9",
+          "tocdo": "34",
+          "tancong": "12",
+          "phongthu": "78",
           "img": "assets/image/LeviColwill.png",
           "CurrentTeam": "Chelsea"
         },
@@ -556,6 +720,10 @@
           "Nationality": "Netherlands",
           "Competitionposition": "LM",
           "Number": "38",
+          "banthang": "18",
+          "tocdo": "23",
+          "tancong": "56",
+          "phongthu": "78",
           "img": "assets/image/MaloGusto.png",
           "CurrentTeam": "Chelsea"
         },
@@ -566,6 +734,10 @@
           "Nationality": "France",
           "Competitionposition": "ST",
           "Number": "45",
+          "banthang": "22",
+          "tocdo": "55",
+          "tancong": "23",
+          "phongthu": "21",
           "img": "assets/image/ThiagoSilva.png",
           "CurrentTeam": "Chelsea"
         }
@@ -574,9 +746,9 @@
     {
       "id": "05",
       "logo": "assets/image/manches.jpg",
-      "sobanthang":"11",
-      "socauthu":"12",
-      "sotranthamgia":"34",
+      "sobanthang": "11",
+      "socauthu": "12",
+      "sotranthamgia": "34",
       "name": "Manchester United",
       "Bangcauthu": [
         {
@@ -586,6 +758,10 @@
           "Nationality": "England",
           "Competitionposition": "CAM",
           "Number": "07",
+          "banthang": "1",
+          "tocdo": "32",
+          "tancong": "22",
+          "phongthu": "12",
           "img": "assets/image/789.png",
           "CurrentTeam": "Manchester United"
         },
@@ -596,6 +772,10 @@
           "Nationality": "Portugal",
           "Competitionposition": "CAM",
           "Number": "08",
+          "banthang": "4",
+          "tocdo": "32",
+          "tancong": "65",
+          "phongthu": "33",
           "img": "assets/image/9879.png",
           "CurrentTeam": "Manchester United"
         },
@@ -606,6 +786,10 @@
           "Nationality": "Brazil",
           "Competitionposition": "CDM",
           "Number": "18",
+          "banthang": "7",
+          "tocdo": "87",
+          "tancong": "56",
+          "phongthu": "32",
           "img": "assets/image/0.png",
           "CurrentTeam": "Manchester United"
         },
@@ -616,6 +800,10 @@
           "Nationality": "England",
           "Competitionposition": "LW",
           "Number": "10",
+          "banthang": "9",
+          "tocdo": "13",
+          "tancong": "89",
+          "phongthu": "54",
           "img": "assets/image/00.png",
           "CurrentTeam": "Manchester United"
         },
@@ -626,6 +814,10 @@
           "Nationality": "England",
           "Competitionposition": "LB",
           "Number": "23",
+          "banthang": "12",
+          "tocdo": "15",
+          "tancong": "22",
+          "phongthu": "76",
           "img": "assets/image/32.png",
           "CurrentTeam": "Manchester United"
         },
@@ -636,6 +828,10 @@
           "Nationality": "Brazil",
           "Competitionposition": "RW",
           "Number": "21",
+          "banthang": "3",
+          "tocdo": "23",
+          "tancong": "11",
+          "phongthu": "78",
           "img": "assets/image/AnthonyMartial.png",
           "CurrentTeam": "Manchester United"
         },
@@ -646,6 +842,10 @@
           "Nationality": "England",
           "Competitionposition": "RB",
           "Number": "29",
+          "banthang": "8",
+          "tocdo": "21",
+          "tancong": "22",
+          "phongthu": "56",
           "img": "assets/image/BrunoFernandes.png",
           "CurrentTeam": "Manchester United"
         },
@@ -656,6 +856,10 @@
           "Nationality": "France",
           "Competitionposition": "CB",
           "Number": "19",
+          "banthang": "2",
+          "tocdo": "34",
+          "tancong": "21",
+          "phongthu": "22",
           "img": "assets/image/LissandroMartinez.png",
           "CurrentTeam": "Manchester United"
         },
@@ -666,6 +870,10 @@
           "Nationality": "Argentina",
           "Competitionposition": "CB",
           "Number": "06",
+          "banthang": "1",
+          "tocdo": "78",
+          "tancong": "43",
+          "phongthu": "21",
           "img": "assets/image/LukeShaw.png",
           "CurrentTeam": "Manchester United"
         },
@@ -676,6 +884,10 @@
           "Nationality": "France",
           "Competitionposition": "ST",
           "Number": "09",
+          "banthang": "10",
+          "tocdo": "32",
+          "tancong": "22",
+          "phongthu": "11",
           "img": "assets/image/RaphaelVarane.png",
           "CurrentTeam": "Manchester United"
         },
@@ -686,6 +898,9 @@
           "Nationality": "Cameroon",
           "Competitionposition": "GK",
           "Number": "24",
+          "tocdo": "33",
+          "tancong": "0",
+          "phongthu": "100",
           "img": "assets/image/WanBissaka.png",
           "CurrentTeam": "Manchester United"
         }
@@ -694,9 +909,9 @@
     {
       "id": "06",
       "logo": "assets/image/man.jpg",
-      "sobanthang":"44",
-      "socauthu":"12",
-      "sotranthamgia":"54",
+      "sobanthang": "44",
+      "socauthu": "12",
+      "sotranthamgia": "54",
       "name": "Manchester City",
       "Bangcauthu": [
         {
@@ -706,6 +921,10 @@
           "Nationality": "Argentina",
           "Competitionposition": "ST",
           "Number": "19",
+          "banthang": "11",
+          "tocdo": "23",
+          "tancong": "21",
+          "phongthu": "44",
           "img": "assets/image/BernardoSilva.png",
           "CurrentTeam": "Manchester City"
         },
@@ -716,6 +935,10 @@
           "Nationality": "Norway",
           "Competitionposition": "ST",
           "Number": "9",
+          "banthang": "20",
+          "tocdo": "67",
+          "tancong": "88",
+          "phongthu": "96",
           "img": "assets/image/Ederson.png",
           "CurrentTeam": "Manchester City"
         },
@@ -726,6 +949,10 @@
           "Nationality": "Croatia",
           "Competitionposition": "CM",
           "Number": "08",
+          "banthang": "4",
+          "tocdo": "21",
+          "tancong": "22",
+          "phongthu": "45",
           "img": "assets/image/ErlingHaaland.png",
           "CurrentTeam": "Manchester City"
         },
@@ -736,6 +963,10 @@
           "Nationality": "Belgium",
           "Competitionposition": "CAM",
           "Number": "17",
+          "banthang": "15",
+          "tocdo": "33",
+          "tancong": "12",
+          "phongthu": "44",
           "img": "assets/image/JoaoCancelo.png",
           "CurrentTeam": "Manchester City"
         },
@@ -746,6 +977,10 @@
           "Nationality": "Spain",
           "Competitionposition": "CDM",
           "Number": "16",
+          "banthang": "9",
+          "tocdo": "33",
+          "tancong": "55",
+          "phongthu": "78",
           "img": "assets/image/JohnStones.png",
           "CurrentTeam": "Manchester City"
         },
@@ -756,6 +991,10 @@
           "Nationality": "Portugal",
           "Competitionposition": "ST",
           "Number": "20",
+          "banthang": "14",
+          "tocdo": "12",
+          "tancong": "67",
+          "phongthu": "90",
           "img": "assets/image/JulianAlvarez.png",
           "CurrentTeam": "Manchester City"
         },
@@ -766,6 +1005,10 @@
           "Nationality": "Portugal",
           "Competitionposition": "LB",
           "Number": "07",
+          "banthang": "11",
+          "tocdo": "12",
+          "tancong": "67",
+          "phongthu": "90",
           "img": "assets/image/KevinDeBruyne.png",
           "CurrentTeam": "Manchester City"
         },
@@ -776,6 +1019,10 @@
           "Nationality": "England",
           "Competitionposition": "RB",
           "Number": "02",
+          "banthang": "4",
+          "tocdo": "56",
+          "tancong": "22",
+          "phongthu": "11",
           "img": "assets/image/RubenDias.png",
           "CurrentTeam": "Manchester City"
         },
@@ -786,6 +1033,10 @@
           "Nationality": "England",
           "Competitionposition": "CB",
           "Number": "05",
+          "banthang": "5",
+          "tocdo": "56",
+          "tancong": "88",
+          "phongthu": "09",
           "img": "assets/image/KyleWalker.png",
           "CurrentTeam": "Manchester City"
         },
@@ -796,6 +1047,10 @@
           "Nationality": "Portugal",
           "Competitionposition": "CB",
           "Number": "03",
+          "banthang": "4",
+          "tocdo": "34",
+          "tancong": "33",
+          "phongthu": "67",
           "img": "assets/image/MateoKovacic.png",
           "CurrentTeam": "Manchester City"
         },
@@ -806,6 +1061,9 @@
           "Nationality": "Brazil",
           "Competitionposition": "GK",
           "Number": "31",
+          "tocdo": "34",
+          "tancong": "32",
+          "phongthu": "100",
           "img": "assets/image/Rodri.png",
           "CurrentTeam": "Manchester City"
         }
@@ -814,9 +1072,9 @@
     {
       "id": "07",
       "logo": "assets/image/live.jpg",
-      "sobanthang":"12",
-      "socauthu":"12",
-      "sotranthamgia":"65",
+      "sobanthang": "12",
+      "socauthu": "12",
+      "sotranthamgia": "65",
       "name": "Liverpool",
       "Bangcauthu": [
         {
@@ -826,6 +1084,9 @@
           "Nationality": "Brazil",
           "Competitionposition": "GK",
           "Number": "01",
+          "tocdo": "45",
+          "tancong": "32",
+          "phongthu": "100",
           "img": "assets/image/456.png",
           "CurrentTeam": "Liverpool"
         },
@@ -836,6 +1097,10 @@
           "Nationality": "Scotland",
           "Competitionposition": "LB",
           "Number": "26",
+          "banthang": "1",
+          "tocdo": "34",
+          "tancong": "68",
+          "phongthu": "90",
           "img": "assets/image/765.png",
           "CurrentTeam": "Liverpool"
         },
@@ -846,6 +1111,10 @@
           "Nationality": "England",
           "Competitionposition": "RB",
           "Number": "66",
+          "banthang": "8",
+          "tocdo": "45",
+          "tancong": "12",
+          "phongthu": "87",
           "img": "assets/image/alexismaallister1.png",
           "CurrentTeam": "Liverpool"
         },
@@ -856,6 +1125,10 @@
           "Nationality": "Netherlands",
           "Competitionposition": "CB",
           "Number": "04",
+          "banthang": "2",
+          "tocdo": "21",
+          "tancong": "23",
+          "phongthu": "67",
           "img": "assets/image/alissonaction.png",
           "CurrentTeam": "Liverpool"
         },
@@ -866,6 +1139,10 @@
           "Nationality": "Cameroon",
           "Competitionposition": "CB",
           "Number": "32",
+          "banthang": "1",
+          "tocdo": "78",
+          "tancong": "90",
+          "phongthu": "32",
           "img": "assets/image/AndreRobertson.png",
           "CurrentTeam": "Liverpool"
         },
@@ -876,6 +1153,10 @@
           "Nationality": "Spain",
           "Competitionposition": "CM",
           "Number": "06",
+          "banthang": "6",
+          "tocdo": "32",
+          "tancong": "11",
+          "phongthu": "67",
           "img": "assets/image/DarwinNunez.png",
           "CurrentTeam": "Liverpool"
         },
@@ -886,6 +1167,10 @@
           "Nationality": "England",
           "Competitionposition": "CM",
           "Number": "14",
+          "banthang": "7",
+          "tocdo": "45",
+          "tancong": "22",
+          "phongthu": "10",
           "img": "assets/image/JoelMatip.png",
           "CurrentTeam": "Liverpool"
         },
@@ -896,6 +1181,10 @@
           "Nationality": "Argentina",
           "Competitionposition": "CM",
           "Number": "10",
+          "banthang": "3",
+          "tocdo": "32",
+          "tancong": "11",
+          "phongthu": "80",
           "img": "assets/image/mohamedsalaz.png",
           "CurrentTeam": "Liverpool"
         },
@@ -906,6 +1195,10 @@
           "Nationality": "Netherlands",
           "Competitionposition": "LW",
           "Number": "18",
+          "banthang": "4",
+          "tocdo": "13",
+          "tancong": "78",
+          "phongthu": "90",
           "img": "assets/image/ThiagoAlcantara.png",
           "CurrentTeam": "Liverpool"
         },
@@ -916,6 +1209,10 @@
           "Nationality": "Egypt",
           "Competitionposition": "RW",
           "Number": "11",
+          "banthang": "25",
+          "tocdo": "34",
+          "tancong": "31",
+          "phongthu": "11",
           "img": "assets/image/TrentAlexandeArnold.png",
           "CurrentTeam": "Liverpool"
         },
@@ -926,6 +1223,10 @@
           "Nationality": "Uruguay",
           "Competitionposition": "ST",
           "Number": "09",
+          "banthang": "10",
+          "tocdo": "67",
+          "tancong": "22",
+          "phongthu": "23",
           "img": "assets/image/VirgilvanDijk.png",
           "CurrentTeam": "Liverpool"
         }
@@ -934,9 +1235,9 @@
     {
       "id": "08",
       "logo": "assets/image/aston.jpg",
-      "sobanthang":"5",
-      "socauthu":"34",
-      "sotranthamgia":"12",
+      "sobanthang": "5",
+      "socauthu": "34",
+      "sotranthamgia": "12",
       "name": "AC Milan",
       "Bangcauthu": [
         {
@@ -946,6 +1247,9 @@
           "Nationality": "Italy",
           "Competitionposition": "GK",
           "Number": "83",
+          "tocdo": "21",
+          "tancong": "36",
+          "phongthu": "90",
           "img": "assets/image/calabria.png",
           "CurrentTeam": "AC Milan"
         },
@@ -956,6 +1260,10 @@
           "Nationality": "France",
           "Competitionposition": "LB",
           "Number": "19",
+          "banthang": "4",
+          "tocdo": "21",
+          "tancong": "56",
+          "phongthu": "90",
           "img": "assets/image/CharlesDeKetelaere.png",
           "CurrentTeam": "AC Milan"
         },
@@ -966,6 +1274,10 @@
           "Nationality": "Italy",
           "Competitionposition": "RB",
           "Number": "25",
+          "banthang": "2",
+          "tocdo": "78",
+          "tancong": "23",
+          "phongthu": "11",
           "img": "assets/image/florenzi.png",
           "CurrentTeam": "AC Milan"
         },
@@ -976,6 +1288,10 @@
           "Nationality": "Italy",
           "Competitionposition": "CB",
           "Number": "02",
+          "banthang": "3",
+          "tocdo": "12",
+          "tancong": "90",
+          "phongthu": "88",
           "img": "assets/image/Gabbia.png",
           "CurrentTeam": "AC Milan"
         },
@@ -986,6 +1302,10 @@
           "Nationality": "Italy",
           "Competitionposition": "CB",
           "Number": "46",
+          "banthang": "5",
+          "tocdo": "21",
+          "tancong": "45",
+          "phongthu": "66",
           "img": "assets/image/LoftusCheekWebcopy.png",
           "CurrentTeam": "AC Milan"
         },
@@ -996,6 +1316,10 @@
           "Nationality": "England",
           "Competitionposition": "CM",
           "Number": "08",
+          "banthang": "1",
+          "tocdo": "53",
+          "tancong": "22",
+          "phongthu": "78",
           "img": "assets/image/tommasopobega.png",
           "CurrentTeam": "AC Milan"
         },
@@ -1006,6 +1330,10 @@
           "Nationality": "Belgium",
           "Competitionposition": "CM",
           "Number": "90",
+          "banthang": "3",
+          "tocdo": "54",
+          "tancong": "23",
+          "phongthu": "67",
           "img": "assets/image/MiranteLarge.png",
           "CurrentTeam": "AC Milan"
         },
@@ -1016,6 +1344,10 @@
           "Nationality": "Italy",
           "Competitionposition": "CM",
           "Number": "32",
+          "banthang": "7",
+          "tocdo": "12",
+          "tancong": "56",
+          "phongthu": "99",
           "img": "assets/image/oliviergiroudacmilan.png",
           "CurrentTeam": "AC Milan"
         },
@@ -1026,6 +1358,10 @@
           "Nationality": "Portugal",
           "Competitionposition": "LW",
           "Number": "10",
+          "banthang": "14",
+          "tocdo": "34",
+          "tancong": "21",
+          "phongthu": "46",
           "img": "assets/image/pulisic.png",
           "CurrentTeam": "AC Milan"
         },
@@ -1036,6 +1372,10 @@
           "Nationality": "America",
           "Competitionposition": "RW",
           "Number": "11",
+          "banthang": "7",
+          "tocdo": "45",
+          "tancong": "33",
+          "phongthu": "11",
           "img": "assets/image/rafealleao.png",
           "CurrentTeam": "AC Milan"
         },
@@ -1046,6 +1386,10 @@
           "Nationality": "France",
           "Competitionposition": "ST",
           "Number": "09",
+          "banthang": "4",
+          "tocdo": "87",
+          "tancong": "12",
+          "phongthu": "23",
           "img": "assets/image/theohernadez.png",
           "CurrentTeam": "AC Milan"
         }
@@ -1054,9 +1398,9 @@
     {
       "id": "09",
       "logo": "assets/image/tot.jpg",
-      "sobanthang":"34",
-      "socauthu":"56",
-      "sotranthamgia":"33",
+      "sobanthang": "34",
+      "socauthu": "56",
+      "sotranthamgia": "33",
       "name": "Tottenham Hotspur",
       "Bangcauthu": [
         {
@@ -1066,6 +1410,9 @@
           "Nationality": "France",
           "Competitionposition": "GK",
           "Number": "01",
+          "tocdo": "54",
+          "tancong": "53",
+          "phongthu": "78",
           "img": "assets/image/BenDavies.png",
           "CurrentTeam": "Tottenham Hotspur"
         },
@@ -1076,6 +1423,10 @@
           "Nationality": "England",
           "Competitionposition": "LB",
           "Number": "15",
+          "banthang": "1",
+          "tocdo": "89",
+          "tancong": "87",
+          "phongthu": "66",
           "img": "assets/image/CristianRomero.png",
           "CurrentTeam": "Tottenham Hotspur"
         },
@@ -1086,6 +1437,10 @@
           "Nationality": "Wales",
           "Competitionposition": "RB",
           "Number": "33",
+          "banthang": "4",
+          "tocdo": "56",
+          "tancong": "34",
+          "phongthu": "11",
           "img": "assets/image/DavinsonSanchez.png",
           "CurrentTeam": "Tottenham Hotspur"
         },
@@ -1097,6 +1452,10 @@
           "Nationality": "Argentina",
           "Competitionposition": "CB",
           "Number": "17",
+          "banthang": "3",
+          "tocdo": "34",
+          "tancong": "12",
+          "phongthu": "22",
           "img": "assets/image/EricDier.png",
           "CurrentTeam": "Tottenham Hotspur"
         },
@@ -1107,6 +1466,10 @@
           "Nationality": "Colombia",
           "Competitionposition": "CB",
           "Number": "06",
+          "banthang": "7",
+          "tocdo": "76",
+          "tancong": "89",
+          "phongthu": "13",
           "img": "assets/image/HarryKane.png",
           "CurrentTeam": "Tottenham Hotspur"
         },
@@ -1117,6 +1480,10 @@
           "Nationality": "Croatia",
           "Competitionposition": "LM",
           "Number": "14",
+          "banthang": "9",
+          "tocdo": "98",
+          "tancong": "77",
+          "phongthu": "90",
           "img": "assets/image/HugoLloris.png",
           "CurrentTeam": "Tottenham Hotspur"
         },
@@ -1127,6 +1494,10 @@
           "Nationality": "England",
           "Competitionposition": "CM",
           "Number": "04",
+          "banthang": "2",
+          "tocdo": "45",
+          "tancong": "56",
+          "phongthu": "78",
           "img": "assets/image/Ivanerisic.png",
           "CurrentTeam": "Tottenham Hotspur"
         },
@@ -1137,6 +1508,10 @@
           "Nationality": "England",
           "Competitionposition": "CM",
           "Number": "19",
+          "banthang": "2",
+          "tocdo": "78",
+          "tancong": "98",
+          "phongthu": "56",
           "img": "assets/image/OliverSkipp.png",
           "CurrentTeam": "Tottenham Hotspur"
         },
@@ -1147,6 +1522,10 @@
           "Nationality": "Côte d’Ivoire",
           "Competitionposition": "RM",
           "Number": "38",
+          "banthang": "1",
+          "tocdo": "34",
+          "tancong": "89",
+          "phongthu": "99",
           "img": "assets/image/RyanSessegnon.png",
           "CurrentTeam": "Tottenham Hotspur"
         },
@@ -1157,6 +1536,10 @@
           "Nationality": "Korea",
           "Competitionposition": "LW",
           "Number": "07",
+          "banthang": "13",
+          "tocdo": "45",
+          "tancong": "32",
+          "phongthu": "",
           "img": "assets/image/SonHeungmin.png",
           "CurrentTeam": "Tottenham Hotspur"
         },
@@ -1167,6 +1550,10 @@
           "Nationality": "England",
           "Competitionposition": "ST",
           "Number": "10",
+          "banthang": "16",
+          "tocdo": "12",
+          "tancong": "33",
+          "phongthu": "89",
           "img": "assets/image/YvesBissouma.png",
           "CurrentTeam": "Tottenham Hotspur"
         }
@@ -1175,9 +1562,9 @@
     {
       "id": "10",
       "logo": "assets/image/arse.jpg",
-      "sobanthang":"23",
-      "socauthu":"45",
-      "sotranthamgia":"32",
+      "sobanthang": "23",
+      "socauthu": "45",
+      "sotranthamgia": "32",
       "name": "Arsenal",
       "Bangcauthu": [
         {
@@ -1187,6 +1574,9 @@
           "Nationality": "England",
           "Competitionposition": "GK",
           "Number": "01",
+          "tocdo": "56",
+          "tancong": "43",
+          "phongthu": "22",
           "img": "assets/image/AaronRamsdale.png",
           "CurrentTeam": "Arsenal"
         },
@@ -1197,6 +1587,10 @@
           "Nationality": "Netherlands",
           "Competitionposition": "LB",
           "Number": "12",
+          "banthang": "1",
+          "tocdo": "78",
+          "tancong": "98",
+          "phongthu": "14",
           "img": "assets/image/BenWhite.png",
           "CurrentTeam": "Arsenal"
         },
@@ -1207,6 +1601,10 @@
           "Nationality": "England",
           "Competitionposition": "RB",
           "Number": "04",
+          "banthang": "1",
+          "tocdo": "42",
+          "tancong": "22",
+          "phongthu": "12",
           "img": "assets/image/BukayoSaka.png",
           "CurrentTeam": "Arsenal"
         },
@@ -1217,6 +1615,10 @@
           "Nationality": "France",
           "Competitionposition": "CB",
           "Number": "02",
+          "banthang": "1",
+          "tocdo": "67",
+          "tancong": "89",
+          "phongthu": "47",
           "img": "assets/image/GabrielMagalhaes.png",
           "CurrentTeam": "Arsenal"
         },
@@ -1227,6 +1629,10 @@
           "Nationality": "Brazil",
           "Competitionposition": "CB",
           "Number": "06",
+          "banthang": "1",
+          "tocdo": "35",
+          "tancong": "23",
+          "phongthu": "77",
           "img": "assets/image/GabrielMartinelli.png",
           "CurrentTeam": "Arsenal"
         },
@@ -1237,6 +1643,10 @@
           "Nationality": "England",
           "Competitionposition": "CM",
           "Number": "41",
+          "banthang": "1",
+          "tocdo": "98",
+          "tancong": "55",
+          "phongthu": "22",
           "img": "assets/image/JurrienTimber.png",
           "CurrentTeam": "Arsenal"
         },
@@ -1247,6 +1657,10 @@
           "Nationality": "Ghana",
           "Competitionposition": "CM",
           "Number": "05",
+          "banthang": "6",
+          "tocdo": "34",
+          "tancong": "12",
+          "phongthu": "65",
           "img": "assets/image/KaiHavertz.png",
           "CurrentTeam": "Arsenal"
         },
@@ -1257,6 +1671,10 @@
           "Nationality": "Norway",
           "Competitionposition": "CDM",
           "Number": "08",
+          "banthang": "8",
+          "tocdo": "67",
+          "tancong": "99",
+          "phongthu": "65",
           "img": "assets/image/MartinØdegaard.png",
           "CurrentTeam": "Arsenal"
         },
@@ -1267,6 +1685,10 @@
           "Nationality": "England",
           "Competitionposition": "RW",
           "Number": "07",
+          "banthang": "2",
+          "tocdo": "23",
+          "tancong": "11",
+          "phongthu": "68",
           "img": "assets/image/.png",
           "CurrentTeam": "Arsenal"
         },
@@ -1277,6 +1699,10 @@
           "Nationality": "Brazil",
           "Competitionposition": "LW",
           "Number": "11",
+          "banthang": "11",
+          "tocdo": "32",
+          "tancong": "22",
+          "phongthu": "67",
           "img": "assets/image/ThomasPartey.png",
           "CurrentTeam": "Arsenal"
         },
@@ -1287,6 +1713,10 @@
           "Nationality": "Germany",
           "Competitionposition": "ST",
           "Number": "29",
+          "banthang": "10",
+          "tocdo": "12",
+          "tancong": "34",
+          "phongthu": "44",
           "img": "assets/image/WilliamSaliba.png",
           "CurrentTeam": "Arsenal"
         }
@@ -1295,9 +1725,9 @@
     {
       "id": "11",
       "logo": "assets/image/newca.jpg",
-      "sobanthang":"5",
-      "socauthu":"12",
-      "sotranthamgia":"34",
+      "sobanthang": "5",
+      "socauthu": "12",
+      "sotranthamgia": "34",
       "name": "Newcastle United",
       "Bangcauthu": [
         {
@@ -1307,6 +1737,9 @@
           "Nationality": "Czechoslovakia",
           "Competitionposition": "GK",
           "Number": "01",
+          "tocdo": "34",
+          "tancong": "23",
+          "phongthu": "78",
           "img": "assets/image/nit.png",
           "CurrentTeam": "Newcastle United"
         },
@@ -1317,6 +1750,10 @@
           "Nationality": "England",
           "Competitionposition": "LB",
           "Number": "13",
+          "banthang": "1",
+          "tocdo": "56",
+          "tancong": "65",
+          "phongthu": "33",
           "img": "assets/image/trang.png",
           "CurrentTeam": "Newcastle United"
         },
@@ -1327,6 +1764,10 @@
           "Nationality": "England",
           "Competitionposition": "RB",
           "Number": "02",
+          "banthang": "1",
+          "tocdo": "53",
+          "tancong": "32",
+          "phongthu": "67",
           "img": "assets/image/khanh.png",
           "CurrentTeam": "Newcastle United"
         },
@@ -1337,6 +1778,10 @@
           "Nationality": "Switzerland",
           "Competitionposition": "CB",
           "Number": "05",
+          "banthang": "2",
+          "tocdo": "78",
+          "tancong": "34",
+          "phongthu": "22",
           "img": "assets/image/tien.png",
           "CurrentTeam": "Newcastle United"
         },
@@ -1347,6 +1792,10 @@
           "Nationality": "Netherlands",
           "Competitionposition": "CB",
           "Number": "04",
+          "banthang": "3",
+          "tocdo": "43",
+          "tancong": "33",
+          "phongthu": "22",
           "img": "assets/image/anhvu.png",
           "CurrentTeam": "Newcastle United"
         },
@@ -1357,6 +1806,10 @@
           "Nationality": "England",
           "Competitionposition": "CM",
           "Number": "32",
+          "banthang": "2",
+          "tocdo": "56",
+          "tancong": "44",
+          "phongthu": "33",
           "img": "assets/image/AllanSaintMaximin.png",
           "CurrentTeam": "Newcastle United"
         },
@@ -1367,6 +1820,10 @@
           "Nationality": "England",
           "Competitionposition": "CM",
           "Number": "10",
+          "banthang": "5",
+          "tocdo": "33",
+          "tancong": "23",
+          "phongthu": "22",
           "img": "assets/image/AnthonyGordon.png",
           "CurrentTeam": "Newcastle United"
         },
@@ -1377,6 +1834,10 @@
           "Nationality": "Brazil",
           "Competitionposition": "CAM",
           "Number": "39",
+          "banthang": "7",
+          "tocdo": "21",
+          "tancong": "22",
+          "phongthu": "89",
           "img": "assets/image/ElliotAnderson.png",
           "CurrentTeam": "Newcastle United"
         },
@@ -1387,6 +1848,10 @@
           "Nationality": "Paraguay",
           "Competitionposition": "RW",
           "Number": "24",
+          "banthang": "7",
+          "tocdo": "65",
+          "tancong": "43",
+          "phongthu": "44",
           "img": "assets/image/KieranTrippier.png",
           "CurrentTeam": "Newcastle United"
         },
@@ -1397,6 +1862,10 @@
           "Nationality": "France",
           "Competitionposition": "LW",
           "Number": "11",
+          "banthang": "3",
+          "tocdo": "45",
+          "tancong": "23",
+          "phongthu": "22",
           "img": "assets/image/MattTargett.png",
           "CurrentTeam": "Newcastle United"
         },
@@ -1407,6 +1876,10 @@
           "Nationality": "Sweden",
           "Competitionposition": "ST",
           "Number": "14",
+          "banthang": "1",
+          "tocdo": "55",
+          "tancong": "33",
+          "phongthu": "77",
           "img": "assets/image/SvenBotman.png",
           "CurrentTeam": "Newcastle United"
         }
@@ -1415,9 +1888,9 @@
     {
       "id": "12",
       "logo": "assets/image/lg.png",
-      "sobanthang":"32",
-      "socauthu":"12",
-      "sotranthamgia":"44",
+      "sobanthang": "32",
+      "socauthu": "12",
+      "sotranthamgia": "44",
       "name": " United AstonVilla",
       "Bangcauthu": [
         {
@@ -1427,6 +1900,9 @@
           "Nationality": "Argentina",
           "Competitionposition": "GK",
           "Number": "01",
+          "tocdo": "78",
+          "tancong": "55",
+          "phongthu": "33",
           "img": "assets/image/EmilianoMartinez.png",
           "CurrentTeam": "Aston Villa"
         },
@@ -1437,6 +1913,10 @@
           "Nationality": "France",
           "Competitionposition": "LB",
           "Number": "12",
+          "banthang": "1",
+          "tocdo": "56",
+          "tancong": "34",
+          "phongthu": "89",
           "img": "assets/image/Boubacar Kamara.png",
           "CurrentTeam": "Aston Villa"
         },
@@ -1447,6 +1927,10 @@
           "Nationality": "England",
           "Competitionposition": "CB",
           "Number": "05",
+          "banthang": "1",
+          "tocdo": "56",
+          "tancong": "32",
+          "phongthu": "11",
           "img": "assets/image/EzriKonsa.png",
           "CurrentTeam": "Aston Villa"
         },
@@ -1457,6 +1941,10 @@
           "Nationality": "England",
           "Competitionposition": "CB",
           "Number": "04",
+          "banthang": "2",
+          "tocdo": "32",
+          "tancong": "11",
+          "phongthu": "67",
           "img": "assets/image/JacobRamsey.png",
           "CurrentTeam": "Aston Villa"
         },
@@ -1467,6 +1955,10 @@
           "Nationality": "England",
           "Competitionposition": "RB",
           "Number": "02",
+          "banthang": "4",
+          "tocdo": "32",
+          "tancong": "14",
+          "phongthu": "90",
           "img": "assets/image/LeonBailey.png",
           "CurrentTeam": "Aston Villa"
         },
@@ -1477,6 +1969,10 @@
           "Nationality": "England",
           "Competitionposition": "CM",
           "Number": "02",
+          "banthang": "4",
+          "tocdo": "78",
+          "tancong": "77",
+          "phongthu": "77",
           "img": "assets/image/LucasDigne.png",
           "CurrentTeam": "Aston Villa"
         },
@@ -1487,6 +1983,10 @@
           "Nationality": "France",
           "Competitionposition": "CM",
           "Number": "44",
+          "banthang": "7",
+          "tocdo": "65",
+          "tancong": "44",
+          "phongthu": "55",
           "img": "assets/image/MattyCash.png",
           "CurrentTeam": "Aston Villa"
         },
@@ -1497,6 +1997,10 @@
           "Nationality": "Jamaica",
           "Competitionposition": "LW",
           "Number": "31",
+          "banthang": "3",
+          "tocdo": "12",
+          "tancong": "45",
+          "phongthu": "54",
           "img": "assets/image/OllieWatkins.png",
           "CurrentTeam": "Aston Villa"
         },
@@ -1507,6 +2011,10 @@
           "Nationality": "England",
           "Competitionposition": "RW",
           "Number": "41",
+          "banthang": "8",
+          "tocdo": "89",
+          "tancong": "43",
+          "phongthu": "23",
           "img": "assets/image/TyroneMings.png",
           "CurrentTeam": "Aston Villa"
         },
@@ -1517,6 +2025,10 @@
           "Nationality": "Scotland",
           "Competitionposition": "CAM",
           "Number": "07",
+          "banthang": "2",
+          "tocdo": "67",
+          "tancong": "66",
+          "phongthu": "54",
           "img": "assets/image/TyroneMings.png",
           "CurrentTeam": "Aston Villa"
         },
@@ -1527,6 +2039,10 @@
           "Nationality": "England",
           "Competitionposition": "ST",
           "Number": "11",
+          "banthang": "1",
+          "tocdo": "98",
+          "tancong": "54",
+          "phongthu": "22",
           "img": "assets/image/TyroneMings.png",
           "CurrentTeam": "Aston Villa"
         }
