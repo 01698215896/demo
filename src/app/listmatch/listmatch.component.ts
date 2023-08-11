@@ -18,7 +18,7 @@ export class ListmatchComponent implements OnInit {
   ngOnInit(): void {
     this.dataService.fetchData().subscribe((data) => {
       this.data = data.MatchTable3;
-      this.data2 = this.data
+      this.data2 = this.data;
     });
   }
   opt1(index: number) {
@@ -32,25 +32,24 @@ export class ListmatchComponent implements OnInit {
     this.dataService.fetchData().subscribe((data) => {
       this.data = data.MatchTable2;
       this.data2 = this.data;
-      console.log(this.data2)
     });
     this.activeTab = index;
   }
   router1() {
     this.router.navigate(['matchdetails']);
   }
-  playOnChange(event: any): void {
+  playOnChange(event: any) {
     const inputValue = event.target.value.toUpperCase();
     this.data = this.data2.filter((data) =>
-      data.Guestteam.toUpperCase().includes(inputValue)
+      data.tentrandau.toUpperCase().includes(inputValue)
     );
   }
 
   playsoccer(event: any) {
     const inputValue = event.target.value.toUpperCase();
-    // this.data2 = this.data4.filter((data) =>
-    //   data.PlayerName.toUpperCase().includes(inputValue)
-    // );
+    this.data = this.data2.filter((data) =>
+      data.Guestteam.toUpperCase().includes(inputValue)
+    );
   }
   playpos(event: any) {
     const inputValue = event.target.value.toUpperCase();

@@ -259,7 +259,7 @@
       "sobanthang": "4",
       "socauthu": "12",
       "sotranthamgia": "3",
-      "name": "FC Barcelona",
+      "name": "Barcelona",
       "Bangcauthu": [
         {
           "IDPlayer": "01",
@@ -749,7 +749,7 @@
       "sobanthang": "11",
       "socauthu": "12",
       "sotranthamgia": "34",
-      "name": "Manchester United",
+      "name": "Manchester Uniter",
       "Bangcauthu": [
         {
           "IDPlayer": "07",
@@ -2052,10 +2052,12 @@
 
   "MatchTable2": [
     {
+      
       "IDMatch": "01",
       "urlH": "assets/image/fc.jpg",
       "urlG": "assets/image/fcb.jpg",
       "HomeTeam": "Real Madrid",
+      "tentrandau":"Permier Leagen",
       "Bangcauthunha": [
         {
           "IDPlayer": "01",
@@ -2323,10 +2325,13 @@
       }
     },
     {
+
+
       "IDMatch": "02",
       "urlH": "assets/image/manches.jpg",
       "urlG": "assets/image/man.jpg",
       "HomeTeam": "Manchester City",
+      "tentrandau":"UEFA Champions League",
       "Guestteam": "Manchester United",
       "DateandTime": "21/08/2023, 00:30 am",
       "Bangcauthunha": [
@@ -2574,11 +2579,14 @@
       }
     },
     {
+
+
       "IDMatch": "03",
       "urlH": "assets/image/fc.jpg",
       "urlG": "assets/image/man.jpg",
       "HomeTeam": "Real Madrid",
       "Guestteam": "Manchester United",
+      "tentrandau":"Permier Leagen",
       "DateandTime": "22/08/2023, 00:30 am",
       "Bangcauthunha": [
         {
@@ -2837,6 +2845,7 @@
       "HomeTeam": "Barcelona",
       "Guestteam": "Manchester United",
       "DateandTime": "25/08/2023, 1:00 am",
+      "tentrandau":"Permier Leagen",
       "Bangcauthunha": [
         {
           "IDPlayer": "01",
@@ -3077,6 +3086,7 @@
       "urlG": "assets/image/chelsea.jpg",
       "HomeTeam": "Liverpool",
       "Guestteam": "Chelsea",
+      "tentrandau":"UEFA Champions League",
       "DateandTime": "26/08/2023, 01:00 am",
       "Bangcauthunha": [
         {
@@ -3325,11 +3335,14 @@
       }
     },
     {
+
+
       "IDMatch": "08",
       "urlH": "assets/image/acm.jpg",
       "urlG": "assets/image/bayern.jpg",
       "HomeTeam": "AC Milan",
       "Guestteam": "Bayern Munich",
+      "tentrandau":"UEFA Champions League",
       "Bangcauthunha": [
         {
           "IDPlayer": "01",
@@ -3598,6 +3611,7 @@
       "urlH": "assets/image/fc.jpg",
       "urlG": "assets/image/fcb.jpg",
       "HomeTeam": "Real Madrid",
+      "tentrandau":"",
       "Bangcauthunha": [
         {
           "IDPlayer": "01",
@@ -3870,6 +3884,7 @@
       "urlG": "assets/image/man.jpg",
       "HomeTeam": "Manchester City",
       "Guestteam": "Manchester United",
+      "tentrandau":"",
       "Bangcauthunha": [
         {
           "IDPlayer": "07",
@@ -4120,6 +4135,7 @@
       "urlH": "assets/image/fc.jpg",
       "urlG": "assets/image/man.jpg",
       "HomeTeam": "Real Madrid",
+      "tentrandau":"",
       "Guestteam": "Manchester United",
       "Bangcauthunha": [
         {
@@ -7533,12 +7549,13 @@
     },
     {
       "IDCharts": "B",
-      "Footballteam": "Bayer Munich",
+      "Footballteam": "Newcastle United",
       "Numberofwins": "0",
       "Numberofdraws": "0",
       "Numberofdefeats": "3",
       "Score": "0"
     }
+
   ],
 
   "Charts2": [

@@ -74,7 +74,7 @@
               placeholder="Search Tournaments.."
               (change)="playOnChange($event)"
             />
-            <i class="fa-brands fa-searchengin"></i>
+            <i class="fa-brands fa-searchengin" (click)="playOnChange($event)"></i>
           </div>
         <div class="fiter">
           <input
@@ -82,11 +82,10 @@
             placeholder="Search Team"
             (change)="playsoccer($event)"
           />
-          <i class="fa-brands fa-searchengin"></i>
+          <i class="fa-brands fa-searchengin" (click)="playsoccer($event)"></i>
         </div>
         <div class="fiter1">
           <label for="">Ngày Thi Đấu</label>
-
           <input
             type="date"
             placeholder="Search Nationality"
@@ -109,7 +108,7 @@
               <img src="{{data.urlG}}" alt="" />
             </div>
           </div>
-          <p>Permier Leagen</p>
+          <p>{{data.tentrandau}}</p>
         </div>
       </div>
       

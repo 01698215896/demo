@@ -16,6 +16,7 @@ export class HomeComponent implements OnInit {
   datachart1: any[] = [];
   activeTab = 0;
   savedata: number = 0;
+  isSorted = false;
   constructor(private dataService: DataService, private router: Router) {}
   ngOnInit(): void {
     this.dataService.fetchData().subscribe((data) => {
@@ -26,6 +27,7 @@ export class HomeComponent implements OnInit {
     });
     this.dataService.fetchData().subscribe((data) => {
       this.data2 = data.MatchTable2;
+      console.log(this.data2);
     });
     this.dataService.fetchData().subscribe((data) => {
       this.data3 = data.MatchTable3;
@@ -34,7 +36,6 @@ export class HomeComponent implements OnInit {
       this.datachart = data.Charts1;
     });
   }
-
 
   profile(id: string) {
     sessionStorage.setItem('dataPlayer', JSON.stringify(id));
@@ -63,5 +64,27 @@ export class HomeComponent implements OnInit {
   }
   tt() {
     this.router.navigate(['listmatch']);
+  }
+  sh(id: string) {
+    sessionStorage.setItem('idclub1', id);
+    this.router.navigate(['/listclub']);
+  }
+  sort1() {
+    this.datachart = this.datachart.sort((a, b) =>
+      a.Score.localeCompare(b.Score)
+    );
+  }
+  sort2() {
+    if (!this.isSorted) {
+      this.data = this.data.sort((a, b) =>
+        a.tencauthu.localeCompare(b.tencauthu)
+      );
+    } else {
+      this.data = this.data.sort((a, b) =>
+        b.tencauthu.localeCompare(a.tencauthu)
+      );
+    }
+
+    this.isSorted = !this.isSorted;
   }
 }

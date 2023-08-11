@@ -121,7 +121,14 @@
             <thead>
               <tr>
                 <th scope="col">Rank</th>
-                <th scope="col">Player</th>
+                <th scope="col">
+                  Player
+                  <i
+                    class="fa-solid fa-arrow-down-z-a"
+                    style="margin-left: 10px; cursor: pointer"
+                    (click)="sort2()"
+                  ></i>
+                </th>
                 <th scope="col">Club</th>
                 <th scope="col">Stats</th>
               </tr>
@@ -148,14 +155,25 @@
 <div class="carosel1 text">
   <div class="xephang">
     <div class="carosel_test">
-      <h1>League Standing</h1>
+      <h1>Team Rating</h1>
       <span> </span>
     </div>
     <div class="container1">
       <div class="fillter">
-        <button class="btn1 btn_re active" (click)="op1(0)" [class.active]="activeTab === 0">
-          English Premier League</button>
-        <button class="btn1 btn_re" (click)="op2(1)" [class.active]="activeTab === 1">UEFA Champions League </button>
+        <button
+          class="btn1 btn_re active"
+          (click)="op1(0)"
+          [class.active]="activeTab === 0"
+        >
+          English Premier League
+        </button>
+        <button
+          class="btn1 btn_re"
+          (click)="op2(1)"
+          [class.active]="activeTab === 1"
+        >
+          UEFA Champions League
+        </button>
       </div>
       <div class="xephang_box">
         <div class="xephang_box2">
@@ -170,13 +188,20 @@
                 <th scope="col">Wins</th>
                 <th scope="col">Draws</th>
                 <th scope="col">Defeats</th>
-                <th scope="col">Score</th>
+                <th scope="col">
+                  Score
+                  <i
+                    class="fa-solid fa-arrow-down-z-a"
+                    style="margin-left: 10px; cursor: pointer"
+                    (click)="sort1()"
+                  ></i>
+                </th>
               </tr>
             </thead>
             <tbody>
               <tr *ngFor="let x of datachart">
                 <th scope="row">{{ x.IDCharts }}</th>
-                <td>
+                <td style="cursor: pointer" (click)="sh(x.Footballteam)">
                   <b>{{ x.Footballteam }}</b>
                 </td>
                 <td>{{ x.Numberofwins }}</td>
@@ -195,7 +220,7 @@
 <div class="carosel1 text">
   <div class="xephang">
     <div class="carosel_test">
-      <h1>League Standing</h1>
+      <h1>News Board</h1>
       <span> </span>
     </div>
   </div>
@@ -235,26 +260,24 @@
 <div class="carosel1 text1">
   <div class="xephang">
     <div class="carosel_test">
-      <h1>League Standing</h1>
+      <h1>About Our Company</h1>
       <span> </span>
     </div>
   </div>
   <div class="About text1">
     <div class="About_text">
       <div class="About_text1">
-        <h1>About Our Company</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio.
-          Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.
-          <br />
-          <br />
-          Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
-          <br />
-          <br />
-          Donec nec justo eget felis facilisis fermentum. Aliquam porttitor
-          mauris sit amet orci. Aenean dignissim pellentesque felis.
+          Soccer Verse is more than a league; it's a global spectacle. Thrilling
+          matches and top-tier talents unite fans worldwide. Our commitment to
+          nurturing local talent through the Elite Player Performance Plan
+          ensures a future of competitive and captivating football. With
+          international icons and emerging stars, Soccer Verse sets the stage
+          for brilliance on and off the pitch.
         </p>
-        <button class="btn1">Read More</button>
+        <button class="btn1" style="margin-top: 30px" routerLink="/about">
+          Read More
+        </button>
       </div>
     </div>
     <div class="About_img">

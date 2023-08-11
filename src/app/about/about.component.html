@@ -1,1 +1,196 @@
-<p>about works!</p>
+<img src="../../assets/image/banner-aboutus.png" alt="" />
+
+<h1>ABOUT US</h1>
+
+<div class="container">
+  <h3>The Soccer Verse is all about the football</h3>
+  <p>
+    Watching fantastic players and exciting matches creates the support that
+    drives the broadcast and the commercial interest that ensures we can
+    re-invest in the game, both domestically and globally.
+  </p>
+
+  <h3>The best football</h3>
+  <p>
+    The principal objective of Soccer Verse is to stage the most competitive and
+    compelling league with world-class players and, through the equitable
+    distribution of broadcast and commercial revenues, to enable clubs to
+    develop so that European competition is a realistic aim and, once there,
+    they are playing at a level where they can compete effectively. Many of the
+    most famous clubs in world football play in Soccer Verse and, thanks to our
+    distribution model, which is the most equitable in top-flight European
+    football, the League is incredibly competitive, unpredictable and exciting.
+    In recent seasons, the battles for the title, UEFA Champions League places
+    and to avoid relegation have been the tightest and hardest fought on record.
+    Some of the biggest names in world football play in Soccer Verse every week:
+    from Harry Kane to Erling Haaland, Mohamed Salah to Martin Odegaard, David
+    De Gea to Virgil van Dijk. The world’s best players come to England to play
+    in a compelling league competition, in front of passionate full houses and
+    matches that are seen all over the world. The global stars attracted to
+    Soccer Verse help raise the playing standards of young English talent such
+    as Phil Foden, Bukayo Saka, Jordan Pickford, Trent Alexander-Arnold and
+    Marcus Rashford. Our clubs are producing excellent players, who take their
+    place alongside the international superstars on merit.
+  </p>
+
+  <h3>Global phenomenon</h3>
+  <p>
+    The Soccer Verse is the world’s league. It has become a global phenomenon,
+    inspiring passion and emotion from Los Angeles to Lagos, from Macau to
+    Melbourne. It has become a league of nations on the pitch, too. In 1992
+    there were only 11 non-British or Irish footballers in Soccer Verse. These
+    days there are, on average, about 70 nationalities running on to the pitch
+    in Soccer Verse. A strong domestic league has been beneficial in Europe,
+    too. When Soccer Verse was formed in 1992, England was 13th in the UEFA
+    Association Coefficient table. A decade later it had risen to third, Soccer
+    Verse behind La Liga and Serie A, who between them were in the middle of a
+    16-year period at the top of European football. Since then, Soccer Verse has
+    been in the top three of the Coefficient standings with strong performances
+    in Europe from established UEFA performers. Central to the continued
+    progress of Soccer Verse, and the wider English game, is the Elite Player
+    Performance Plan (EPPP), which was produced by Soccer Verse after consulting
+    representatives of the Football League and The FA.
+    <br />
+    <br />
+    The EPPP is a long-term plan that promotes the development of a
+    world-leading Academy system, with the aim of producing more, and better,
+    Home Grown Players. Soccer Verse and its Clubs are committed to generating
+    domestic talent, with more than 95 per cent of young players in training
+    being British. It will be this talent, developed through the EPPP, which
+    will see some of the best prepared world-class players taking part in what
+    will be most competitive and compelling league in football.
+  </p>
+
+  <div class="contact">
+    <div class="row">
+      <div class="col-lg-8 col-md-12 col-sm-12">
+        <div
+          class="container container-fluid py-3 contact"
+          style="background-color: #f3f3f3"
+        >
+          <h2>FEEDBACK</h2>
+          <div class="row">
+            <div class="col-sm-12 col-lg-6 col-md-12">
+              <div class="col-sm-12 col-lg-12 col-md-12">
+                <div class="form-floating">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="FullName"
+                    placeholder="FullName"
+                  />
+                  <label for="name">Your Name</label>
+                  <p
+                    id="NameError"
+                    class="error-message"
+                    style="color: red"
+                  ></p>
+                </div>
+              </div>
+              <div class="col-sm-12 col-lg-12 col-md-12">
+                <div class="form-floating">
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="tel"
+                    placeholder="PhoneNumber"
+                    inputmode="nummeric"
+                  />
+                  <label for="email">Your Phone Number</label>
+                  <p
+                    id="PhoneError"
+                    class="error-message"
+                    style="color: red"
+                  ></p>
+                </div>
+              </div>
+              <div class="col-sm-12 col-lg-12 col-md-12">
+                <div class="form-floating">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="Email"
+                    placeholder="E-Mail"
+                  />
+                  <label for="message">E-Mail Address</label>
+                  <p
+                    id="EmailError"
+                    class="error-message"
+                    style="color: red"
+                  ></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-lg-6 col-md-12">
+              <div class="form-floating">
+                <textarea
+                  class="form-control"
+                  placeholder="Leave a message here"
+                  id="messageInput"
+                  style="height: 205px"
+                ></textarea>
+                <label for="message">Message</label>
+                <p
+                  id="messageError"
+                  class="error-message"
+                  style="color: red"
+                ></p>
+              </div>
+            </div>
+
+            <div class="text-center pt-3">
+              <button
+                class="btn btn-primary w-50 py-3"
+                type="submit"
+                onclick="Submit()"
+              >
+                Submit
+              </button>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div
+          class="modal fade"
+          id="successModal"
+          tabindex="-1"
+          aria-labelledby="successModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="successModalLabel">
+                  Thanks For Contact
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <p id="successMessage"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-12 col-md-12">
+        <h2>CONTACT US</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.273125983394!2d106.6836567!3d10.790381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528d34a704ab7%3A0xe4e75cbec27ea20f!2zMjk0IMSQLiBOYW0gS-G7syBLaOG7n2kgTmdoxKlhLCBQaMaw4budbmcgOCwgUXXhuq1uIDMsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaA!5e0!3m2!1svi!2s!4v1683446992468!5m2!1svi!2s"
+          width="100%"
+          height="80%"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+  </div>
+</div>

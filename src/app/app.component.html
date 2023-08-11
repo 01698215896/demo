@@ -22,7 +22,7 @@
   </div>
 </div>
 
-<div class="navbar">
+<div class="navbar" #check1 (scroll)="handleScroll($event)">
   <div class="logo">
     <li routerLink="">
       <img src="../assets/image/lg.png" alt="" />
@@ -50,3 +50,70 @@
 </div>
 
 <router-outlet> </router-outlet>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-6">
+        <div class="footer-content">
+          <h3>Soccer Verses</h3>
+          <p>
+            Soccer Verse is more than a league; it's a global spectacle.
+            Thrilling matches and top-tier talents unite fans worldwide. Our
+            commitment to nurturing local talent through the Elite Player
+            Performance Plan ensures a future of competitive and captivating
+            football. With international icons and emerging stars, Soccer Verse
+            sets the stage for brilliance on and off the pitch.
+          </p>
+          <ul class="socials">
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-google"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-line"></i></a>
+            </li>
+          </ul>
+          <ul class="footer-link">
+            <li routerLink="">Home</li>
+            <li routerLink="/listmatch">List Match</li>
+            <li routerLink="/club">Clubs</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6">
+        <div class="footer-address">
+          <h3>Address</h3>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.267037758956!2d106.67969367554333!3d10.790847989358804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528d358181cff%3A0x8a2f81f6b92993a5!2zMzkxYSDEkC4gTmFtIEvhu7MgS2jhu59pIE5naMSpYSwgUGjGsOG7nW5nIDE0LCBRdeG6rW4gMywgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1691732956756!5m2!1svi!2s"
+            width="650"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="footer-bottom">
+      <div class="footer-menu">
+          <ul class="f-menu">
+              <li><a href="">Home</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="">Shop</a></li>
+          </ul>
+      </div>
+  </div> -->
+</footer>

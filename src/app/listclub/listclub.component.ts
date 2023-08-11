@@ -24,22 +24,38 @@ export class ListclubComponent implements OnInit {
   ngOnInit(): void {
     this.dataService.fetchData().subscribe((datas) => {
       this.data = datas.danhsach;
-      console.log(this.data);
 
       let idd = sessionStorage.getItem('idclub');
-      console.log(idd);
+      let idd1 = sessionStorage.getItem('idclub1');
 
-      this.data1 = this.data.find((datass) => {
-        return datass.id === idd;
-      });
+     
+      if(idd){
+        this.data1 = this.data.find((datass) => {
+          return datass.id === idd;
+        });
+        this.logo = this.data1.logo;
+        this.name = this.data1.name;
+        this.sobanthang = this.data1.sobanthang;
+        this.sotranthamgia = this.data1.sotranthamgia;
+        this.socauthu = this.data1.socauthu;  
+        this.data2 = this.data1.Bangcauthu;
+        this.data4 = this.data2
+      }else{
+        this.data1 = this.data.find((datass) => {
+          return datass.name === idd1;
+        });
+        console.log(this.data1);
+        this.logo = this.data1.logo;
+        this.name = this.data1.name;
+        this.sobanthang = this.data1.sobanthang;
+        this.sotranthamgia = this.data1.sotranthamgia;
+        this.socauthu = this.data1.socauthu;
+        this.data2 = this.data1.Bangcauthu;
+        this.data4 = this.data2
+      }
+     
 
-      this.logo = this.data1.logo;
-      this.name = this.data1.name;
-      this.sobanthang = this.data1.sobanthang;
-      this.sotranthamgia = this.data1.sotranthamgia;
-      this.socauthu = this.data1.socauthu;
-      this.data2 = this.data1.Bangcauthu;
-      this.data4 = this.data2
+
     });
   }
 

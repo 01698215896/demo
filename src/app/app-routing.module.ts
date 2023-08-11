@@ -25,6 +25,8 @@ const routes: Routes = [
   {path: "club", component: ClubComponent},
   {path: "listmatch", component: ListmatchComponent},
   {path: "listclub", component: ListclubComponent},
+  {path: "about", component: AboutComponent},
+
 
 
 
