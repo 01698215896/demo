@@ -8,6 +8,9 @@ import { LoginComponent } from './login/login.component';
 import { MatchdetailsComponent } from './matchdetails/matchdetails.component';
 import { TintucComponent } from './tintuc/tintuc.component';
 import { ShopComponent } from './shop/shop.component';
+import { ClubComponent } from './club/club.component';
+import { ListmatchComponent } from './listmatch/listmatch.component';
+import { ListclubComponent } from './listclub/listclub.component';
 
 const routes: Routes = [
   {path: "", component: HomeComponent},
@@ -19,6 +22,12 @@ const routes: Routes = [
   {path: "tintuc", component: TintucComponent},
   {path: "shop", component: ShopComponent},
   {path: "profile1", component: ProfileComponent},
+  {path: "club", component: ClubComponent},
+  {path: "listmatch", component: ListmatchComponent},
+  {path: "listclub", component: ListclubComponent},
+
+
+
 ];
 
 @NgModule({

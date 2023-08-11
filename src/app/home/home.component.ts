@@ -58,4 +58,7 @@ export class HomeComponent implements OnInit {
       console.log(this.datachart);
     });
   }
+  tt() {
+    this.router.navigate(['listmatch']);
+  }
 }

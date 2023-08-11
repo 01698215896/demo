@@ -1,0 +1,115 @@
+<div class="blog_banner">
+  <div class="blog_banner-img">
+    <img src="../../assets/image/banner-1.png" alt="" />
+  </div>
+  <div class="blog_banner-text">
+    <div class="blog_banner-text1">
+      <div class="blog_banner-text12"></div>
+      <div class="blog_banner-text1-img">
+        <img [src]="logo" alt="" />
+      </div>
+    </div>
+    <div class="blog_banner-text2"></div>
+  </div>
+</div>
+
+<div class="container1">
+  <div class="box_content">
+    <div class="box_content-item1">
+      <div class="box_content-item">
+        <p>Number Of Goals</p>
+        <p>{{ sobanthang }}</p>
+      </div>
+    </div>
+    <div class="box_content-item1">
+      <div class="box_content-item">
+        <p>Number Of Matches Participated</p>
+        <p>{{ sotranthamgia }}</p>
+      </div>
+    </div>
+    <div class="box_content-item1">
+      <div class="box_content-item">
+        <p>Number Of Players</p>
+        <p>{{ socauthu }}</p>
+      </div>
+    </div>
+  </div>
+  <div class="containerqq">
+    <div class="fiter">
+        <input
+          type="text"
+          placeholder="Search Name.."
+          (change)="playOnChange($event)"
+        />
+        <i class="fa-brands fa-searchengin"></i>
+      </div>
+    <div class="fiter">
+      <input
+        type="text"
+        placeholder="Search Stats"
+        (change)="playsoccer($event)"
+      />
+      <i class="fa-brands fa-searchengin"></i>
+    </div>
+    <div class="fiter">
+      <input
+        type="text"
+        placeholder="Search Nationality"
+        (change)="playpos($event)"
+      />
+      <i class="fa-brands fa-searchengin"></i>
+    </div>
+    <div class="fiter1">
+      <select name="" id="" (change)="playop($event)">
+        <option value="GK">GK</option>
+        <option value="LB">LB</option>
+        <option value="RB">RB</option>
+        <option value="CB">CB</option>
+        <option value="CM">CM</option>
+        <option value="CAM">CAM</option>
+        <option value="RW">RW</option>
+        <option value="LW">LW</option>
+
+        <option value="ST">ST</option>
+        <option value="CAM">CAM</option>
+        <option value="RW">RW</option>
+        <option value="LW">LW</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="showlist">
+    <div class="showlist_items" *ngFor="let data of data2">
+      <div class="thongso">
+        <div class="thongso1">
+          <div class="thongso1-img">
+            <img src="../../assets/image/bg.jpg" alt="" />
+          </div>
+          <p>Position</p>
+          <h3>{{ data.Competitionposition }}</h3>
+          <p>Number</p>
+          <h3>{{ data.Number }}</h3>
+          <p>Team</p>
+          <h3>{{ data.CurrentTeam }}</h3>
+          <p>Date Of Birth</p>
+          <h3>{{ data.Dateofbirth }}</h3>
+        </div>
+        <div class="thongso-img">
+          <img src="{{ data.img }}" alt="" />
+        </div>
+      </div>
+      <div class="profile">
+        <div class="texxxxt" style="text-align: center">
+          <h2>{{ data.PlayerName }}</h2>
+        </div>
+        <div class="profile1">
+          <p>{{ data.Nationality }}</p>
+          <div class="test">
+            <h3 (click)="routerpage()">See More</h3>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

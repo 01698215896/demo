@@ -14,6 +14,9 @@ import { MatchdetailsComponent } from './matchdetails/matchdetails.component';
 import { TintucComponent } from './tintuc/tintuc.component';
 import { ShopComponent } from './shop/shop.component';
 import { RouterModule,Routes  } from '@angular/router';
+import { ClubComponent } from './club/club.component';
+import { ListmatchComponent } from './listmatch/listmatch.component';
+import { ListclubComponent } from './listclub/listclub.component';
 
 const routes: Routes = [
   {path: "", component: HomeComponent},
@@ -38,6 +41,9 @@ const routes: Routes = [
     MatchdetailsComponent,
     TintucComponent,
     ShopComponent,
+    ClubComponent,
+    ListmatchComponent,
+    ListclubComponent,
   ],
   imports: [
     BrowserModule,

@@ -27,7 +27,8 @@ export class MatchdetailsComponent implements OnInit {
   ngOnInit(): void {
     this.dataService.fetchData().subscribe((datas) => {
       this.data = datas.MatchTable1;
-      this.dataG = this.data.find((data) => data.IDMatch == "03");
+      console.log(this.data);
+      this.dataG = this.data.find((data) => data.IDMatch == "01");
       console.log(this.dataG) 
       this.DateandTime = this.dataG.DateandTime;
       this.Result = this.dataG.Result;

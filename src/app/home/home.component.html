@@ -80,7 +80,7 @@
         <p>Permier Leagen</p>
       </div>
 
-      <div class="event1">
+      <div class="event1" (click)="tt()">
         <p style="font-size: 18px; color: brown; text-align: left">Result</p>
         <h2>THE LAST MATCH ></h2>
       </div>
@@ -101,7 +101,7 @@
         <p>Permier Leagen</p>
       </div>
 
-      <div class="event1">
+      <div class="event1" (click)="tt()">
         <p style="font-size: 18px; color: brown; text-align: left">Result</p>
         <h2>COMMING UP ></h2>
       </div>
@@ -156,7 +156,6 @@
         <p>Filter |</p>
         <button class="btn1 btn_re active" (click)="op1()">Option1</button>
         <button class="btn1 btn_re" (click)="op2()">Option2</button>
-
       </div>
       <div class="xephang_box">
         <div class="xephang_box2">
@@ -177,7 +176,9 @@
             <tbody>
               <tr *ngFor="let x of datachart">
                 <th scope="row">{{ x.IDCharts }}</th>
-                <td><b>{{ x.Footballteam }}</b></td>
+                <td>
+                  <b>{{ x.Footballteam }}</b>
+                </td>
                 <td>{{ x.Numberofwins }}</td>
                 <td>{{ x.Numberofdraws }}</td>
                 <td>{{ x.Numberofdefeats }}</td>
@@ -263,7 +264,6 @@
     </div>
   </div>
 </div>
-
 
 <div class="carosel1 text1 text2">
   <div class="xephang">

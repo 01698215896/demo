@@ -88,1350 +88,1449 @@
       "HLV trưởng": "Unai Emery"
     }
   ],
+  "danhsach": [
+    {
+      "id": "03",
+      "logo": "assets/image/fc.jpg",
+      "sobanthang":"18",
+      "socauthu":"12",
+      "sotranthamgia":"3",
+      "name": "Real Madrid",
 
-  "Bangcauthurealmadrid": [
-    {
-      "IDPlayer": "01",
-      "PlayerName": "Thibaut Courtois",
-      "Dateofbirth": "11/05/1992",
-      "Nationality": "Belgium",
-      "Competitionposition": "GK",
-      "Number": "1",
-      "img": "assets/image/000.png",
-      "CurrentTeam": "Real Madrid"
-    },
-    {
-      "IDPlayer": "06",
-      "PlayerName": "Nacho Fernandez",
-      "Dateofbirth": "18/01/1990",
-      "Nationality": "Spain",
-      "Competitionposition": "LB",
-      "Number": "06",
-      "img": "assets/image/09.png",
-      "CurrentTeam": "Real Madrid"
-    },
-    {
-      "IDPlayer": "02",
-      "PlayerName": "Daniel Carvajal",
-      "Dateofbirth": "11/01/1992",
-      "Nationality": "Spain",
-      "Competitionposition": "RB",
-      "Number": "02",
-      "img": "assets/image/090.png",
-      "CurrentTeam": "Real Madrid"
-    },
-    {
-      "IDPlayer": "03",
-      "PlayerName": "Eder Militao",
-      "Dateofbirth": "18/01/1998",
-      "Nationality": "Brazil",
-      "Competitionposition": "CB",
-      "Number": "03",
-      "img": "assets/image/0909.png",
-      "CurrentTeam": "Real Madrid"
-    },
-    {
-      "IDPlayer": "16",
-      "PlayerName": "Alvaro Odriozola",
-      "Dateofbirth": "11/05/1992",
-      "Nationality": "Spain",
-      "Competitionposition": "CB",
-      "Number": "16",
-      "img": "assets/image/0808.png",
-      "CurrentTeam": "Real Madrid"
-    },
-    {
-      "IDPlayer": "19",
-      "PlayerName": "Dani Ceballos",
-      "Dateofbirth": "07/08/1996",
-      "Nationality": "Spain",
-      "Competitionposition": "CM",
-      "Number": "19",
-      "img": "assets/image/DaniCeballos.png",
-      "CurrentTeam": "Real Madrid"
-    },
-    {
-      "IDPlayer": "08",
-      "PlayerName": "Toni Kroos",
-      "Dateofbirth": "11/01/1992",
-      "Nationality": "Germany",
-      "Competitionposition": "CDM",
-      "Number": "08",
-      "img": "assets/image/EdenHazard.png",
-      "CurrentTeam": "Real Madrid"
-    },
-    {
-      "IDPlayer": "15",
-      "PlayerName": "Federico Valverde",
-      "Dateofbirth": "22/07/1998",
-      "Nationality": "Uruguay",
-      "Competitionposition": "CM",
-      "Number": "23",
-      "img": "assets/image/FedericoValverde.png",
-      "CurrentTeam": "Real Madrid"
-    },
-    {
-      "IDPlayer": "09",
-      "PlayerName": "Karim Benzema",
-      "Dateofbirth": "19/12/1987",
-      "Nationality": "France",
-      "Competitionposition": "ST",
-      "Number": "09",
-      "img": "assets/image/Rodrygo.png",
-      "CurrentTeam": "Real Madrid"
-    },
-    {
-      "IDPlayer": "07",
-      "PlayerName": "Eden Hazard",
-      "Dateofbirth": "07/01/1991",
-      "Nationality": "Belgium",
-      "Competitionposition": "LW",
-      "Number": "07",
-      "img": "assets/image/ThibautCourtois.png",
-      "CurrentTeam": "Real Madrid"
-    },
-    {
-      "IDPlayer": "11",
-      "PlayerName": "Rodrygo",
-      "Dateofbirth": "09/01/2001",
-      "Nationality": "Brazil",
-      "Competitionposition": "RW",
-      "Number": "11",
-      "img": "assets/image/2.png",
-      "CurrentTeam": "Real Madrid"
-    }
-  ],
-  "BangcauthuFCBarcelona": [
-    {
-      "IDPlayer": "01",
-      "PlayerName": "M.Ter Stegen",
-      "Dateofbirth": "30/04/1992",
-      "Nationality": "GK",
-      "Competitionposition": "GK",
-      "Number": "01",
-      "img": "assets/image/AndreasChristensen.png",
-      "CurrentTeam": "FC Barcelona"
-    },
-    {
-      "IDPlayer": "18",
-      "PlayerName": "Jordi Alba",
-      "Dateofbirth": "21/03/1989",
-      "Nationality": "Spain",
-      "Competitionposition": "LB",
-      "Number": "18",
-      "img": "assets/image/FrenkiedeJong.png",
-      "CurrentTeam": "FC Barcelona"
-    },
-    {
-      "IDPlayer": "02",
-      "PlayerName": "S.Dest",
-      "Dateofbirth": "03/11/2000",
-      "Nationality": "Ha Lan",
-      "Competitionposition": "RB",
-      "Number": "02",
-      "img": "assets/image/JordiAlba.png",
-      "CurrentTeam": "FC Barcelona"
-    },
-    {
-      "IDPlayer": "15",
-      "PlayerName": "Andreas Christensen",
-      "Dateofbirth": "10/04/1996",
-      "Nationality": "Denmark",
-      "Competitionposition": "CB",
-      "Number": "15",
-      "img": "assets/image/MTerStegen.png",
-      "CurrentTeam": "FC Barcelona"
-    },
-    {
-      "IDPlayer": "04",
-      "PlayerName": "Ronald Araujo",
-      "Dateofbirth": "07/03/1999",
-      "Nationality": "Uruguay",
-      "Competitionposition": "CB",
-      "Number": "04",
-      "img": "assets/image/Ousmane Dembele.png",
-      "CurrentTeam": "FC Barcelona"
-    },
-    {
-      "IDPlayer": "05",
-      "PlayerName": "Sergio Busquets",
-      "Dateofbirth": "16/07/1988",
-      "Nationality": "Spain",
-      "Competitionposition": "CDM",
-      "Number": "05",
-      "img": "assets/image/Pedri.png",
-      "CurrentTeam": "FC Barcelona"
-    },
-    {
-      "IDPlayer": "08",
-      "PlayerName": "Pedri",
-      "Dateofbirth": "25/11/2002",
-      "Nationality": "Spain",
-      "Competitionposition": "CM",
-      "Number": "08",
-      "img": "assets/image/Raphinha.png",
-      "CurrentTeam": "FC Barcelona"
-    },
-    {
-      "IDPlayer": "21",
-      "PlayerName": "Frenkie de Jong",
-      "Dateofbirth": "12/05/1997",
-      "Nationality": "Netherlands",
-      "Competitionposition": "CM",
-      "Number": "21",
-      "img": "assets/image/RonaldAraujo.png",
-      "CurrentTeam": "FC Barcelona"
-    },
-    {
-      "IDPlayer": "07",
-      "PlayerName": "Ousmane Dembele",
-      "Dateofbirth": "15/05/1997",
-      "Nationality": "France",
-      "Competitionposition": "RW",
-      "Number": "07",
-      "img": "assets/image/SDest.png",
-      "CurrentTeam": "FC Barcelona"
-    },
-    {
-      "IDPlayer": "22",
-      "PlayerName": "Raphinha",
-      "Dateofbirth": "14/12/1996",
-      "Nationality": "Brazil",
-      "Competitionposition": "RW",
-      "Number": "22",
-      "img": "assets/image/SergioBusquets.png",
-      "CurrentTeam": "FC Barcelona"
-    },
-    {
-      "IDPlayer": "09",
-      "PlayerName": "Robert Lewandowski",
-      "Dateofbirth": "21/08/1988",
-      "Nationality": "ba Lan",
-      "Competitionposition": "ST",
-      "Number": "09",
-      "img": "assets/image/JordiAlba.png",
-      "CurrentTeam": "FC Barcelona"
-    }
-  ],
-  "BangcauthuFCBayernMunich": [
-    {
-      "IDPlayer": "01",
-      "PlayerName": "Manuel Neuer",
-      "Dateofbirth": "27/03/1986",
-      "Nationality": "Germany",
-      "Competitionposition": "GK",
-      "Number": "01",
-      "img": "assets/image/ADavies.png",
-      "CurrentTeam": "FC Bayern Munich"
-    },
-    {
-      "IDPlayer": "05",
-      "PlayerName": "Benjamin Pavard",
-      "Dateofbirth": "28/03/1996",
-      "Nationality": "France",
-      "Competitionposition": "RB",
-      "Number": "05",
-      "img": "assets/image/BenjaminPavard.png",
-      "CurrentTeam": "FC Bayern Munich"
-    },
-    {
-      "IDPlayer": "19",
-      "PlayerName": "A.Davies",
-      "Dateofbirth": "2/11/2000",
-      "Nationality": "Canada",
-      "Competitionposition": "LB",
-      "Number": "19",
-      "img": "assets/image/ChoupoMoting.png",
-      "CurrentTeam": "FC Bayern Munich"
-    },
-    {
-      "IDPlayer": "04",
-      "PlayerName": "M.De Ligt",
-      "Dateofbirth": "12/08/1999",
-      "Nationality": "HA LAN",
-      "Competitionposition": "CB",
-      "Number": "04",
-      "img": "assets/image/Dayot Upamecano.png",
-      "CurrentTeam": "FC Bayern Munich"
-    },
-    {
-      "IDPlayer": "02",
-      "PlayerName": "Dayot Upamecano",
-      "Dateofbirth": "27/10/1998",
-      "Nationality": "France",
-      "Competitionposition": "CB",
-      "Number": "02",
-      "img": "assets/image/JoshuaKimmich.png",
-      "CurrentTeam": "FC Bayern Munich"
-    },
-    {
-      "IDPlayer": "06",
-      "PlayerName": "Joshua Kimmich",
-      "Dateofbirth": "08/02/1995",
-      "Nationality": "Germany",
-      "Competitionposition": "CM",
-      "Number": "06",
-      "img": "assets/image/KingsleyComan.png",
-      "CurrentTeam": "FC Bayern Munich"
-    },
-    {
-      "IDPlayer": "08",
-      "PlayerName": "Leon Goretzka",
-      "Dateofbirth": "06/02/1995",
-      "Nationality": "Germany",
-      "Competitionposition": "CM",
-      "Number": "08",
-      "img": "assets/image/LeonGoretzka.png",
-      "CurrentTeam": "FC Bayern Munich"
-    },
-    {
-      "IDPlayer": "25",
-      "PlayerName": "Thomas Müller",
-      "Dateofbirth": "13/09/1989",
-      "Nationality": "Germany",
-      "Competitionposition": "CAM",
-      "Number": "25",
-      "img": "assets/image/LeroySane.png",
-      "CurrentTeam": "FC Bayern Munich"
-    },
-    {
-      "IDPlayer": "10",
-      "PlayerName": "Leroy Sané",
-      "Dateofbirth": "11/1/1996",
-      "Nationality": "Germany",
-      "Competitionposition": "RM",
-      "Number": "10",
-      "img": "assets/image/MDeLigt.png",
-      "CurrentTeam": "FC Bayern Munich"
-    },
-    {
-      "IDPlayer": "11",
-      "PlayerName": "Kingsley Coman",
-      "Dateofbirth": "13/06/1996",
-      "Nationality": "France",
-      "Competitionposition": "LM",
-      "Number": "11",
-      "img": "assets/image/ThomasMuller.png",
-      "CurrentTeam": "FC Bayern Munich"
-    },
-    {
-      "IDPlayer": "13",
-      "PlayerName": "Choupo-Moting",
-      "Dateofbirth": "23/3/1989",
-      "Nationality": "Germany",
-      "Competitionposition": "ST",
-      "Number": "13",
-      "img": "assets/image/ChoupoMoting.png",
-      "CurrentTeam": "FC Bayern Munich"
-    }
-  ],
-  "BangcauthuChelsea": [
-    {
-      "IDPlayer": "01",
-      "PlayerName": "Kepa Arrizabalaga",
-      "Dateofbirth": "03/10/1994",
-      "Nationality": "Spain",
-      "Competitionposition": "GK",
-      "Number": "01",
-      "img": "assets/image/1.png",
-      "CurrentTeam": "Chelsea"
-    },
-    {
-      "IDPlayer": "27",
-      "PlayerName": "Malo Gusto",
-      "Dateofbirth": "19/05/1003",
-      "Nationality": "France",
-      "Competitionposition": "RB",
-      "Number": "27",
-      "img": "assets/image/2.png",
-      "CurrentTeam": "Chelsea"
-    },
-    {
-      "IDPlayer": "21",
-      "PlayerName": "Ben Chilwell",
-      "Dateofbirth": "21/12/1996",
-      "Nationality": "England",
-      "Competitionposition": "LB",
-      "Number": "21",
-      "img": "assets/image/AndreSantos.png",
-      "CurrentTeam": "Chelsea"
-    },
-    {
-      "IDPlayer": "06",
-      "PlayerName": "Thiago Silva",
-      "Dateofbirth": "22/09/1984",
-      "Nationality": "Brazil",
-      "Competitionposition": "CB",
-      "Number": "06",
-      "img": "assets/image/CarneyChukwuemeka.png",
-      "CurrentTeam": "Chelsea"
-    },
-    {
-      "IDPlayer": "26",
-      "PlayerName": "Levi Colwill",
-      "Dateofbirth": "26/02/2003",
-      "Nationality": "England",
-      "Competitionposition": "CB",
-      "Number": "26",
-      "img": "assets/image/ChristopherNkunku.png",
-      "CurrentTeam": "Chelsea"
-    },
-    {
-      "IDPlayer": "39",
-      "PlayerName": "André Santos",
-      "Dateofbirth": "08/03/1983",
-      "Nationality": "Brazil",
-      "Competitionposition": "CM",
-      "Number": "39",
-      "img": "assets/image/ConorGallagher.png",
-      "CurrentTeam": "Chelsea"
-    },
-    {
-      "IDPlayer": "23",
-      "PlayerName": "Conor Gallagher",
-      "Dateofbirth": "06/02//2000",
-      "Nationality": "England",
-      "Competitionposition": "CM",
-      "Number": "23",
-      "img": "assets/image/IanMaatsen.png",
-      "CurrentTeam": "Chelsea"
-    },
-    {
-      "IDPlayer": "17",
-      "PlayerName": "Carney Chukwuemeka",
-      "Dateofbirth": "20/10/2003",
-      "Nationality": "Austria",
-      "Competitionposition": "CAM",
-      "Number": "17",
-      "img": "assets/image/KepaArrizabalaga.png",
-      "CurrentTeam": "Chelsea"
-    },
-    {
-      "IDPlayer": "07",
-      "PlayerName": "Robert Sterling",
-      "Dateofbirth": "08/12/1994",
-      "Nationality": "Jamaica",
-      "Competitionposition": "RW",
-      "Number": "07",
-      "img": "assets/image/LeviColwill.png",
-      "CurrentTeam": "Chelsea"
-    },
-    {
-      "IDPlayer": "38",
-      "PlayerName": "Ian Maatsen",
-      "Dateofbirth": "10/03/2002",
-      "Nationality": "Netherlands",
-      "Competitionposition": "LM",
-      "Number": "38",
-      "img": "assets/image/MaloGusto.png",
-      "CurrentTeam": "Chelsea"
-    },
-    {
-      "IDPlayer": "45",
-      "PlayerName": "Christopher Nkunku",
-      "Dateofbirth": "14/11/1997",
-      "Nationality": "France",
-      "Competitionposition": "ST",
-      "Number": "45",
-      "img": "assets/image/ThiagoSilva.png",
-      "CurrentTeam": "Chelsea"
-    }
-  ],
-  "BangcauthuManchesterUnited": [
-    {
-      "IDPlayer": "07",
-      "PlayerName": "Mason Mount",
-      "Dateofbirth": "10/01/1999",
-      "Nationality": "England",
-      "Competitionposition": "CAM",
-      "Number": "07",
-      "img": "assets/image/789.png",
-      "CurrentTeam": "Manchester United"
-    },
-    {
-      "IDPlayer": "08",
-      "PlayerName": "Bruno Fernandes",
-      "Dateofbirth": "08/09/1994",
-      "Nationality": "Portugal",
-      "Competitionposition": "CAM",
-      "Number": "08",
-      "img": "assets/image/9879.png",
-      "CurrentTeam": "Manchester United"
-    },
-    {
-      "IDPlayer": "18",
-      "PlayerName": "Casemiro",
-      "Dateofbirth": "23/02/1992",
-      "Nationality": "Brazil",
-      "Competitionposition": "CDM",
-      "Number": "18",
-      "img": "assets/image/0.png",
-      "CurrentTeam": "Manchester United"
-    },
-    {
-      "IDPlayer": "10",
-      "PlayerName": "Marcus Rashford",
-      "Dateofbirth": "31/10/1997",
-      "Nationality": "England",
-      "Competitionposition": "LW",
-      "Number": "10",
-      "img": "assets/image/00.png",
-      "CurrentTeam": "Manchester United"
-    },
-    {
-      "IDPlayer": "23",
-      "PlayerName": "Luke Shaw",
-      "Dateofbirth": "12/07/1995",
-      "Nationality": "England",
-      "Competitionposition": "LB",
-      "Number": "23",
-      "img": "assets/image/32.png",
-      "CurrentTeam": "Manchester United"
-    },
-    {
-      "IDPlayer": "21",
-      "PlayerName": "Antony",
-      "Dateofbirth": "24/02/2000",
-      "Nationality": "Brazil",
-      "Competitionposition": "RW",
-      "Number": "21",
-      "img": "assets/image/AnthonyMartial.png",
-      "CurrentTeam": "Manchester United"
-    },
-    {
-      "IDPlayer": "29",
-      "PlayerName": "Wan-Bissaka",
-      "Dateofbirth": "26/11/1997",
-      "Nationality": "England",
-      "Competitionposition": "RB",
-      "Number": "29",
-      "img": "assets/image/BrunoFernandes.png",
-      "CurrentTeam": "Manchester United"
-    },
-    {
-      "IDPlayer": "19",
-      "PlayerName": "Raphael Varane",
-      "Dateofbirth": "25/04/1993",
-      "Nationality": "France",
-      "Competitionposition": "CB",
-      "Number": "19",
-      "img": "assets/image/LissandroMartinez.png",
-      "CurrentTeam": "Manchester United"
-    },
-    {
-      "IDPlayer": "06",
-      "PlayerName": "Lissandro Martinez",
-      "Dateofbirth": "19/01/1998",
-      "Nationality": "Argentina",
-      "Competitionposition": "CB",
-      "Number": "06",
-      "img": "assets/image/LukeShaw.png",
-      "CurrentTeam": "Manchester United"
-    },
-    {
-      "IDPlayer": "09",
-      "PlayerName": "Anthony Martial",
-      "Dateofbirth": "05/12/1995",
-      "Nationality": "France",
-      "Competitionposition": "ST",
-      "Number": "09",
-      "img": "assets/image/RaphaelVarane.png",
-      "CurrentTeam": "Manchester United"
-    },
-    {
-      "IDPlayer": "24",
-      "PlayerName": "Andre Onana",
-      "Dateofbirth": "02/04/1996",
-      "Nationality": "Cameroon",
-      "Competitionposition": "GK",
-      "Number": "24",
-      "img": "assets/image/WanBissaka.png",
-      "CurrentTeam": "Manchester United"
-    }
-  ],
-  "BangcauthuManchesterCity": [
-    {
-      "IDPlayer": "19",
-      "PlayerName": "Julian Alvarez",
-      "Dateofbirth": "31/01/2000",
-      "Nationality": "Argentina",
-      "Competitionposition": "ST",
-      "Number": "19",
-      "img": "assets/image/BernardoSilva.png",
-      "CurrentTeam": "Manchester City"
-    },
-    {
-      "IDPlayer": "9",
-      "PlayerName": "Erling Haaland",
-      "Dateofbirth": "21/07/2000",
-      "Nationality": "Norway",
-      "Competitionposition": "ST",
-      "Number": "9",
-      "img": "assets/image/Ederson.png",
-      "CurrentTeam": "Manchester City"
-    },
-    {
-      "IDPlayer": "08",
-      "PlayerName": "Mateo Kovacic",
-      "Dateofbirth": "06/05/1994",
-      "Nationality": "Croatia",
-      "Competitionposition": "CM",
-      "Number": "08",
-      "img": "assets/image/ErlingHaaland.png",
-      "CurrentTeam": "Manchester City"
-    },
-    {
-      "IDPlayer": "17",
-      "PlayerName": "Kevin De Bruyne",
-      "Dateofbirth": "28/06/1991",
-      "Nationality": "Belgium",
-      "Competitionposition": "CAM",
-      "Number": "17",
-      "img": "assets/image/JoaoCancelo.png",
-      "CurrentTeam": "Manchester City"
-    },
-    {
-      "IDPlayer": "16",
-      "PlayerName": "Rodri",
-      "Dateofbirth": "22/06/1996",
-      "Nationality": "Spain",
-      "Competitionposition": "CDM",
-      "Number": "16",
-      "img": "assets/image/JohnStones.png",
-      "CurrentTeam": "Manchester City"
-    },
-    {
-      "IDPlayer": "20",
-      "PlayerName": "Bernardo Silva",
-      "Dateofbirth": "10/08/1994",
-      "Nationality": "Portugal",
-      "Competitionposition": "ST",
-      "Number": "20",
-      "img": "assets/image/JulianAlvarez.png",
-      "CurrentTeam": "Manchester City"
-    },
-    {
-      "IDPlayer": "07",
-      "PlayerName": "Joao Cancelo",
-      "Dateofbirth": "27/05/1994",
-      "Nationality": "Portugal",
-      "Competitionposition": "LB",
-      "Number": "07",
-      "img": "assets/image/KevinDeBruyne.png",
-      "CurrentTeam": "Manchester City"
-    },
-    {
-      "IDPlayer": "02",
-      "PlayerName": "Kyle Walker",
-      "Dateofbirth": "28/05/1990",
-      "Nationality": "England",
-      "Competitionposition": "RB",
-      "Number": "02",
-      "img": "assets/image/RubenDias.png",
-      "CurrentTeam": "Manchester City"
-    },
-    {
-      "IDPlayer": "05",
-      "PlayerName": "John Stones",
-      "Dateofbirth": "28/05/1994",
-      "Nationality": "England",
-      "Competitionposition": "CB",
-      "Number": "05",
-      "img": "assets/image/KyleWalker.png",
-      "CurrentTeam": "Manchester City"
-    },
-    {
-      "IDPlayer": "03",
-      "PlayerName": "Ruben Dias",
-      "Dateofbirth": "14/05/1997",
-      "Nationality": "Portugal",
-      "Competitionposition": "CB",
-      "Number": "03",
-      "img": "assets/image/MateoKovacic.png",
-      "CurrentTeam": "Manchester City"
-    },
-    {
-      "IDPlayer": "31",
-      "PlayerName": "Ederson",
-      "Dateofbirth": "17/07/1993",
-      "Nationality": "Brazil",
-      "Competitionposition": "GK",
-      "Number": "31",
-      "img": "assets/image/Rodri.png",
-      "CurrentTeam": "Manchester City"
-    }
-  ],
-  "BangcauthuLiverpool": [
-    {
-      "IDPlayer": "01",
-      "PlayerName": "Alisson Becker",
-      "Dateofbirth": "02/10/1992",
-      "Nationality": "Brazil",
-      "Competitionposition": "GK",
-      "Number": "01",
-      "img": "assets/image/456.png",
-      "CurrentTeam": "Liverpool"
-    },
-    {
-      "IDPlayer": "26",
-      "PlayerName": "Andrew Robertson",
-      "Dateofbirth": "11/03/1994",
-      "Nationality": "Scotland",
-      "Competitionposition": "LB",
-      "Number": "26",
-      "img": "assets/image/765.png",
-      "CurrentTeam": "Liverpool"
-    },
-    {
-      "IDPlayer": "66",
-      "PlayerName": "Trent Alexander-Arnold",
-      "Dateofbirth": "07/10/1998",
-      "Nationality": "England",
-      "Competitionposition": "RB",
-      "Number": "66",
-      "img": "assets/image/alexismaallister1.png",
-      "CurrentTeam": "Liverpool"
-    },
-    {
-      "IDPlayer": "04",
-      "PlayerName": "Virgil van Dijk",
-      "Dateofbirth": "08/07/1991",
-      "Nationality": "Netherlands",
-      "Competitionposition": "CB",
-      "Number": "04",
-      "img": "assets/image/alissonaction.png",
-      "CurrentTeam": "Liverpool"
-    },
-    {
-      "IDPlayer": "32",
-      "PlayerName": "Joel Matip",
-      "Dateofbirth": "08/08/1991",
-      "Nationality": "Cameroon",
-      "Competitionposition": "CB",
-      "Number": "32",
-      "img": "assets/image/AndreRobertson.png",
-      "CurrentTeam": "Liverpool"
-    },
-    {
-      "IDPlayer": "06",
-      "PlayerName": "Thiago Alcantara",
-      "Dateofbirth": "11/04/1991",
-      "Nationality": "Spain",
-      "Competitionposition": "CM",
-      "Number": "06",
-      "img": "assets/image/DarwinNunez.png",
-      "CurrentTeam": "Liverpool"
-    },
-    {
-      "IDPlayer": "14",
-      "PlayerName": "Jordan Henderson",
-      "Dateofbirth": "17/06/1990",
-      "Nationality": "England",
-      "Competitionposition": "CM",
-      "Number": "14",
-      "img": "assets/image/JoelMatip.png",
-      "CurrentTeam": "Liverpool"
-    },
-    {
-      "IDPlayer": "10",
-      "PlayerName": "Alexis Mac Allister",
-      "Dateofbirth": "24/12/1998",
-      "Nationality": "Argentina",
-      "Competitionposition": "CM",
-      "Number": "10",
-      "img": "assets/image/mohamedsalaz.png",
-      "CurrentTeam": "Liverpool"
-    },
-    {
-      "IDPlayer": "18",
-      "PlayerName": "Cody Gakpo",
-      "Dateofbirth": "07/05/1999",
-      "Nationality": "Netherlands",
-      "Competitionposition": "LW",
-      "Number": "18",
-      "img": "assets/image/ThiagoAlcantara.png",
-      "CurrentTeam": "Liverpool"
-    },
-    {
-      "IDPlayer": "11",
-      "PlayerName": "Mohamed Salah",
-      "Dateofbirth": "15/06/1992",
-      "Nationality": "Egypt",
-      "Competitionposition": "RW",
-      "Number": "11",
-      "img": "assets/image/TrentAlexandeArnold.png",
-      "CurrentTeam": "Liverpool"
-    },
-    {
-      "IDPlayer": "09",
-      "PlayerName": "Darwin Nunez",
-      "Dateofbirth": "24/06/1999",
-      "Nationality": "Uruguay",
-      "Competitionposition": "ST",
-      "Number": "09",
-      "img": "assets/image/VirgilvanDijk.png",
-      "CurrentTeam": "Liverpool"
-    }
-  ],
-  "BangcauthuACMilan": [
-    {
-      "IDPlayer": "83",
-      "PlayerName": "Antonio Mirante",
-      "Dateofbirth": "08/07/1983",
-      "Nationality": "Italy",
-      "Competitionposition": "GK",
-      "Number": "83",
-      "img": "assets/image/calabria.png",
-      "CurrentTeam": "AC Milan"
-    },
-    {
-      "IDPlayer": "19",
-      "PlayerName": "Theo Hernandez",
-      "Dateofbirth": "06/10/1997",
-      "Nationality": "France",
-      "Competitionposition": "LB",
-      "Number": "19",
-      "img": "assets/image/CharlesDeKetelaere.png",
-      "CurrentTeam": "AC Milan"
-    },
-    {
-      "IDPlayer": "25",
-      "PlayerName": "Alessandro Florenzi",
-      "Dateofbirth": "11/03/1991",
-      "Nationality": "Italy",
-      "Competitionposition": "RB",
-      "Number": "25",
-      "img": "assets/image/florenzi.png",
-      "CurrentTeam": "AC Milan"
-    },
-    {
-      "IDPlayer": "02",
-      "PlayerName": "Davide Calabria",
-      "Dateofbirth": "06/12/1996",
-      "Nationality": "Italy",
-      "Competitionposition": "CB",
-      "Number": "02",
-      "img": "assets/image/Gabbia.png",
-      "CurrentTeam": "AC Milan"
-    },
-    {
-      "IDPlayer": "46",
-      "PlayerName": "Matteo Gabbia",
-      "Dateofbirth": "21/10/1999",
-      "Nationality": "Italy",
-      "Competitionposition": "CB",
-      "Number": "46",
-      "img": "assets/image/LoftusCheekWebcopy.png",
-      "CurrentTeam": "AC Milan"
-    },
-    {
-      "IDPlayer": "08",
-      "PlayerName": "Ruben Loftus-Cheek",
-      "Dateofbirth": "23/01/1996",
-      "Nationality": "England",
-      "Competitionposition": "CM",
-      "Number": "08",
-      "img": "assets/image/tommasopobega.png",
-      "CurrentTeam": "AC Milan"
-    },
-    {
-      "IDPlayer": "90",
-      "PlayerName": "Charles De Ketelaere",
-      "Dateofbirth": "10/03/2002",
-      "Nationality": "Belgium",
-      "Competitionposition": "CM",
-      "Number": "90",
-      "img": "assets/image/MiranteLarge.png",
-      "CurrentTeam": "AC Milan"
-    },
-    {
-      "IDPlayer": "32",
-      "PlayerName": "Tommaso Pobega",
-      "Dateofbirth": "15/07/1999",
-      "Nationality": "Italy",
-      "Competitionposition": "CM",
-      "Number": "32",
-      "img": "assets/image/oliviergiroudacmilan.png",
-      "CurrentTeam": "AC Milan"
-    },
-    {
-      "IDPlayer": "10",
-      "PlayerName": "Rafael Leao",
-      "Dateofbirth": "10/06/1999",
-      "Nationality": "Portugal",
-      "Competitionposition": "LW",
-      "Number": "10",
-      "img": "assets/image/pulisic.png",
-      "CurrentTeam": "AC Milan"
-    },
-    {
-      "IDPlayer": "11",
-      "PlayerName": "Christian Pulisic",
-      "Dateofbirth": "18/08/199",
-      "Nationality": "America",
-      "Competitionposition": "RW",
-      "Number": "11",
-      "img": "assets/image/rafealleao.png",
-      "CurrentTeam": "AC Milan"
-    },
-    {
-      "IDPlayer": "09",
-      "PlayerName": "Olivier Giroud",
-      "Dateofbirth": "30/09/1986",
-      "Nationality": "France",
-      "Competitionposition": "ST",
-      "Number": "09",
-      "img": "assets/image/theohernadez.png",
-      "CurrentTeam": "AC Milan"
-    }
-  ],
-  "BangcauthuTottenhamHotspur": [
-    {
-      "IDPlayer": "01",
-      "PlayerName": "Hugo Lloris",
-      "Dateofbirth": "26/12/1986",
-      "Nationality": "France",
-      "Competitionposition": "GK",
-      "Number": "01",
-      "img": "assets/image/BenDavies.png",
-      "CurrentTeam": "Tottenham Hotspur"
-    },
-    {
-      "IDPlayer": "15",
-      "PlayerName": "Eric Dier",
-      "Dateofbirth": "15/01/1994",
-      "Nationality": "England",
-      "Competitionposition": "LB",
-      "Number": "15",
-      "img": "assets/image/CristianRomero.png",
-      "CurrentTeam": "Tottenham Hotspur"
-    },
-    {
-      "IDPlayer": "33",
-      "PlayerName": "Ben Davies",
-      "Dateofbirth": "24/04/1993",
-      "Nationality": "Wales",
-      "Competitionposition": "RB",
-      "Number": "33",
-      "img": "assets/image/DavinsonSanchez.png",
-      "CurrentTeam": "Tottenham Hotspur"
+      "Bangcauthu": [
+        {
+          "IDPlayer": "01",
+          "PlayerName": "Thibaut Courtois",
+          "Dateofbirth": "11/05/1992",
+          "Nationality": "Belgium",
+          "Competitionposition": "GK",
+          "Number": "1",
+          "img": "assets/image/000.png",
+          "CurrentTeam": "Real Madrid"
+        },
+        {
+          "IDPlayer": "06",
+          "PlayerName": "Nacho Fernandez",
+          "Dateofbirth": "18/01/1990",
+          "Nationality": "Spain",
+          "Competitionposition": "LB",
+          "Number": "06",
+          "img": "assets/image/09.png",
+          "CurrentTeam": "Real Madrid"
+        },
+        {
+          "IDPlayer": "02",
+          "PlayerName": "Daniel Carvajal",
+          "Dateofbirth": "11/01/1992",
+          "Nationality": "Spain",
+          "Competitionposition": "RB",
+          "Number": "02",
+          "img": "assets/image/090.png",
+          "CurrentTeam": "Real Madrid"
+        },
+        {
+          "IDPlayer": "03",
+          "PlayerName": "Eder Militao",
+          "Dateofbirth": "18/01/1998",
+          "Nationality": "Brazil",
+          "Competitionposition": "CB",
+          "Number": "03",
+          "img": "assets/image/0909.png",
+          "CurrentTeam": "Real Madrid"
+        },
+        {
+          "IDPlayer": "16",
+          "PlayerName": "Alvaro Odriozola",
+          "Dateofbirth": "11/05/1992",
+          "Nationality": "Spain",
+          "Competitionposition": "CB",
+          "Number": "16",
+          "img": "assets/image/0808.png",
+          "CurrentTeam": "Real Madrid"
+        },
+        {
+          "IDPlayer": "19",
+          "PlayerName": "Dani Ceballos",
+          "Dateofbirth": "07/08/1996",
+          "Nationality": "Spain",
+          "Competitionposition": "CM",
+          "Number": "19",
+          "img": "assets/image/DaniCeballos.png",
+          "CurrentTeam": "Real Madrid"
+        },
+        {
+          "IDPlayer": "08",
+          "PlayerName": "Toni Kroos",
+          "Dateofbirth": "11/01/1992",
+          "Nationality": "Germany",
+          "Competitionposition": "CDM",
+          "Number": "08",
+          "img": "assets/image/EdenHazard.png",
+          "CurrentTeam": "Real Madrid"
+        },
+        {
+          "IDPlayer": "15",
+          "PlayerName": "Federico Valverde",
+          "Dateofbirth": "22/07/1998",
+          "Nationality": "Uruguay",
+          "Competitionposition": "CM",
+          "Number": "23",
+          "img": "assets/image/FedericoValverde.png",
+          "CurrentTeam": "Real Madrid"
+        },
+        {
+          "IDPlayer": "09",
+          "PlayerName": "Karim Benzema",
+          "Dateofbirth": "19/12/1987",
+          "Nationality": "France",
+          "Competitionposition": "ST",
+          "Number": "09",
+          "img": "assets/image/Rodrygo.png",
+          "CurrentTeam": "Real Madrid"
+        },
+        {
+          "IDPlayer": "07",
+          "PlayerName": "Eden Hazard",
+          "Dateofbirth": "07/01/1991",
+          "Nationality": "Belgium",
+          "Competitionposition": "LW",
+          "Number": "07",
+          "img": "assets/image/ThibautCourtois.png",
+          "CurrentTeam": "Real Madrid"
+        },
+        {
+          "IDPlayer": "11",
+          "PlayerName": "Rodrygo",
+          "Dateofbirth": "09/01/2001",
+          "Nationality": "Brazil",
+          "Competitionposition": "RW",
+          "Number": "11",
+          "img": "assets/image/2.png",
+          "CurrentTeam": "Real Madrid"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "logo": "assets/image/fcb.jpg",
+      "sobanthang":"4",
+      "socauthu":"12",
+      "sotranthamgia":"3",
+      "name": "FC Barcelona",
+      "Bangcauthu": [
+        {
+          "IDPlayer": "01",
+          "PlayerName": "M.Ter Stegen",
+          "Dateofbirth": "30/04/1992",
+          "Nationality": "GK",
+          "Competitionposition": "GK",
+          "Number": "01",
+          "img": "assets/image/AndreasChristensen.png",
+          "CurrentTeam": "FC Barcelona"
+        },
+        {
+          "IDPlayer": "18",
+          "PlayerName": "Jordi Alba",
+          "Dateofbirth": "21/03/1989",
+          "Nationality": "Spain",
+          "Competitionposition": "LB",
+          "Number": "18",
+          "img": "assets/image/FrenkiedeJong.png",
+          "CurrentTeam": "FC Barcelona"
+        },
+        {
+          "IDPlayer": "02",
+          "PlayerName": "S.Dest",
+          "Dateofbirth": "03/11/2000",
+          "Nationality": "Ha Lan",
+          "Competitionposition": "RB",
+          "Number": "02",
+          "img": "assets/image/JordiAlba.png",
+          "CurrentTeam": "FC Barcelona"
+        },
+        {
+          "IDPlayer": "15",
+          "PlayerName": "Andreas Christensen",
+          "Dateofbirth": "10/04/1996",
+          "Nationality": "Denmark",
+          "Competitionposition": "CB",
+          "Number": "15",
+          "img": "assets/image/MTerStegen.png",
+          "CurrentTeam": "FC Barcelona"
+        },
+        {
+          "IDPlayer": "04",
+          "PlayerName": "Ronald Araujo",
+          "Dateofbirth": "07/03/1999",
+          "Nationality": "Uruguay",
+          "Competitionposition": "CB",
+          "Number": "04",
+          "img": "assets/image/Ousmane Dembele.png",
+          "CurrentTeam": "FC Barcelona"
+        },
+        {
+          "IDPlayer": "05",
+          "PlayerName": "Sergio Busquets",
+          "Dateofbirth": "16/07/1988",
+          "Nationality": "Spain",
+          "Competitionposition": "CDM",
+          "Number": "05",
+          "img": "assets/image/Pedri.png",
+          "CurrentTeam": "FC Barcelona"
+        },
+        {
+          "IDPlayer": "08",
+          "PlayerName": "Pedri",
+          "Dateofbirth": "25/11/2002",
+          "Nationality": "Spain",
+          "Competitionposition": "CM",
+          "Number": "08",
+          "img": "assets/image/Raphinha.png",
+          "CurrentTeam": "FC Barcelona"
+        },
+        {
+          "IDPlayer": "21",
+          "PlayerName": "Frenkie de Jong",
+          "Dateofbirth": "12/05/1997",
+          "Nationality": "Netherlands",
+          "Competitionposition": "CM",
+          "Number": "21",
+          "img": "assets/image/RonaldAraujo.png",
+          "CurrentTeam": "FC Barcelona"
+        },
+        {
+          "IDPlayer": "07",
+          "PlayerName": "Ousmane Dembele",
+          "Dateofbirth": "15/05/1997",
+          "Nationality": "France",
+          "Competitionposition": "RW",
+          "Number": "07",
+          "img": "assets/image/SDest.png",
+          "CurrentTeam": "FC Barcelona"
+        },
+        {
+          "IDPlayer": "22",
+          "PlayerName": "Raphinha",
+          "Dateofbirth": "14/12/1996",
+          "Nationality": "Brazil",
+          "Competitionposition": "RW",
+          "Number": "22",
+          "img": "assets/image/SergioBusquets.png",
+          "CurrentTeam": "FC Barcelona"
+        },
+        {
+          "IDPlayer": "09",
+          "PlayerName": "Robert Lewandowski",
+          "Dateofbirth": "21/08/1988",
+          "Nationality": "ba Lan",
+          "Competitionposition": "ST",
+          "Number": "09",
+          "img": "assets/image/JordiAlba.png",
+          "CurrentTeam": "FC Barcelona"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "logo": "assets/image/bayern.jpg",
+      "sobanthang":"23",
+      "socauthu":"12",
+      "sotranthamgia":"34",
+      "name": "Bayern Munich",
+      "Bangcauthu": [
+        {
+          "IDPlayer": "01",
+          "PlayerName": "Manuel Neuer",
+          "Dateofbirth": "27/03/1986",
+          "Nationality": "Germany",
+          "Competitionposition": "GK",
+          "Number": "01",
+          "img": "assets/image/ADavies.png",
+          "CurrentTeam": "FC Bayern Munich"
+        },
+        {
+          "IDPlayer": "05",
+          "PlayerName": "Benjamin Pavard",
+          "Dateofbirth": "28/03/1996",
+          "Nationality": "France",
+          "Competitionposition": "RB",
+          "Number": "05",
+          "img": "assets/image/BenjaminPavard.png",
+          "CurrentTeam": "FC Bayern Munich"
+        },
+        {
+          "IDPlayer": "19",
+          "PlayerName": "A.Davies",
+          "Dateofbirth": "2/11/2000",
+          "Nationality": "Canada",
+          "Competitionposition": "LB",
+          "Number": "19",
+          "img": "assets/image/ChoupoMoting.png",
+          "CurrentTeam": "FC Bayern Munich"
+        },
+        {
+          "IDPlayer": "04",
+          "PlayerName": "M.De Ligt",
+          "Dateofbirth": "12/08/1999",
+          "Nationality": "HA LAN",
+          "Competitionposition": "CB",
+          "Number": "04",
+          "img": "assets/image/Dayot Upamecano.png",
+          "CurrentTeam": "FC Bayern Munich"
+        },
+        {
+          "IDPlayer": "02",
+          "PlayerName": "Dayot Upamecano",
+          "Dateofbirth": "27/10/1998",
+          "Nationality": "France",
+          "Competitionposition": "CB",
+          "Number": "02",
+          "img": "assets/image/JoshuaKimmich.png",
+          "CurrentTeam": "FC Bayern Munich"
+        },
+        {
+          "IDPlayer": "06",
+          "PlayerName": "Joshua Kimmich",
+          "Dateofbirth": "08/02/1995",
+          "Nationality": "Germany",
+          "Competitionposition": "CM",
+          "Number": "06",
+          "img": "assets/image/KingsleyComan.png",
+          "CurrentTeam": "FC Bayern Munich"
+        },
+        {
+          "IDPlayer": "08",
+          "PlayerName": "Leon Goretzka",
+          "Dateofbirth": "06/02/1995",
+          "Nationality": "Germany",
+          "Competitionposition": "CM",
+          "Number": "08",
+          "img": "assets/image/LeonGoretzka.png",
+          "CurrentTeam": "FC Bayern Munich"
+        },
+        {
+          "IDPlayer": "25",
+          "PlayerName": "Thomas Müller",
+          "Dateofbirth": "13/09/1989",
+          "Nationality": "Germany",
+          "Competitionposition": "CAM",
+          "Number": "25",
+          "img": "assets/image/LeroySane.png",
+          "CurrentTeam": "FC Bayern Munich"
+        },
+        {
+          "IDPlayer": "10",
+          "PlayerName": "Leroy Sané",
+          "Dateofbirth": "11/1/1996",
+          "Nationality": "Germany",
+          "Competitionposition": "RM",
+          "Number": "10",
+          "img": "assets/image/MDeLigt.png",
+          "CurrentTeam": "FC Bayern Munich"
+        },
+        {
+          "IDPlayer": "11",
+          "PlayerName": "Kingsley Coman",
+          "Dateofbirth": "13/06/1996",
+          "Nationality": "France",
+          "Competitionposition": "LM",
+          "Number": "11",
+          "img": "assets/image/ThomasMuller.png",
+          "CurrentTeam": "FC Bayern Munich"
+        },
+        {
+          "IDPlayer": "13",
+          "PlayerName": "Choupo-Moting",
+          "Dateofbirth": "23/3/1989",
+          "Nationality": "Germany",
+          "Competitionposition": "ST",
+          "Number": "13",
+          "img": "assets/image/ChoupoMoting.png",
+          "CurrentTeam": "FC Bayern Munich"
+        }
+      ]
     },
 
     {
-      "IDPlayer": "17",
-      "PlayerName": "Cristian Romero",
-      "Dateofbirth": "27/04/1998",
-      "Nationality": "Argentina",
-      "Competitionposition": "CB",
-      "Number": "17",
-      "img": "assets/image/EricDier.png",
-      "CurrentTeam": "Tottenham Hotspur"
+      "id": "04",
+      "logo": "assets/image/chelsea.jpg",
+      "sobanthang":"35",
+      "socauthu":"12",
+      "sotranthamgia":"54",
+      "name": "Chelsea",
+      "Bangcauthu": [
+        {
+          "IDPlayer": "01",
+          "PlayerName": "Kepa Arrizabalaga",
+          "Dateofbirth": "03/10/1994",
+          "Nationality": "Spain",
+          "Competitionposition": "GK",
+          "Number": "01",
+          "img": "assets/image/1.png",
+          "CurrentTeam": "Chelsea"
+        },
+        {
+          "IDPlayer": "27",
+          "PlayerName": "Malo Gusto",
+          "Dateofbirth": "19/05/1003",
+          "Nationality": "France",
+          "Competitionposition": "RB",
+          "Number": "27",
+          "img": "assets/image/2.png",
+          "CurrentTeam": "Chelsea"
+        },
+        {
+          "IDPlayer": "21",
+          "PlayerName": "Ben Chilwell",
+          "Dateofbirth": "21/12/1996",
+          "Nationality": "England",
+          "Competitionposition": "LB",
+          "Number": "21",
+          "img": "assets/image/AndreSantos.png",
+          "CurrentTeam": "Chelsea"
+        },
+        {
+          "IDPlayer": "06",
+          "PlayerName": "Thiago Silva",
+          "Dateofbirth": "22/09/1984",
+          "Nationality": "Brazil",
+          "Competitionposition": "CB",
+          "Number": "06",
+          "img": "assets/image/CarneyChukwuemeka.png",
+          "CurrentTeam": "Chelsea"
+        },
+        {
+          "IDPlayer": "26",
+          "PlayerName": "Levi Colwill",
+          "Dateofbirth": "26/02/2003",
+          "Nationality": "England",
+          "Competitionposition": "CB",
+          "Number": "26",
+          "img": "assets/image/ChristopherNkunku.png",
+          "CurrentTeam": "Chelsea"
+        },
+        {
+          "IDPlayer": "39",
+          "PlayerName": "André Santos",
+          "Dateofbirth": "08/03/1983",
+          "Nationality": "Brazil",
+          "Competitionposition": "CM",
+          "Number": "39",
+          "img": "assets/image/ConorGallagher.png",
+          "CurrentTeam": "Chelsea"
+        },
+        {
+          "IDPlayer": "23",
+          "PlayerName": "Conor Gallagher",
+          "Dateofbirth": "06/02//2000",
+          "Nationality": "England",
+          "Competitionposition": "CM",
+          "Number": "23",
+          "img": "assets/image/IanMaatsen.png",
+          "CurrentTeam": "Chelsea"
+        },
+        {
+          "IDPlayer": "17",
+          "PlayerName": "Carney Chukwuemeka",
+          "Dateofbirth": "20/10/2003",
+          "Nationality": "Austria",
+          "Competitionposition": "CAM",
+          "Number": "17",
+          "img": "assets/image/KepaArrizabalaga.png",
+          "CurrentTeam": "Chelsea"
+        },
+        {
+          "IDPlayer": "07",
+          "PlayerName": "Robert Sterling",
+          "Dateofbirth": "08/12/1994",
+          "Nationality": "Jamaica",
+          "Competitionposition": "RW",
+          "Number": "07",
+          "img": "assets/image/LeviColwill.png",
+          "CurrentTeam": "Chelsea"
+        },
+        {
+          "IDPlayer": "38",
+          "PlayerName": "Ian Maatsen",
+          "Dateofbirth": "10/03/2002",
+          "Nationality": "Netherlands",
+          "Competitionposition": "LM",
+          "Number": "38",
+          "img": "assets/image/MaloGusto.png",
+          "CurrentTeam": "Chelsea"
+        },
+        {
+          "IDPlayer": "45",
+          "PlayerName": "Christopher Nkunku",
+          "Dateofbirth": "14/11/1997",
+          "Nationality": "France",
+          "Competitionposition": "ST",
+          "Number": "45",
+          "img": "assets/image/ThiagoSilva.png",
+          "CurrentTeam": "Chelsea"
+        }
+      ]
     },
     {
-      "IDPlayer": "06",
-      "PlayerName": "Davinson Sanchez",
-      "Dateofbirth": "12/06/1996",
-      "Nationality": "Colombia",
-      "Competitionposition": "CB",
-      "Number": "06",
-      "img": "assets/image/HarryKane.png",
-      "CurrentTeam": "Tottenham Hotspur"
+      "id": "05",
+      "logo": "assets/image/manches.jpg",
+      "sobanthang":"11",
+      "socauthu":"12",
+      "sotranthamgia":"34",
+      "name": "Manchester United",
+      "Bangcauthu": [
+        {
+          "IDPlayer": "07",
+          "PlayerName": "Mason Mount",
+          "Dateofbirth": "10/01/1999",
+          "Nationality": "England",
+          "Competitionposition": "CAM",
+          "Number": "07",
+          "img": "assets/image/789.png",
+          "CurrentTeam": "Manchester United"
+        },
+        {
+          "IDPlayer": "08",
+          "PlayerName": "Bruno Fernandes",
+          "Dateofbirth": "08/09/1994",
+          "Nationality": "Portugal",
+          "Competitionposition": "CAM",
+          "Number": "08",
+          "img": "assets/image/9879.png",
+          "CurrentTeam": "Manchester United"
+        },
+        {
+          "IDPlayer": "18",
+          "PlayerName": "Casemiro",
+          "Dateofbirth": "23/02/1992",
+          "Nationality": "Brazil",
+          "Competitionposition": "CDM",
+          "Number": "18",
+          "img": "assets/image/0.png",
+          "CurrentTeam": "Manchester United"
+        },
+        {
+          "IDPlayer": "10",
+          "PlayerName": "Marcus Rashford",
+          "Dateofbirth": "31/10/1997",
+          "Nationality": "England",
+          "Competitionposition": "LW",
+          "Number": "10",
+          "img": "assets/image/00.png",
+          "CurrentTeam": "Manchester United"
+        },
+        {
+          "IDPlayer": "23",
+          "PlayerName": "Luke Shaw",
+          "Dateofbirth": "12/07/1995",
+          "Nationality": "England",
+          "Competitionposition": "LB",
+          "Number": "23",
+          "img": "assets/image/32.png",
+          "CurrentTeam": "Manchester United"
+        },
+        {
+          "IDPlayer": "21",
+          "PlayerName": "Antony",
+          "Dateofbirth": "24/02/2000",
+          "Nationality": "Brazil",
+          "Competitionposition": "RW",
+          "Number": "21",
+          "img": "assets/image/AnthonyMartial.png",
+          "CurrentTeam": "Manchester United"
+        },
+        {
+          "IDPlayer": "29",
+          "PlayerName": "Wan-Bissaka",
+          "Dateofbirth": "26/11/1997",
+          "Nationality": "England",
+          "Competitionposition": "RB",
+          "Number": "29",
+          "img": "assets/image/BrunoFernandes.png",
+          "CurrentTeam": "Manchester United"
+        },
+        {
+          "IDPlayer": "19",
+          "PlayerName": "Raphael Varane",
+          "Dateofbirth": "25/04/1993",
+          "Nationality": "France",
+          "Competitionposition": "CB",
+          "Number": "19",
+          "img": "assets/image/LissandroMartinez.png",
+          "CurrentTeam": "Manchester United"
+        },
+        {
+          "IDPlayer": "06",
+          "PlayerName": "Lissandro Martinez",
+          "Dateofbirth": "19/01/1998",
+          "Nationality": "Argentina",
+          "Competitionposition": "CB",
+          "Number": "06",
+          "img": "assets/image/LukeShaw.png",
+          "CurrentTeam": "Manchester United"
+        },
+        {
+          "IDPlayer": "09",
+          "PlayerName": "Anthony Martial",
+          "Dateofbirth": "05/12/1995",
+          "Nationality": "France",
+          "Competitionposition": "ST",
+          "Number": "09",
+          "img": "assets/image/RaphaelVarane.png",
+          "CurrentTeam": "Manchester United"
+        },
+        {
+          "IDPlayer": "24",
+          "PlayerName": "Andre Onana",
+          "Dateofbirth": "02/04/1996",
+          "Nationality": "Cameroon",
+          "Competitionposition": "GK",
+          "Number": "24",
+          "img": "assets/image/WanBissaka.png",
+          "CurrentTeam": "Manchester United"
+        }
+      ]
     },
     {
-      "IDPlayer": "14",
-      "PlayerName": "Ivan Perisic",
-      "Dateofbirth": "02/02/1989",
-      "Nationality": "Croatia",
-      "Competitionposition": "LM",
-      "Number": "14",
-      "img": "assets/image/HugoLloris.png",
-      "CurrentTeam": "Tottenham Hotspur"
+      "id": "06",
+      "logo": "assets/image/man.jpg",
+      "sobanthang":"44",
+      "socauthu":"12",
+      "sotranthamgia":"54",
+      "name": "Manchester City",
+      "Bangcauthu": [
+        {
+          "IDPlayer": "19",
+          "PlayerName": "Julian Alvarez",
+          "Dateofbirth": "31/01/2000",
+          "Nationality": "Argentina",
+          "Competitionposition": "ST",
+          "Number": "19",
+          "img": "assets/image/BernardoSilva.png",
+          "CurrentTeam": "Manchester City"
+        },
+        {
+          "IDPlayer": "9",
+          "PlayerName": "Erling Haaland",
+          "Dateofbirth": "21/07/2000",
+          "Nationality": "Norway",
+          "Competitionposition": "ST",
+          "Number": "9",
+          "img": "assets/image/Ederson.png",
+          "CurrentTeam": "Manchester City"
+        },
+        {
+          "IDPlayer": "08",
+          "PlayerName": "Mateo Kovacic",
+          "Dateofbirth": "06/05/1994",
+          "Nationality": "Croatia",
+          "Competitionposition": "CM",
+          "Number": "08",
+          "img": "assets/image/ErlingHaaland.png",
+          "CurrentTeam": "Manchester City"
+        },
+        {
+          "IDPlayer": "17",
+          "PlayerName": "Kevin De Bruyne",
+          "Dateofbirth": "28/06/1991",
+          "Nationality": "Belgium",
+          "Competitionposition": "CAM",
+          "Number": "17",
+          "img": "assets/image/JoaoCancelo.png",
+          "CurrentTeam": "Manchester City"
+        },
+        {
+          "IDPlayer": "16",
+          "PlayerName": "Rodri",
+          "Dateofbirth": "22/06/1996",
+          "Nationality": "Spain",
+          "Competitionposition": "CDM",
+          "Number": "16",
+          "img": "assets/image/JohnStones.png",
+          "CurrentTeam": "Manchester City"
+        },
+        {
+          "IDPlayer": "20",
+          "PlayerName": "Bernardo Silva",
+          "Dateofbirth": "10/08/1994",
+          "Nationality": "Portugal",
+          "Competitionposition": "ST",
+          "Number": "20",
+          "img": "assets/image/JulianAlvarez.png",
+          "CurrentTeam": "Manchester City"
+        },
+        {
+          "IDPlayer": "07",
+          "PlayerName": "Joao Cancelo",
+          "Dateofbirth": "27/05/1994",
+          "Nationality": "Portugal",
+          "Competitionposition": "LB",
+          "Number": "07",
+          "img": "assets/image/KevinDeBruyne.png",
+          "CurrentTeam": "Manchester City"
+        },
+        {
+          "IDPlayer": "02",
+          "PlayerName": "Kyle Walker",
+          "Dateofbirth": "28/05/1990",
+          "Nationality": "England",
+          "Competitionposition": "RB",
+          "Number": "02",
+          "img": "assets/image/RubenDias.png",
+          "CurrentTeam": "Manchester City"
+        },
+        {
+          "IDPlayer": "05",
+          "PlayerName": "John Stones",
+          "Dateofbirth": "28/05/1994",
+          "Nationality": "England",
+          "Competitionposition": "CB",
+          "Number": "05",
+          "img": "assets/image/KyleWalker.png",
+          "CurrentTeam": "Manchester City"
+        },
+        {
+          "IDPlayer": "03",
+          "PlayerName": "Ruben Dias",
+          "Dateofbirth": "14/05/1997",
+          "Nationality": "Portugal",
+          "Competitionposition": "CB",
+          "Number": "03",
+          "img": "assets/image/MateoKovacic.png",
+          "CurrentTeam": "Manchester City"
+        },
+        {
+          "IDPlayer": "31",
+          "PlayerName": "Ederson",
+          "Dateofbirth": "17/07/1993",
+          "Nationality": "Brazil",
+          "Competitionposition": "GK",
+          "Number": "31",
+          "img": "assets/image/Rodri.png",
+          "CurrentTeam": "Manchester City"
+        }
+      ]
     },
     {
-      "IDPlayer": "04",
-      "PlayerName": "Oliver Skipp",
-      "Dateofbirth": "16/09/2000",
-      "Nationality": "England",
-      "Competitionposition": "CM",
-      "Number": "04",
-      "img": "assets/image/Ivanerisic.png",
-      "CurrentTeam": "Tottenham Hotspur"
+      "id": "07",
+      "logo": "assets/image/live.jpg",
+      "sobanthang":"12",
+      "socauthu":"12",
+      "sotranthamgia":"65",
+      "name": "Liverpool",
+      "Bangcauthu": [
+        {
+          "IDPlayer": "01",
+          "PlayerName": "Alisson Becker",
+          "Dateofbirth": "02/10/1992",
+          "Nationality": "Brazil",
+          "Competitionposition": "GK",
+          "Number": "01",
+          "img": "assets/image/456.png",
+          "CurrentTeam": "Liverpool"
+        },
+        {
+          "IDPlayer": "26",
+          "PlayerName": "Andrew Robertson",
+          "Dateofbirth": "11/03/1994",
+          "Nationality": "Scotland",
+          "Competitionposition": "LB",
+          "Number": "26",
+          "img": "assets/image/765.png",
+          "CurrentTeam": "Liverpool"
+        },
+        {
+          "IDPlayer": "66",
+          "PlayerName": "Trent Alexander-Arnold",
+          "Dateofbirth": "07/10/1998",
+          "Nationality": "England",
+          "Competitionposition": "RB",
+          "Number": "66",
+          "img": "assets/image/alexismaallister1.png",
+          "CurrentTeam": "Liverpool"
+        },
+        {
+          "IDPlayer": "04",
+          "PlayerName": "Virgil van Dijk",
+          "Dateofbirth": "08/07/1991",
+          "Nationality": "Netherlands",
+          "Competitionposition": "CB",
+          "Number": "04",
+          "img": "assets/image/alissonaction.png",
+          "CurrentTeam": "Liverpool"
+        },
+        {
+          "IDPlayer": "32",
+          "PlayerName": "Joel Matip",
+          "Dateofbirth": "08/08/1991",
+          "Nationality": "Cameroon",
+          "Competitionposition": "CB",
+          "Number": "32",
+          "img": "assets/image/AndreRobertson.png",
+          "CurrentTeam": "Liverpool"
+        },
+        {
+          "IDPlayer": "06",
+          "PlayerName": "Thiago Alcantara",
+          "Dateofbirth": "11/04/1991",
+          "Nationality": "Spain",
+          "Competitionposition": "CM",
+          "Number": "06",
+          "img": "assets/image/DarwinNunez.png",
+          "CurrentTeam": "Liverpool"
+        },
+        {
+          "IDPlayer": "14",
+          "PlayerName": "Jordan Henderson",
+          "Dateofbirth": "17/06/1990",
+          "Nationality": "England",
+          "Competitionposition": "CM",
+          "Number": "14",
+          "img": "assets/image/JoelMatip.png",
+          "CurrentTeam": "Liverpool"
+        },
+        {
+          "IDPlayer": "10",
+          "PlayerName": "Alexis Mac Allister",
+          "Dateofbirth": "24/12/1998",
+          "Nationality": "Argentina",
+          "Competitionposition": "CM",
+          "Number": "10",
+          "img": "assets/image/mohamedsalaz.png",
+          "CurrentTeam": "Liverpool"
+        },
+        {
+          "IDPlayer": "18",
+          "PlayerName": "Cody Gakpo",
+          "Dateofbirth": "07/05/1999",
+          "Nationality": "Netherlands",
+          "Competitionposition": "LW",
+          "Number": "18",
+          "img": "assets/image/ThiagoAlcantara.png",
+          "CurrentTeam": "Liverpool"
+        },
+        {
+          "IDPlayer": "11",
+          "PlayerName": "Mohamed Salah",
+          "Dateofbirth": "15/06/1992",
+          "Nationality": "Egypt",
+          "Competitionposition": "RW",
+          "Number": "11",
+          "img": "assets/image/TrentAlexandeArnold.png",
+          "CurrentTeam": "Liverpool"
+        },
+        {
+          "IDPlayer": "09",
+          "PlayerName": "Darwin Nunez",
+          "Dateofbirth": "24/06/1999",
+          "Nationality": "Uruguay",
+          "Competitionposition": "ST",
+          "Number": "09",
+          "img": "assets/image/VirgilvanDijk.png",
+          "CurrentTeam": "Liverpool"
+        }
+      ]
     },
     {
-      "IDPlayer": "19",
-      "PlayerName": "Ryan Sessegnon",
-      "Dateofbirth": "18/05/2000",
-      "Nationality": "England",
-      "Competitionposition": "CM",
-      "Number": "19",
-      "img": "assets/image/OliverSkipp.png",
-      "CurrentTeam": "Tottenham Hotspur"
+      "id": "08",
+      "logo": "assets/image/aston.jpg",
+      "sobanthang":"5",
+      "socauthu":"34",
+      "sotranthamgia":"12",
+      "name": "AC Milan",
+      "Bangcauthu": [
+        {
+          "IDPlayer": "83",
+          "PlayerName": "Antonio Mirante",
+          "Dateofbirth": "08/07/1983",
+          "Nationality": "Italy",
+          "Competitionposition": "GK",
+          "Number": "83",
+          "img": "assets/image/calabria.png",
+          "CurrentTeam": "AC Milan"
+        },
+        {
+          "IDPlayer": "19",
+          "PlayerName": "Theo Hernandez",
+          "Dateofbirth": "06/10/1997",
+          "Nationality": "France",
+          "Competitionposition": "LB",
+          "Number": "19",
+          "img": "assets/image/CharlesDeKetelaere.png",
+          "CurrentTeam": "AC Milan"
+        },
+        {
+          "IDPlayer": "25",
+          "PlayerName": "Alessandro Florenzi",
+          "Dateofbirth": "11/03/1991",
+          "Nationality": "Italy",
+          "Competitionposition": "RB",
+          "Number": "25",
+          "img": "assets/image/florenzi.png",
+          "CurrentTeam": "AC Milan"
+        },
+        {
+          "IDPlayer": "02",
+          "PlayerName": "Davide Calabria",
+          "Dateofbirth": "06/12/1996",
+          "Nationality": "Italy",
+          "Competitionposition": "CB",
+          "Number": "02",
+          "img": "assets/image/Gabbia.png",
+          "CurrentTeam": "AC Milan"
+        },
+        {
+          "IDPlayer": "46",
+          "PlayerName": "Matteo Gabbia",
+          "Dateofbirth": "21/10/1999",
+          "Nationality": "Italy",
+          "Competitionposition": "CB",
+          "Number": "46",
+          "img": "assets/image/LoftusCheekWebcopy.png",
+          "CurrentTeam": "AC Milan"
+        },
+        {
+          "IDPlayer": "08",
+          "PlayerName": "Ruben Loftus-Cheek",
+          "Dateofbirth": "23/01/1996",
+          "Nationality": "England",
+          "Competitionposition": "CM",
+          "Number": "08",
+          "img": "assets/image/tommasopobega.png",
+          "CurrentTeam": "AC Milan"
+        },
+        {
+          "IDPlayer": "90",
+          "PlayerName": "Charles De Ketelaere",
+          "Dateofbirth": "10/03/2002",
+          "Nationality": "Belgium",
+          "Competitionposition": "CM",
+          "Number": "90",
+          "img": "assets/image/MiranteLarge.png",
+          "CurrentTeam": "AC Milan"
+        },
+        {
+          "IDPlayer": "32",
+          "PlayerName": "Tommaso Pobega",
+          "Dateofbirth": "15/07/1999",
+          "Nationality": "Italy",
+          "Competitionposition": "CM",
+          "Number": "32",
+          "img": "assets/image/oliviergiroudacmilan.png",
+          "CurrentTeam": "AC Milan"
+        },
+        {
+          "IDPlayer": "10",
+          "PlayerName": "Rafael Leao",
+          "Dateofbirth": "10/06/1999",
+          "Nationality": "Portugal",
+          "Competitionposition": "LW",
+          "Number": "10",
+          "img": "assets/image/pulisic.png",
+          "CurrentTeam": "AC Milan"
+        },
+        {
+          "IDPlayer": "11",
+          "PlayerName": "Christian Pulisic",
+          "Dateofbirth": "18/08/199",
+          "Nationality": "America",
+          "Competitionposition": "RW",
+          "Number": "11",
+          "img": "assets/image/rafealleao.png",
+          "CurrentTeam": "AC Milan"
+        },
+        {
+          "IDPlayer": "09",
+          "PlayerName": "Olivier Giroud",
+          "Dateofbirth": "30/09/1986",
+          "Nationality": "France",
+          "Competitionposition": "ST",
+          "Number": "09",
+          "img": "assets/image/theohernadez.png",
+          "CurrentTeam": "AC Milan"
+        }
+      ]
     },
     {
-      "IDPlayer": "38",
-      "PlayerName": "Yves Bissouma",
-      "Dateofbirth": "30/08/1996",
-      "Nationality": "Côte d’Ivoire",
-      "Competitionposition": "RM",
-      "Number": "38",
-      "img": "assets/image/RyanSessegnon.png",
-      "CurrentTeam": "Tottenham Hotspur"
+      "id": "09",
+      "logo": "assets/image/tot.jpg",
+      "sobanthang":"34",
+      "socauthu":"56",
+      "sotranthamgia":"33",
+      "name": "Tottenham Hotspur",
+      "Bangcauthu": [
+        {
+          "IDPlayer": "01",
+          "PlayerName": "Hugo Lloris",
+          "Dateofbirth": "26/12/1986",
+          "Nationality": "France",
+          "Competitionposition": "GK",
+          "Number": "01",
+          "img": "assets/image/BenDavies.png",
+          "CurrentTeam": "Tottenham Hotspur"
+        },
+        {
+          "IDPlayer": "15",
+          "PlayerName": "Eric Dier",
+          "Dateofbirth": "15/01/1994",
+          "Nationality": "England",
+          "Competitionposition": "LB",
+          "Number": "15",
+          "img": "assets/image/CristianRomero.png",
+          "CurrentTeam": "Tottenham Hotspur"
+        },
+        {
+          "IDPlayer": "33",
+          "PlayerName": "Ben Davies",
+          "Dateofbirth": "24/04/1993",
+          "Nationality": "Wales",
+          "Competitionposition": "RB",
+          "Number": "33",
+          "img": "assets/image/DavinsonSanchez.png",
+          "CurrentTeam": "Tottenham Hotspur"
+        },
+
+        {
+          "IDPlayer": "17",
+          "PlayerName": "Cristian Romero",
+          "Dateofbirth": "27/04/1998",
+          "Nationality": "Argentina",
+          "Competitionposition": "CB",
+          "Number": "17",
+          "img": "assets/image/EricDier.png",
+          "CurrentTeam": "Tottenham Hotspur"
+        },
+        {
+          "IDPlayer": "06",
+          "PlayerName": "Davinson Sanchez",
+          "Dateofbirth": "12/06/1996",
+          "Nationality": "Colombia",
+          "Competitionposition": "CB",
+          "Number": "06",
+          "img": "assets/image/HarryKane.png",
+          "CurrentTeam": "Tottenham Hotspur"
+        },
+        {
+          "IDPlayer": "14",
+          "PlayerName": "Ivan Perisic",
+          "Dateofbirth": "02/02/1989",
+          "Nationality": "Croatia",
+          "Competitionposition": "LM",
+          "Number": "14",
+          "img": "assets/image/HugoLloris.png",
+          "CurrentTeam": "Tottenham Hotspur"
+        },
+        {
+          "IDPlayer": "04",
+          "PlayerName": "Oliver Skipp",
+          "Dateofbirth": "16/09/2000",
+          "Nationality": "England",
+          "Competitionposition": "CM",
+          "Number": "04",
+          "img": "assets/image/Ivanerisic.png",
+          "CurrentTeam": "Tottenham Hotspur"
+        },
+        {
+          "IDPlayer": "19",
+          "PlayerName": "Ryan Sessegnon",
+          "Dateofbirth": "18/05/2000",
+          "Nationality": "England",
+          "Competitionposition": "CM",
+          "Number": "19",
+          "img": "assets/image/OliverSkipp.png",
+          "CurrentTeam": "Tottenham Hotspur"
+        },
+        {
+          "IDPlayer": "38",
+          "PlayerName": "Yves Bissouma",
+          "Dateofbirth": "30/08/1996",
+          "Nationality": "Côte d’Ivoire",
+          "Competitionposition": "RM",
+          "Number": "38",
+          "img": "assets/image/RyanSessegnon.png",
+          "CurrentTeam": "Tottenham Hotspur"
+        },
+        {
+          "IDPlayer": "07",
+          "PlayerName": "Son Heung-min",
+          "Dateofbirth": "08/07/1992",
+          "Nationality": "Korea",
+          "Competitionposition": "LW",
+          "Number": "07",
+          "img": "assets/image/SonHeungmin.png",
+          "CurrentTeam": "Tottenham Hotspur"
+        },
+        {
+          "IDPlayer": "10",
+          "PlayerName": "Harry Kane",
+          "Dateofbirth": "28/07/1993",
+          "Nationality": "England",
+          "Competitionposition": "ST",
+          "Number": "10",
+          "img": "assets/image/YvesBissouma.png",
+          "CurrentTeam": "Tottenham Hotspur"
+        }
+      ]
     },
     {
-      "IDPlayer": "07",
-      "PlayerName": "Son Heung-min",
-      "Dateofbirth": "08/07/1992",
-      "Nationality": "Korea",
-      "Competitionposition": "LW",
-      "Number": "07",
-      "img": "assets/image/SonHeungmin.png",
-      "CurrentTeam": "Tottenham Hotspur"
+      "id": "10",
+      "logo": "assets/image/arse.jpg",
+      "sobanthang":"23",
+      "socauthu":"45",
+      "sotranthamgia":"32",
+      "name": "Arsenal",
+      "Bangcauthu": [
+        {
+          "IDPlayer": "01",
+          "PlayerName": "Aaron Ramsdale",
+          "Dateofbirth": "14/05/1998",
+          "Nationality": "England",
+          "Competitionposition": "GK",
+          "Number": "01",
+          "img": "assets/image/AaronRamsdale.png",
+          "CurrentTeam": "Arsenal"
+        },
+        {
+          "IDPlayer": "12",
+          "PlayerName": "Jurriën Timber",
+          "Dateofbirth": "17/06/2001",
+          "Nationality": "Netherlands",
+          "Competitionposition": "LB",
+          "Number": "12",
+          "img": "assets/image/BenWhite.png",
+          "CurrentTeam": "Arsenal"
+        },
+        {
+          "IDPlayer": "04",
+          "PlayerName": "Ben White",
+          "Dateofbirth": "08/10/1997",
+          "Nationality": "England",
+          "Competitionposition": "RB",
+          "Number": "04",
+          "img": "assets/image/BukayoSaka.png",
+          "CurrentTeam": "Arsenal"
+        },
+        {
+          "IDPlayer": "02",
+          "PlayerName": "William Saliba",
+          "Dateofbirth": "24/03/2001",
+          "Nationality": "France",
+          "Competitionposition": "CB",
+          "Number": "02",
+          "img": "assets/image/GabrielMagalhaes.png",
+          "CurrentTeam": "Arsenal"
+        },
+        {
+          "IDPlayer": "06",
+          "PlayerName": "Gabriel Magalhães",
+          "Dateofbirth": "19/12/1997",
+          "Nationality": "Brazil",
+          "Competitionposition": "CB",
+          "Number": "06",
+          "img": "assets/image/GabrielMartinelli.png",
+          "CurrentTeam": "Arsenal"
+        },
+        {
+          "IDPlayer": "41",
+          "PlayerName": "Declan Rice",
+          "Dateofbirth": "14/01/1999",
+          "Nationality": "England",
+          "Competitionposition": "CM",
+          "Number": "41",
+          "img": "assets/image/JurrienTimber.png",
+          "CurrentTeam": "Arsenal"
+        },
+        {
+          "IDPlayer": "05",
+          "PlayerName": "Thomas Partey",
+          "Dateofbirth": "13/06/1993",
+          "Nationality": "Ghana",
+          "Competitionposition": "CM",
+          "Number": "05",
+          "img": "assets/image/KaiHavertz.png",
+          "CurrentTeam": "Arsenal"
+        },
+        {
+          "IDPlayer": "08",
+          "PlayerName": "Martin Ødegaard",
+          "Dateofbirth": "17/12/1998",
+          "Nationality": "Norway",
+          "Competitionposition": "CDM",
+          "Number": "08",
+          "img": "assets/image/MartinØdegaard.png",
+          "CurrentTeam": "Arsenal"
+        },
+        {
+          "IDPlayer": "07",
+          "PlayerName": "Bukayo Saka",
+          "Dateofbirth": "05/09/2001",
+          "Nationality": "England",
+          "Competitionposition": "RW",
+          "Number": "07",
+          "img": "assets/image/.png",
+          "CurrentTeam": "Arsenal"
+        },
+        {
+          "IDPlayer": "11",
+          "PlayerName": "Gabriel Martinelli",
+          "Dateofbirth": "18/06/2001",
+          "Nationality": "Brazil",
+          "Competitionposition": "LW",
+          "Number": "11",
+          "img": "assets/image/ThomasPartey.png",
+          "CurrentTeam": "Arsenal"
+        },
+        {
+          "IDPlayer": "29",
+          "PlayerName": "Kai Havertz",
+          "Dateofbirth": "11/06/1999",
+          "Nationality": "Germany",
+          "Competitionposition": "ST",
+          "Number": "29",
+          "img": "assets/image/WilliamSaliba.png",
+          "CurrentTeam": "Arsenal"
+        }
+      ]
     },
     {
-      "IDPlayer": "10",
-      "PlayerName": "Harry Kane",
-      "Dateofbirth": "28/07/1993",
-      "Nationality": "England",
-      "Competitionposition": "ST",
-      "Number": "10",
-      "img": "assets/image/YvesBissouma.png",
-      "CurrentTeam": "Tottenham Hotspur"
-    }
-  ],
-  "BangcauthuArsenal": [
-    {
-      "IDPlayer": "01",
-      "PlayerName": "Aaron Ramsdale",
-      "Dateofbirth": "14/05/1998",
-      "Nationality": "England",
-      "Competitionposition": "GK",
-      "Number": "01",
-      "img": "assets/image/AaronRamsdale.png",
-      "CurrentTeam": "Arsenal"
+      "id": "11",
+      "logo": "assets/image/newca.jpg",
+      "sobanthang":"5",
+      "socauthu":"12",
+      "sotranthamgia":"34",
+      "name": "Newcastle United",
+      "Bangcauthu": [
+        {
+          "IDPlayer": "01",
+          "PlayerName": "Martin Dúbravka",
+          "Dateofbirth": "15/01/1989",
+          "Nationality": "Czechoslovakia",
+          "Competitionposition": "GK",
+          "Number": "01",
+          "img": "assets/image/nit.png",
+          "CurrentTeam": "Newcastle United"
+        },
+        {
+          "IDPlayer": "13",
+          "PlayerName": "Matt Targett",
+          "Dateofbirth": "18/09/1995",
+          "Nationality": "England",
+          "Competitionposition": "LB",
+          "Number": "13",
+          "img": "assets/image/trang.png",
+          "CurrentTeam": "Newcastle United"
+        },
+        {
+          "IDPlayer": "02",
+          "PlayerName": "Kieran Trippier",
+          "Dateofbirth": "19/09/1990",
+          "Nationality": "England",
+          "Competitionposition": "RB",
+          "Number": "02",
+          "img": "assets/image/khanh.png",
+          "CurrentTeam": "Newcastle United"
+        },
+        {
+          "IDPlayer": "05",
+          "PlayerName": "Fabian Schär",
+          "Dateofbirth": "20/12/1991",
+          "Nationality": "Switzerland",
+          "Competitionposition": "CB",
+          "Number": "05",
+          "img": "assets/image/tien.png",
+          "CurrentTeam": "Newcastle United"
+        },
+        {
+          "IDPlayer": "-4",
+          "PlayerName": "Sven Botman",
+          "Dateofbirth": "12/01/2000",
+          "Nationality": "Netherlands",
+          "Competitionposition": "CB",
+          "Number": "04",
+          "img": "assets/image/anhvu.png",
+          "CurrentTeam": "Newcastle United"
+        },
+        {
+          "IDPlayer": "32",
+          "PlayerName": "Elliot Anderson",
+          "Dateofbirth": "06/11/2002",
+          "Nationality": "England",
+          "Competitionposition": "CM",
+          "Number": "32",
+          "img": "assets/image/AllanSaintMaximin.png",
+          "CurrentTeam": "Newcastle United"
+        },
+        {
+          "IDPlayer": "10",
+          "PlayerName": "Anthony Gordon",
+          "Dateofbirth": "24/02/2001",
+          "Nationality": "England",
+          "Competitionposition": "CM",
+          "Number": "10",
+          "img": "assets/image/AnthonyGordon.png",
+          "CurrentTeam": "Newcastle United"
+        },
+        {
+          "IDPlayer": "39",
+          "PlayerName": "Bruno Guimarães",
+          "Dateofbirth": "16/11/1997",
+          "Nationality": "Brazil",
+          "Competitionposition": "CAM",
+          "Number": "39",
+          "img": "assets/image/ElliotAnderson.png",
+          "CurrentTeam": "Newcastle United"
+        },
+        {
+          "IDPlayer": "24",
+          "PlayerName": "Miguel Almirón",
+          "Dateofbirth": "10/02/1994",
+          "Nationality": "Paraguay",
+          "Competitionposition": "RW",
+          "Number": "24",
+          "img": "assets/image/KieranTrippier.png",
+          "CurrentTeam": "Newcastle United"
+        },
+        {
+          "IDPlayer": "11",
+          "PlayerName": "Allan Saint-Maximin",
+          "Dateofbirth": "12/03/1997",
+          "Nationality": "France",
+          "Competitionposition": "LW",
+          "Number": "11",
+          "img": "assets/image/MattTargett.png",
+          "CurrentTeam": "Newcastle United"
+        },
+        {
+          "IDPlayer": "14",
+          "PlayerName": "Alexander Isak",
+          "Dateofbirth": "21/09/1999",
+          "Nationality": "Sweden",
+          "Competitionposition": "ST",
+          "Number": "14",
+          "img": "assets/image/SvenBotman.png",
+          "CurrentTeam": "Newcastle United"
+        }
+      ]
     },
     {
-      "IDPlayer": "12",
-      "PlayerName": "Jurriën Timber",
-      "Dateofbirth": "17/06/2001",
-      "Nationality": "Netherlands",
-      "Competitionposition": "LB",
-      "Number": "12",
-      "img": "assets/image/BenWhite.png",
-      "CurrentTeam": "Arsenal"
-    },
-    {
-      "IDPlayer": "04",
-      "PlayerName": "Ben White",
-      "Dateofbirth": "08/10/1997",
-      "Nationality": "England",
-      "Competitionposition": "RB",
-      "Number": "04",
-      "img": "assets/image/BukayoSaka.png",
-      "CurrentTeam": "Arsenal"
-    },
-    {
-      "IDPlayer": "02",
-      "PlayerName": "William Saliba",
-      "Dateofbirth": "24/03/2001",
-      "Nationality": "France",
-      "Competitionposition": "CB",
-      "Number": "02",
-      "img": "assets/image/GabrielMagalhaes.png",
-      "CurrentTeam": "Arsenal"
-    },
-    {
-      "IDPlayer": "06",
-      "PlayerName": "Gabriel Magalhães",
-      "Dateofbirth": "19/12/1997",
-      "Nationality": "Brazil",
-      "Competitionposition": "CB",
-      "Number": "06",
-      "img": "assets/image/GabrielMartinelli.png",
-      "CurrentTeam": "Arsenal"
-    },
-    {
-      "IDPlayer": "41",
-      "PlayerName": "Declan Rice",
-      "Dateofbirth": "14/01/1999",
-      "Nationality": "England",
-      "Competitionposition": "CM",
-      "Number": "41",
-      "img": "assets/image/JurrienTimber.png",
-      "CurrentTeam": "Arsenal"
-    },
-    {
-      "IDPlayer": "05",
-      "PlayerName": "Thomas Partey",
-      "Dateofbirth": "13/06/1993",
-      "Nationality": "Ghana",
-      "Competitionposition": "CM",
-      "Number": "05",
-      "img": "assets/image/KaiHavertz.png",
-      "CurrentTeam": "Arsenal"
-    },
-    {
-      "IDPlayer": "08",
-      "PlayerName": "Martin Ødegaard",
-      "Dateofbirth": "17/12/1998",
-      "Nationality": "Norway",
-      "Competitionposition": "CDM",
-      "Number": "08",
-      "img": "assets/image/MartinØdegaard.png",
-      "CurrentTeam": "Arsenal"
-    },
-    {
-      "IDPlayer": "07",
-      "PlayerName": "Bukayo Saka",
-      "Dateofbirth": "05/09/2001",
-      "Nationality": "England",
-      "Competitionposition": "RW",
-      "Number": "07",
-      "img": "assets/image/.png",
-      "CurrentTeam": "Arsenal"
-    },
-    {
-      "IDPlayer": "11",
-      "PlayerName": "Gabriel Martinelli",
-      "Dateofbirth": "18/06/2001",
-      "Nationality": "Brazil",
-      "Competitionposition": "LW",
-      "Number": "11",
-      "img": "assets/image/ThomasPartey.png",
-      "CurrentTeam": "Arsenal"
-    },
-    {
-      "IDPlayer": "29",
-      "PlayerName": "Kai Havertz",
-      "Dateofbirth": "11/06/1999",
-      "Nationality": "Germany",
-      "Competitionposition": "ST",
-      "Number": "29",
-      "img": "assets/image/WilliamSaliba.png",
-      "CurrentTeam": "Arsenal"
-    }
-  ],
-  "BangcauthuNewcastleUnited": [
-    {
-      "IDPlayer": "01",
-      "PlayerName": "Martin Dúbravka",
-      "Dateofbirth": "15/01/1989",
-      "Nationality": "Czechoslovakia",
-      "Competitionposition": "GK",
-      "Number": "01",
-      "img": "assets/image/nit.png",
-      "CurrentTeam": "Newcastle United"
-    },
-    {
-      "IDPlayer": "13",
-      "PlayerName": "Matt Targett",
-      "Dateofbirth": "18/09/1995",
-      "Nationality": "England",
-      "Competitionposition": "LB",
-      "Number": "13",
-      "img": "assets/image/trang.png",
-      "CurrentTeam": "Newcastle United"
-    },
-    {
-      "IDPlayer": "02",
-      "PlayerName": "Kieran Trippier",
-      "Dateofbirth": "19/09/1990",
-      "Nationality": "England",
-      "Competitionposition": "RB",
-      "Number": "02",
-      "img": "assets/image/khanh.png",
-      "CurrentTeam": "Newcastle United"
-    },
-    {
-      "IDPlayer": "05",
-      "PlayerName": "Fabian Schär",
-      "Dateofbirth": "20/12/1991",
-      "Nationality": "Switzerland",
-      "Competitionposition": "CB",
-      "Number": "05",
-      "img": "assets/image/tien.png",
-      "CurrentTeam": "Newcastle United"
-    },
-    {
-      "IDPlayer": "-4",
-      "PlayerName": "Sven Botman",
-      "Dateofbirth": "12/01/2000",
-      "Nationality": "Netherlands",
-      "Competitionposition": "CB",
-      "Number": "04",
-      "img": "assets/image/anhvu.png",
-      "CurrentTeam": "Newcastle United"
-    },
-    {
-      "IDPlayer": "32",
-      "PlayerName": "Elliot Anderson",
-      "Dateofbirth": "06/11/2002",
-      "Nationality": "England",
-      "Competitionposition": "CM",
-      "Number": "32",
-      "img": "assets/image/AllanSaintMaximin.png",
-      "CurrentTeam": "Newcastle United"
-    },
-    {
-      "IDPlayer": "10",
-      "PlayerName": "Anthony Gordon",
-      "Dateofbirth": "24/02/2001",
-      "Nationality": "England",
-      "Competitionposition": "CM",
-      "Number": "10",
-      "img": "assets/image/AnthonyGordon.png",
-      "CurrentTeam": "Newcastle United"
-    },
-    {
-      "IDPlayer": "39",
-      "PlayerName": "Bruno Guimarães",
-      "Dateofbirth": "16/11/1997",
-      "Nationality": "Brazil",
-      "Competitionposition": "CAM",
-      "Number": "39",
-      "img": "assets/image/ElliotAnderson.png",
-      "CurrentTeam": "Newcastle United"
-    },
-    {
-      "IDPlayer": "24",
-      "PlayerName": "Miguel Almirón",
-      "Dateofbirth": "10/02/1994",
-      "Nationality": "Paraguay",
-      "Competitionposition": "RW",
-      "Number": "24",
-      "img": "assets/image/KieranTrippier.png",
-      "CurrentTeam": "Newcastle United"
-    },
-    {
-      "IDPlayer": "11",
-      "PlayerName": "Allan Saint-Maximin",
-      "Dateofbirth": "12/03/1997",
-      "Nationality": "France",
-      "Competitionposition": "LW",
-      "Number": "11",
-      "img": "assets/image/MattTargett.png",
-      "CurrentTeam": "Newcastle United"
-    },
-    {
-      "IDPlayer": "14",
-      "PlayerName": "Alexander Isak",
-      "Dateofbirth": "21/09/1999",
-      "Nationality": "Sweden",
-      "Competitionposition": "ST",
-      "Number": "14",
-      "img": "assets/image/SvenBotman.png",
-      "CurrentTeam": "Newcastle United"
-    }
-  ],
-  "BangcauthuAstonVilla": [
-    {
-      "IDPlayer": "01",
-      "PlayerName": "Emiliano Martínez",
-      "Dateofbirth": "02/09/1992",
-      "Nationality": "Argentina",
-      "Competitionposition": "GK",
-      "Number": "01",
-      "img": "assets/image/EmilianoMartinez.png",
-      "CurrentTeam": "Aston Villa"
-    },
-    {
-      "IDPlayer": "12",
-      "PlayerName": "Lucas Digne",
-      "Dateofbirth": "20/07/1993",
-      "Nationality": "France",
-      "Competitionposition": "LB",
-      "Number": "12",
-      "img": "assets/image/Boubacar Kamara.png",
-      "CurrentTeam": "Aston Villa"
-    },
-    {
-      "IDPlayer": "05",
-      "PlayerName": "Tyrone Mings",
-      "Dateofbirth": "13/03/1993",
-      "Nationality": "England",
-      "Competitionposition": "CB",
-      "Number": "05",
-      "img": "assets/image/EzriKonsa.png",
-      "CurrentTeam": "Aston Villa"
-    },
-    {
-      "IDPlayer": "04",
-      "PlayerName": "Ezri Konsa",
-      "Dateofbirth": "23/10/1997",
-      "Nationality": "England",
-      "Competitionposition": "CB",
-      "Number": "04",
-      "img": "assets/image/JacobRamsey.png",
-      "CurrentTeam": "Aston Villa"
-    },
-    {
-      "IDPlayer": "02",
-      "PlayerName": "Matty Cash",
-      "Dateofbirth": "07/08/1997",
-      "Nationality": "England",
-      "Competitionposition": "RB",
-      "Number": "02",
-      "img": "assets/image/LeonBailey.png",
-      "CurrentTeam": "Aston Villa"
-    },
-    {
-      "IDPlayer": "02",
-      "PlayerName": "Matty Cash",
-      "Dateofbirth": "07/08/1997",
-      "Nationality": "England",
-      "Competitionposition": "CM",
-      "Number": "02",
-      "img": "assets/image/LucasDigne.png",
-      "CurrentTeam": "Aston Villa"
-    },
-    {
-      "IDPlayer": "44",
-      "PlayerName": "Boubacar Kamara",
-      "Dateofbirth": "23/11/1999",
-      "Nationality": "France",
-      "Competitionposition": "CM",
-      "Number": "44",
-      "img": "assets/image/MattyCash.png",
-      "CurrentTeam": "Aston Villa"
-    },
-    {
-      "IDPlayer": "31",
-      "PlayerName": "Leon Bailey",
-      "Dateofbirth": "09/08/1997",
-      "Nationality": "Jamaica",
-      "Competitionposition": "LW",
-      "Number": "31",
-      "img": "assets/image/OllieWatkins.png",
-      "CurrentTeam": "Aston Villa"
-    },
-    {
-      "IDPlayer": "41",
-      "PlayerName": "Jacob Ramsey",
-      "Dateofbirth": "28/05/2001",
-      "Nationality": "England",
-      "Competitionposition": "RW",
-      "Number": "41",
-      "img": "assets/image/TyroneMings.png",
-      "CurrentTeam": "Aston Villa"
-    },
-    {
-      "IDPlayer": "07",
-      "PlayerName": "John McGinn",
-      "Dateofbirth": "18/10/1994",
-      "Nationality": "Scotland",
-      "Competitionposition": "CAM",
-      "Number": "07",
-      "img": "assets/image/TyroneMings.png",
-      "CurrentTeam": "Aston Villa"
-    },
-    {
-      "IDPlayer": "11",
-      "PlayerName": "Ollie Watkins",
-      "Dateofbirth": "30/12/1995",
-      "Nationality": "England",
-      "Competitionposition": "ST",
-      "Number": "11",
-      "img": "assets/image/TyroneMings.png",
-      "CurrentTeam": "Aston Villa"
+      "id": "12",
+      "logo": "assets/image/lg.png",
+      "sobanthang":"32",
+      "socauthu":"12",
+      "sotranthamgia":"44",
+      "name": " United AstonVilla",
+      "Bangcauthu": [
+        {
+          "IDPlayer": "01",
+          "PlayerName": "Emiliano Martínez",
+          "Dateofbirth": "02/09/1992",
+          "Nationality": "Argentina",
+          "Competitionposition": "GK",
+          "Number": "01",
+          "img": "assets/image/EmilianoMartinez.png",
+          "CurrentTeam": "Aston Villa"
+        },
+        {
+          "IDPlayer": "12",
+          "PlayerName": "Lucas Digne",
+          "Dateofbirth": "20/07/1993",
+          "Nationality": "France",
+          "Competitionposition": "LB",
+          "Number": "12",
+          "img": "assets/image/Boubacar Kamara.png",
+          "CurrentTeam": "Aston Villa"
+        },
+        {
+          "IDPlayer": "05",
+          "PlayerName": "Tyrone Mings",
+          "Dateofbirth": "13/03/1993",
+          "Nationality": "England",
+          "Competitionposition": "CB",
+          "Number": "05",
+          "img": "assets/image/EzriKonsa.png",
+          "CurrentTeam": "Aston Villa"
+        },
+        {
+          "IDPlayer": "04",
+          "PlayerName": "Ezri Konsa",
+          "Dateofbirth": "23/10/1997",
+          "Nationality": "England",
+          "Competitionposition": "CB",
+          "Number": "04",
+          "img": "assets/image/JacobRamsey.png",
+          "CurrentTeam": "Aston Villa"
+        },
+        {
+          "IDPlayer": "02",
+          "PlayerName": "Matty Cash",
+          "Dateofbirth": "07/08/1997",
+          "Nationality": "England",
+          "Competitionposition": "RB",
+          "Number": "02",
+          "img": "assets/image/LeonBailey.png",
+          "CurrentTeam": "Aston Villa"
+        },
+        {
+          "IDPlayer": "02",
+          "PlayerName": "Matty Cash",
+          "Dateofbirth": "07/08/1997",
+          "Nationality": "England",
+          "Competitionposition": "CM",
+          "Number": "02",
+          "img": "assets/image/LucasDigne.png",
+          "CurrentTeam": "Aston Villa"
+        },
+        {
+          "IDPlayer": "44",
+          "PlayerName": "Boubacar Kamara",
+          "Dateofbirth": "23/11/1999",
+          "Nationality": "France",
+          "Competitionposition": "CM",
+          "Number": "44",
+          "img": "assets/image/MattyCash.png",
+          "CurrentTeam": "Aston Villa"
+        },
+        {
+          "IDPlayer": "31",
+          "PlayerName": "Leon Bailey",
+          "Dateofbirth": "09/08/1997",
+          "Nationality": "Jamaica",
+          "Competitionposition": "LW",
+          "Number": "31",
+          "img": "assets/image/OllieWatkins.png",
+          "CurrentTeam": "Aston Villa"
+        },
+        {
+          "IDPlayer": "41",
+          "PlayerName": "Jacob Ramsey",
+          "Dateofbirth": "28/05/2001",
+          "Nationality": "England",
+          "Competitionposition": "RW",
+          "Number": "41",
+          "img": "assets/image/TyroneMings.png",
+          "CurrentTeam": "Aston Villa"
+        },
+        {
+          "IDPlayer": "07",
+          "PlayerName": "John McGinn",
+          "Dateofbirth": "18/10/1994",
+          "Nationality": "Scotland",
+          "Competitionposition": "CAM",
+          "Number": "07",
+          "img": "assets/image/TyroneMings.png",
+          "CurrentTeam": "Aston Villa"
+        },
+        {
+          "IDPlayer": "11",
+          "PlayerName": "Ollie Watkins",
+          "Dateofbirth": "30/12/1995",
+          "Nationality": "England",
+          "Competitionposition": "ST",
+          "Number": "11",
+          "img": "assets/image/TyroneMings.png",
+          "CurrentTeam": "Aston Villa"
+        }
+      ]
     }
   ],
 
@@ -7118,8 +7217,8 @@
     {
       "id": 1,
       "tencauthu": "Mohamed Salah",
-      "avt":"assets/image/09.png",
-      "logo":"assets/image/aston.jpg",
+      "avt": "assets/image/09.png",
+      "logo": "assets/image/aston.jpg",
       "ngaysinh": "15/06/1992",
       "soban": "15",
       "doituyen": "Egypt",
@@ -7137,8 +7236,8 @@
       "soban": "14",
       "doituyen": "Uruguay",
       "chieucao": "1m87",
-      "avt":"assets/image/0808.png",
-      "logo":"assets/image/bayern.jpg",
+      "avt": "assets/image/0808.png",
+      "logo": "assets/image/bayern.jpg",
       "chiecgiayvang": "4",
       "cauthumuagiai": "2",
       "giaicauthutre": "2",
@@ -7153,8 +7252,8 @@
       "doituyen": "France",
       "chieucao": "1m93",
       "chiecgiayvang": "2",
-      "avt":"assets/image/BenDavies.png",
-      "logo":"assets/image/manches.jpg",
+      "avt": "assets/image/BenDavies.png",
+      "logo": "assets/image/manches.jpg",
       "cauthumuagiai": "2",
       "giaicauthutre": "1",
       "vodichngoaihang": "1",
@@ -7167,8 +7266,8 @@
       "soban": "12",
       "doituyen": "Norway",
       "chieucao": "1m95",
-      "avt":"assets/image/LeonGoretzka.png",
-      "logo":"assets/image/man.jpg",
+      "avt": "assets/image/LeonGoretzka.png",
+      "logo": "assets/image/man.jpg",
       "chiecgiayvang": "2",
       "cauthumuagiai": "1",
       "giaicauthutre": "1",
@@ -7181,8 +7280,8 @@
       "ngaysinh": "28/06/1991",
       "soban": "11",
       "doituyen": "Belgium",
-      "avt":"assets/image/SonHeungmin.png",
-      "logo":"assets/image/newca.jpg",
+      "avt": "assets/image/SonHeungmin.png",
+      "logo": "assets/image/newca.jpg",
       "chieucao": "1m81",
       "chiecgiayvang": "0",
       "cauthumuagiai": "1",
@@ -7197,8 +7296,8 @@
       "soban": "10",
       "doituyen": "England",
       "chieucao": "1m86",
-      "avt":"assets/image/OliverSkipp.png",
-      "logo":"assets/image/fc.jpg",
+      "avt": "assets/image/OliverSkipp.png",
+      "logo": "assets/image/fc.jpg",
       "chiecgiayvang": "3",
       "cauthumuagiai": "1",
       "giaicauthutre": "1",
@@ -7212,8 +7311,8 @@
       "soban": "9",
       "doituyen": "Portugal",
       "chieucao": "1m73",
-      "avt":"assets/image/DaniCeballos.png",
-      "logo":"assets/image/bayern.jpg",
+      "avt": "assets/image/DaniCeballos.png",
+      "logo": "assets/image/bayern.jpg",
       "chiecgiayvang": "2",
       "cauthumuagiai": "1",
       "giaicauthutre": "0",
@@ -7227,8 +7326,8 @@
       "soban": "8",
       "doituyen": "Portugal",
       "chieucao": "1m88",
-      "avt":"assets/image/ThibautCourtois.png",
-      "logo":"assets/image/chelsea.jpg",
+      "avt": "assets/image/ThibautCourtois.png",
+      "logo": "assets/image/chelsea.jpg",
       "chiecgiayvang": "1",
       "cauthumuagiai": "0",
       "giaicauthutre": "0",
@@ -7242,8 +7341,8 @@
       "soban": "7",
       "doituyen": "Portugal",
       "chieucao": "1m79",
-      "avt":"assets/image/KevinDeBruyne.png",
-      "logo":"assets/image/fcb.jpg",
+      "avt": "assets/image/KevinDeBruyne.png",
+      "logo": "assets/image/fcb.jpg",
       "chiecgiayvang": "2",
       "cauthumuagiai": "1",
       "giaicauthutre": "0",
@@ -7257,8 +7356,8 @@
       "soban": "6",
       "doituyen": "Brazill",
       "chieucao": "1m74",
-      "avt":"assets/image/avt1.png",
-      "logo":"assets/image/bayern.jpg",
+      "avt": "assets/image/avt1.png",
+      "logo": "assets/image/bayern.jpg",
       "chiecgiayvang": "0",
       "cauthumuagiai": "0",
       "giaicauthutre": "1",

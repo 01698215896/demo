@@ -1,0 +1,88 @@
+<div class="blog_banner">
+  <div class="blog_banner-img">
+    <img src="../../assets/image/bn1.jpg" alt="" />
+  </div>
+  <div class="blog_banner-text">
+    <div class="blog_banner-text1">
+      <h3>CLUBS</h3>
+      <p>Home / Clubs</p>
+    </div>
+  </div>
+</div>
+<div class="container1">
+  <div class="fiter">
+    <input
+      type="text"
+      placeholder="Search Name.."
+      (change)="playOnChange($event)"
+    />
+    <i class="fa-brands fa-searchengin"></i>
+  </div>
+  <div class="club_box">
+    <div class="club_box_item">
+      <!-- item -->
+      <div
+        class="club_box_item1"
+        *ngFor="let data of data"
+        (click)="play(data.id)"
+      >
+        <div class="club_box_item1-img">
+          <img src="{{ data.logo }}" alt="" />
+        </div>
+        <div class="item1_text">
+          <p>{{ data.name }}</p>
+          <i class="fa-solid fa-arrow-right"></i>
+        </div>
+      </div>
+      <!--  -->
+    </div>
+  </div>
+  <div class="carosel1 text">
+    <div class="xephang">
+      <div class="carosel_test">
+        <h1>League Standing</h1>
+        <span> </span>
+      </div>
+      <div class="container1">
+        <div class="fillter">
+          <p>Filter |</p>
+          <button class="btn1 btn_re active" (click)="op1()">Option1</button>
+          <button class="btn1 btn_re" (click)="op2()">Option2</button>
+        </div>
+        <div class="xephang_box">
+          <div class="xephang_box2">
+            <img src="assets/image/bxh.jpg" alt="" />
+          </div>
+          <div class="xephang_box1">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">Rank</th>
+                  <th scope="col">Football Team</th>
+                  <th scope="col">Wins</th>
+                  <th scope="col">Draws</th>
+                  <th scope="col">Defeats</th>
+                  <th scope="col">Score</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let x of datachart">
+                  <th scope="row">{{ x.IDCharts }}</th>
+                  <td>
+                    <b>{{ x.Footballteam }}</b>
+                  </td>
+                  <td>{{ x.Numberofwins }}</td>
+                  <td>{{ x.Numberofdraws }}</td>
+                  <td>{{ x.Numberofdefeats }}</td>
+                  <td>{{ x.Score }}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+

@@ -1,0 +1,200 @@
+.blog_banner {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+.blog_banner-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  left: 0;
+  opacity: 0.2;
+}
+.blog_banner-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.blog_banner-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.blog_banner-text1 h3 {
+  font-size: 55px;
+  font-weight: 800;
+}
+.club_box_item{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.club_box_item1{
+    margin: 10px;
+    padding: 8px;
+    border-radius: 8px;
+    transition: transform .3s ease-in-out;
+    cursor: pointer;
+    border: 1px solid #0b1627;
+}
+.club_box_item1:hover{
+    transform: translateY(-5%);
+    box-shadow: 0 0 6px rgba(0, 0, 0,.2);
+    border: 2px solid #0b1627;
+
+}
+
+.club_box_item1-img{
+    width: 100px;
+    height: 80px;
+    overflow: hidden;
+}
+
+.club_box_item1-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.item1_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.item1_text p{
+    font-size: 20px;
+    font-weight: 800;
+    margin: 0;
+}
+
+
+.fiter {
+  width: 40%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0;
+}
+.fiter input {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+.fiter i {
+  width: 50px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0b1627;
+  border: 1px solid #0b1627;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.fiter i:hover {
+  background: none;
+  color: #0b1627;
+  border: none;
+}
+
+
+.fillter {
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+}
+.fillter p {
+  font-size: 20px;
+  margin-right: 20px;
+}
+.fillter select {
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.xephang_box {
+  display: grid;
+  grid-template-columns: 48% 48%;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+table {
+  line-height: 40px;
+  background: #fff;
+}
+.text {
+  background: linear-gradient(to bottom, #fff, #f7f7f7);
+}
+
+.xephang_box2 {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.xephang_box2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+.xephang_box2:hover img {
+  transform: scale(110%);
+}
+
+.carosel1 {
+  text-align: center;
+  background: #f7f7f7;
+  padding: 50px 0;
+  border-radius: 20px;
+  margin-top: 50px;
+
+}
+.carosel1 h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.carosel_test {
+  position: relative;
+}
+
+
+
+.carosel_test span {
+  position: absolute;
+  width: 80px;
+  height: 4px;
+  border-radius: 10px;
+  background: #e91e63;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -20px;
+}
+
+.carosel_test p {
+  color: #516576;
+}
+
+.carosel_test h1 {
+  color: #303d48;
+  font-size: 50px;
+}
