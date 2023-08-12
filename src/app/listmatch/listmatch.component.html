@@ -64,54 +64,62 @@
   </div>
   <div class="list_box">
     <div class="list_box-click">
-      <button class="active" (click)="opt1(0)" [class.active]="activeTab === 0" >COMMING UP</button>
-      <button  (click)="opt2(1)"  [class.active]="activeTab === 1">THE LAST MATCH</button>
+      <button class="active" (click)="opt1(0)" [class.active]="activeTab === 0">
+        COMMING UP
+      </button>
+      <button
+      class="btn1 btn_re active"
+      (click)="op3(1)"
+      [class.active]="activeTab === 1"
+    >
+    In Progress
+    </button>
+      <button (click)="opt2(2)" [class.active]="activeTab === 2">
+        THE LAST MATCH
+      </button>
     </div>
     <div class="containerqq">
-        <div class="fiter">
-            <input
-              type="text"
-              placeholder="Search Tournaments.."
-              (change)="playOnChange($event)"
-            />
-            <i class="fa-brands fa-searchengin" (click)="playOnChange($event)"></i>
-          </div>
-        <div class="fiter">
-          <input
-            type="text"
-            placeholder="Search Team"
-            (change)="playsoccer($event)"
-          />
-          <i class="fa-brands fa-searchengin" (click)="playsoccer($event)"></i>
-        </div>
-        <div class="fiter1">
-          <label for="">Ngày Thi Đấu</label>
-          <input
-            type="date"
-            placeholder="Search Nationality"
-            (change)="playpos($event)"
-          />
-        </div>
-        
+      <div class="fiter">
+        <input
+          type="text"
+          placeholder="Search Tournaments.."
+          (change)="playOnChange($event)"
+        />
+        <i class="fa-brands fa-searchengin" (click)="playOnChange($event)"></i>
       </div>
+      <div class="fiter">
+        <input
+          type="text"
+          placeholder="Search Team"
+          (change)="playsoccer($event)"
+        />
+        <i class="fa-brands fa-searchengin" (click)="playsoccer($event)"></i>
+      </div>
+      <div class="fiter1">
+        <label for="">Competition Day</label>
+        <input
+          type="date"
+          placeholder="Search Nationality"
+          (change)="playpos($event)"
+        />
+      </div>
+    </div>
     <div class="list_box-item">
-       
       <div class="list_box-item1" *ngFor="let data of data" (click)="router1()">
         <div class="event1">
-          <p>{{data.DateandTime}}</p>
+          <p>{{ data.DateandTime }}</p>
           <div class="content_img">
             <div class="content_img-logo">
-              <img src="{{data.urlH}}" alt="" />
+              <img src="{{ data.urlH }}" alt="" />
             </div>
-            <p>{{data.Result}}</p>
+            <p>{{ data.Result }}</p>
             <div class="content_img-logo">
-              <img src="{{data.urlG}}" alt="" />
+              <img src="{{ data.urlG }}" alt="" />
             </div>
           </div>
-          <p>{{data.tentrandau}}</p>
+          <p>{{ data.tentrandau }}</p>
         </div>
       </div>
-      
     </div>
   </div>
 </div>

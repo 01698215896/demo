@@ -99,10 +99,9 @@
           </div>
         </div>
       </div>
-      <div class="box3_content1">
+      <div class="box3_content1" style="margin-top: 150px">
         <div class="box3_content1-click">
           <button class="active">Lines-Up</button>
-          <button>Stats</button>
         </div>
         <div class="box3_content1-lineup">
           <div class="logo">
@@ -133,7 +132,13 @@
           <!-- item 1 -->
           <div class="giaidau_item1" *ngFor="let u of dataplayer">
             <div class="giaidau_item1-content">
-              <p (click)="show(u.IDPlayer)" style="cursor: pointer;"><b>{{ u.PlayerName }}</b></p>
+              <p
+                (click)="show(u.IDPlayer)"
+                style="cursor: pointer"
+                (click)="ppp(u.IDPlayer)"
+              >
+                <b>{{ u.PlayerName }}</b>
+              </p>
               <div class="giaidau_item1-content-avt">
                 <p>{{ u.CurrentTeam }}</p>
               </div>
@@ -161,7 +166,13 @@
               <img src="{{ v.img }}" alt="" />
             </div>
             <div class="giaidau_item1-content">
-              <p (click)="show(v.IDPlayer)" style="cursor: pointer;"><b>{{ v.PlayerName }}</b></p>
+              <p
+                (click)="show(v.IDPlayer)"
+                style="cursor: pointer"
+                (click)="ppp(v.IDPlayer)"
+              >
+                <b>{{ v.PlayerName }}</b>
+              </p>
               <div class="giaidau_item1-content-avt">
                 <p>{{ v.CurrentTeam }}</p>
               </div>

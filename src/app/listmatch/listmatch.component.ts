@@ -11,6 +11,7 @@ export class ListmatchComponent implements OnInit {
   data: any[] = [];
   data1: any[] = [];
   data2: any[] = [];
+  data5: any[] = [];
 
   activeTab = 0;
 
@@ -37,6 +38,11 @@ export class ListmatchComponent implements OnInit {
   }
   router1() {
     this.router.navigate(['matchdetails']);
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: 'smooth',
+    });
   }
   playOnChange(event: any) {
     const inputValue = event.target.value.toUpperCase();
@@ -70,5 +76,12 @@ export class ListmatchComponent implements OnInit {
     //   data.Competitionposition.toUpperCase().includes(inputValue)
 
     // );
+  }
+  op3(index: number) {
+    this.activeTab = index;
+    this.dataService.fetchData().subscribe((data) => {
+      this.data = data.MatchTable4;
+      this.data2 = this.data;
+    });
   }
 }

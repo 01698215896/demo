@@ -1,0 +1,89 @@
+.container1{
+    position: relative;
+    width: 100;
+    height: 150vh;
+}
+.buttonn{
+    text-align: right;
+    padding-right: 30px;
+    justify-content: center;
+    display: flex
+    /* background-color: white; */
+}
+
+button{ 
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: white;
+}
+.btn1{
+    background: #0b1627;
+    color: #fff;
+    border: 1px solid #0b1627;
+}
+.btn1:hover{
+    background: none;
+    color: #0b1627;
+}
+.box_body{
+    padding-top: 20px;
+}
+
+
+
+
+.text{
+    padding: 10px 30px ;
+    border-radius: 15px;
+    background-color: #dfdbfe6c;
+    margin: 30px;
+}
+
+h4{
+    padding-top: 10px;
+}
+
+.bi{
+    background-color: #DFDBFE;
+    color: #614afe;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.background-header{
+    /* background-color: #614afe; */
+    background-image: url("/bg.jpg");
+    background-repeat: none;
+    background-size: auto;
+    height: 230px;
+}
+.header-top{
+    color: white;
+    padding: 0 40px;
+
+}
+.active{
+    background-color: white;
+}
+.symbol-label img{
+    border-radius: 20px;
+}
+.create-body input{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: solid;
+    border-color: #614afe;
+    padding: 12px 15px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.create-body input:focus{
+    outline: none;
+}
+.create-match-btn{
+    background-color: #614afe;
+    color:white;
+}

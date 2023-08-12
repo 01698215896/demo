@@ -11,6 +11,7 @@ import { ShopComponent } from './shop/shop.component';
 import { ClubComponent } from './club/club.component';
 import { ListmatchComponent } from './listmatch/listmatch.component';
 import { ListclubComponent } from './listclub/listclub.component';
+import { AdminComponent } from './admin/admin.component';
 
 const routes: Routes = [
   {path: "", component: HomeComponent},
@@ -26,6 +27,7 @@ const routes: Routes = [
   {path: "listmatch", component: ListmatchComponent},
   {path: "listclub", component: ListclubComponent},
   {path: "about", component: AboutComponent},
+  {path: "admin", component: AdminComponent},
 
 
 

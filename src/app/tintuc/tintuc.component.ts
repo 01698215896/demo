@@ -58,4 +58,7 @@ export class TintucComponent implements OnInit {
     this.email = this.savedata.email;
     this.DateSubmitted = this.savedata.DateSubmitted;
   }
+  onload(){
+    window.scrollTo(0, 0)
+  }
 }

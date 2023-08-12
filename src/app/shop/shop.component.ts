@@ -16,5 +16,10 @@ constructor(private dataService: DataService, private router: Router){}
       console.log(this.data)
     });
   }
-
+  // playOnChange(event: any) {
+  //   const inputValue = event.target.value.toUpperCase();
+  //   this.data = this.data2.filter((data) =>
+  //     data.tentrandau.toUpperCase().includes(inputValue)
+  //   );
+  // }
 }

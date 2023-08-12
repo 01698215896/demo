@@ -17,6 +17,7 @@ import { RouterModule,Routes, Scroll  } from '@angular/router';
 import { ClubComponent } from './club/club.component';
 import { ListmatchComponent } from './listmatch/listmatch.component';
 import { ListclubComponent } from './listclub/listclub.component';
+import { AdminComponent } from './admin/admin.component';
 const routes: Routes = [
   {path: "", component: HomeComponent},
   {path: "about", component: AboutComponent},
@@ -43,6 +44,7 @@ const routes: Routes = [
     ClubComponent,
     ListmatchComponent,
     ListclubComponent,
+    AdminComponent,
   ],
   imports: [
     BrowserModule,

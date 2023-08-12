@@ -44,14 +44,29 @@ export class HomeComponent implements OnInit {
   profile(id: string) {
     sessionStorage.setItem('dataPlayer', JSON.stringify(id));
     this.router.navigate(['/profile']);
+    window.scroll({ 
+      top: 0, 
+      left: 0, 
+      behavior: 'smooth' 
+});
   }
   event(id: string) {
     sessionStorage.setItem('dataEvent', JSON.stringify(id));
     this.router.navigate(['/tintuc']);
+    window.scroll({ 
+      top: 0, 
+      left: 0, 
+      behavior: 'smooth' 
+});
     console.log(id);
   }
   router1() {
     this.router.navigate(['/matchdetails']);
+    window.scroll({ 
+      top: 0, 
+      left: 0, 
+      behavior: 'smooth' 
+});
   }
   op1(index: number) {
     this.dataService.fetchData().subscribe((data) => {
@@ -68,10 +83,20 @@ export class HomeComponent implements OnInit {
   }
   tt() {
     this.router.navigate(['listmatch']);
+    window.scroll({ 
+      top: 0, 
+      left: 0, 
+      behavior: 'smooth' 
+});
   }
   sh(id: string) {
     sessionStorage.setItem('idclub1', id);
     this.router.navigate(['/listclub']);
+    window.scroll({ 
+      top: 0, 
+      left: 0, 
+      behavior: 'smooth' 
+});
   }
   sort1() {
     this.datachart = this.datachart.sort((a, b) =>
@@ -92,19 +117,25 @@ export class HomeComponent implements OnInit {
     this.isSorted = !this.isSorted;
   }
   playOnChange(event: any) {
+ 
     const inputValue = event.target.value.toUpperCase();
     this.data = this.dataa.filter((data) =>
       data.tencauthu.toUpperCase().includes(inputValue)
     );
   }
   playOnChangee(event: any) {
-    if (event.target.value) {
+    
       const inputValue = event.target.value.toUpperCase();
       this.datachart = this.datac.filter((data) =>
         data.Footballteam.toUpperCase().includes(inputValue)
       );
-    } else {
-      this.datachart = this.datachart
-    }
+    
+  }
+
+  op3(index: number){
+    this.activeTab = index;
+    this.dataService.fetchData().subscribe((data) => {
+      this.datachart = data.MatchTable4;
+    });
   }
 }

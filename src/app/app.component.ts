@@ -46,33 +46,16 @@ export class AppComponent implements OnInit {
   handleScroll(event: Event): void {
     this.scrollY = window.scrollY;
     if (this.scrollY > 100) {
-      this.renderer.setStyle(
-        this.check1.nativeElement,
-        'position',
-        'fixed',
-      );
-      this.renderer.setStyle(
-        this.check1.nativeElement,
-        'top',
-        '0',
-      );
-      this.renderer.setStyle(
-        this.check1.nativeElement,
-        'left',
-        '0',
-      );
-      this.renderer.setStyle(
-        this.check1.nativeElement,
-        'z-index',
-        '1000',
-      );
-      this.renderer.setStyle(
-        this.check1.nativeElement,
-        'background',
-        '#fff',
-      );
-    } else{
-      this.renderer.removeStyle(this.check1.nativeElement,'position')
+      this.renderer.setStyle(this.check1.nativeElement, 'position', 'fixed');
+      this.renderer.setStyle(this.check1.nativeElement, 'top', '0');
+      this.renderer.setStyle(this.check1.nativeElement, 'left', '0');
+      this.renderer.setStyle(this.check1.nativeElement, 'z-index', '1000');
+      this.renderer.setStyle(this.check1.nativeElement, 'background', '#fff');
+    } else {
+      this.renderer.removeStyle(this.check1.nativeElement, 'position');
     }
+  }
+  onload(){
+    window.scrollTo(0, 0)
   }
 }

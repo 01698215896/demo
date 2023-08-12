@@ -32,6 +32,11 @@ export class ClubComponent implements OnInit {
   play(id: string) {
     sessionStorage.setItem('idclub', id);
     this.router.navigate(['listclub']);
+    window.scroll({ 
+      top: 0, 
+      left: 0, 
+      behavior: 'smooth' 
+});
   }
   playOnChange(event: any) {
     const inputValue = event.target.value.toUpperCase();

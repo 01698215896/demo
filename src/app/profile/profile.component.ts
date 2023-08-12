@@ -58,6 +58,11 @@ export class ProfileComponent implements OnInit {
   event(id: string) {
     sessionStorage.setItem('dataEvent', JSON.stringify(id));
     this.router.navigate(['/tintuc']);
+    window.scroll({ 
+      top: 0, 
+      left: 0, 
+      behavior: 'smooth' 
+});
     console.log(id);
   }
 }
