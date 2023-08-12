@@ -28,7 +28,7 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="assets/image/bn1.jpg" class="d-block w-100" alt="..." />
+        <img src="assets/image/banner-1.png" class="d-block w-100" alt="..." />
       </div>
       <div class="carousel-item">
         <img src="assets/image/bn2.jpg" class="d-block w-100" alt="..." />
@@ -66,18 +66,18 @@
     </div>
     <!-- event 1 -->
     <div class="event">
-      <div class="event1" *ngFor="let data2 of data2" (click)="router1()">
+      <div style="cursor: pointer;" class="event1" *ngFor="let data2 of data2" (click)="router1()">
         <p>{{ data2.DateandTime }}</p>
         <div class="content_img">
           <div class="content_img-logo">
-            <img src="assets/image/logo1.svg" alt="" />
+            <img src="{{data2.urlH}}" alt="" />
           </div>
           <p>{{ data2.Result }}</p>
           <div class="content_img-logo">
-            <img src="assets/image/logo2.svg" alt="" />
+            <img src="{{data2.urlG}}" alt="" />
           </div>
         </div>
-        <p>Permier Leagen</p>
+        <p>{{data2.tentrandau}}</p>
       </div>
 
       <div class="event1" (click)="tt()">
@@ -87,18 +87,18 @@
     </div>
     <!-- event 2 -->
     <div class="event">
-      <div class="event1" *ngFor="let data3 of data3" (click)="router1()">
+      <div style="cursor: pointer;" class="event1" *ngFor="let data3 of data3" (click)="router1()">
         <p>{{ data3.DateandTime }}</p>
         <div class="content_img">
           <div class="content_img-logo">
-            <img src="assets/image/logo1.svg" alt="" />
+            <img src="{{ data3.urlH }}" alt="" />
           </div>
           <p>{{ data3.Result }}</p>
           <div class="content_img-logo">
-            <img src="assets/image/logo2.svg" alt="" />
+            <img src="{{ data3.urlG }}" alt="" />
           </div>
         </div>
-        <p>Permier Leagen</p>
+        <p>{{ data3.tentrandau }}</p>
       </div>
 
       <div class="event1" (click)="tt()">
@@ -115,6 +115,14 @@
       <span> </span>
     </div>
     <div class="container1">
+      <div class="fiter" style="margin-top: 30px;">
+        <input
+          type="text"
+          placeholder="Search Name.."
+          (change)="playOnChange($event)"
+        />
+        <i class="fa-brands fa-searchengin" (click)="playOnChange($event)"></i>
+      </div>
       <div class="xephang_box">
         <div class="xephang_box1">
           <table class="table table-striped">
@@ -159,7 +167,7 @@
       <span> </span>
     </div>
     <div class="container1">
-      <div class="fillter">
+      <div class="fillter" style="margin-bottom: 50px;">
         <button
           class="btn1 btn_re active"
           (click)="op1(0)"
@@ -175,10 +183,19 @@
           UEFA Champions League
         </button>
       </div>
+      <div class="fiter" style="margin: 0 auto; " >
+        <input
+          type="text"
+          placeholder="Search Name.."
+          (change)="playOnChangee($event)"
+        />
+        <i class="fa-brands fa-searchengin" (click)="playOnChangee($event)"></i>
+      </div>
       <div class="xephang_box">
         <div class="xephang_box2">
           <img src="assets/image/bxh.jpg" alt="" />
         </div>
+       
         <div class="xephang_box1">
           <table class="table table-striped">
             <thead>

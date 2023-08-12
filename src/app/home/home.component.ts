@@ -14,6 +14,8 @@ export class HomeComponent implements OnInit {
   data3: any[] = [];
   datachart: any[] = [];
   datachart1: any[] = [];
+  dataa: any[] = [];
+  datac: any[] = [];
   activeTab = 0;
   savedata: number = 0;
   isSorted = false;
@@ -21,19 +23,21 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
     this.dataService.fetchData().subscribe((data) => {
       this.data = data.top10cauthu;
+      this.dataa = this.data;
     });
     this.dataService.fetchData().subscribe((data) => {
       this.data1 = data.NewsBoard;
     });
     this.dataService.fetchData().subscribe((data) => {
-      this.data2 = data.MatchTable2;
+      this.data2 = data.MatchTable3;
       console.log(this.data2);
     });
     this.dataService.fetchData().subscribe((data) => {
-      this.data3 = data.MatchTable3;
+      this.data3 = data.MatchTable2;
     });
     this.dataService.fetchData().subscribe((data) => {
       this.datachart = data.Charts1;
+      this.datac = this.datachart;
     });
   }
 
@@ -86,5 +90,21 @@ export class HomeComponent implements OnInit {
     }
 
     this.isSorted = !this.isSorted;
+  }
+  playOnChange(event: any) {
+    const inputValue = event.target.value.toUpperCase();
+    this.data = this.dataa.filter((data) =>
+      data.tencauthu.toUpperCase().includes(inputValue)
+    );
+  }
+  playOnChangee(event: any) {
+    if (event.target.value) {
+      const inputValue = event.target.value.toUpperCase();
+      this.datachart = this.datac.filter((data) =>
+        data.Footballteam.toUpperCase().includes(inputValue)
+      );
+    } else {
+      this.datachart = this.datachart
+    }
   }
 }

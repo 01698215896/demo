@@ -32,7 +32,7 @@
         <div class="blog_body-box1-show">
           <h3>RELATED POTS</h3>
           <div class="bao">
-            <div class="blog_body-box1-show-RELATED" *ngFor="let data1 of data">
+            <div class="blog_body-box1-show-RELATED" *ngFor="let data1 of data" (click)="tint(data1.IDNews)">
               <div class="blog_body-box1-show-RELATED1">
                 <div class="blog_body-box1-show-RELATED1-img">
                   <img src="{{data1.imgbg}}" alt="" />

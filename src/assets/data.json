@@ -7492,7 +7492,7 @@
   ],
   "Charts1": [
     {
-      "IDCharts": "A",
+      "IDCharts": "1",
       "Footballteam": "Real Madrid",
       "Numberofwins": "3",
       "Numberofdraws": "0",
@@ -7500,7 +7500,7 @@
       "Score": "9"
     },
     {
-      "IDCharts": "A",
+      "IDCharts": "2",
       "Footballteam": "Barcelona",
       "Numberofwins": "2",
       "Numberofdraws": "0",
@@ -7508,7 +7508,7 @@
       "Score": "6"
     },
     {
-      "IDCharts": "A",
+      "IDCharts": "3",
       "Footballteam": "Manchester City",
       "Numberofwins": "1",
       "Numberofdraws": "0",
@@ -7516,7 +7516,7 @@
       "Score": "3"
     },
     {
-      "IDCharts": "A",
+      "IDCharts": "4",
       "Footballteam": "Manchester Uniter",
       "Numberofwins": "0",
       "Numberofdraws": "0",
@@ -7524,7 +7524,7 @@
       "Score": "0"
     },
     {
-      "IDCharts": "B",
+      "IDCharts": "5",
       "Footballteam": "Liverpool",
       "Numberofwins": "3",
       "Numberofdraws": "0",
@@ -7532,7 +7532,7 @@
       "Score": "9"
     },
     {
-      "IDCharts": "B",
+      "IDCharts": "6",
       "Footballteam": "Chelsea",
       "Numberofwins": "2",
       "Numberofdraws": "0",
@@ -7540,7 +7540,7 @@
       "Score": "6"
     },
     {
-      "IDCharts": "B",
+      "IDCharts": "7",
       "Footballteam": "AC Milan",
       "Numberofwins": "1",
       "Numberofdraws": "0",
@@ -7548,7 +7548,7 @@
       "Score": "3"
     },
     {
-      "IDCharts": "B",
+      "IDCharts": "8",
       "Footballteam": "Newcastle United",
       "Numberofwins": "0",
       "Numberofdraws": "0",
@@ -7560,7 +7560,7 @@
 
   "Charts2": [
     {
-      "IDCharts": "A",
+      "IDCharts": "1",
       "Footballteam": "Manchester City",
       "Numberofwins": "3",
       "Numberofdraws": "0",
@@ -7568,7 +7568,7 @@
       "Score": "9"
     },
     {
-      "IDCharts": "A",
+      "IDCharts": "2",
       "Footballteam": "Manchester United",
       "Numberofwins": "1",
       "Numberofdraws": "2",
@@ -7576,7 +7576,7 @@
       "Score": "5"
     },
     {
-      "IDCharts": "A",
+      "IDCharts": "3",
       "Footballteam": "Aston Villa",
       "Numberofwins": "0",
       "Numberofdraws": "2",
@@ -7584,7 +7584,7 @@
       "Score": "2"
     },
     {
-      "IDCharts": "A",
+      "IDCharts": "4",
       "Footballteam": "Tottenham Hotspur",
       "Numberofwins": "0",
       "Numberofdraws": "2",
@@ -7592,7 +7592,7 @@
       "Score": "2"
     },
     {
-      "IDCharts": "B",
+      "IDCharts": "5",
       "Footballteam": "Chelsea ",
       "Numberofwins": "2",
       "Numberofdraws": "0",
@@ -7600,7 +7600,7 @@
       "Score": "6"
     },
     {
-      "IDCharts": "B",
+      "IDCharts": "6",
       "Footballteam": "Liverpool",
       "Numberofwins": "1",
       "Numberofdraws": "1",
@@ -7608,7 +7608,7 @@
       "Score": "5"
     },
     {
-      "IDCharts": "B",
+      "IDCharts": "7",
       "Footballteam": "Arsenal",
       "Numberofwins": "0",
       "Numberofdraws": "2",
@@ -7616,7 +7616,7 @@
       "Score": "4"
     },
     {
-      "IDCharts": "B",
+      "IDCharts": "8",
       "Footballteam": "Newcastle United",
       "Numberofwins": "0",
       "Numberofdraws": "0",

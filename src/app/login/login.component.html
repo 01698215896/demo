@@ -21,7 +21,7 @@
         </div>
         <div class="chung">
           <div id="loginform" *ngIf="activeTab === 0">
-            <form >
+            <form>
               <div class="formIP">
                 <i class="fa-solid fa-user"></i>
                 <input
@@ -30,7 +30,6 @@
                   placeholder="Username..."
                 />
               </div>
-              <small class="text-danger">Username required</small>
               <div class="formIP">
                 <i class="fa-solid fa-key"></i>
                 <input
@@ -39,7 +38,6 @@
                   placeholder="Password..."
                 />
               </div>
-              <small class="text-danger">Password required</small>
               <div class="link">
                 <button type="submit" [disabled]="isWaitingForResponse">
                   <ng-container
@@ -78,7 +76,6 @@
                   style="padding-left: 10px; margin-left: 10px"
                 />
               </div>
-              <small class="text-danger">Fistname & Lastname required</small>
 
               <div class="formIP">
                 <i class="fa-solid fa-user"></i>
@@ -88,7 +85,6 @@
                   placeholder="Username..."
                 />
               </div>
-              <small class="text-danger">Username required</small>
 
               <div class="formIP">
                 <i class="fa-solid fa-envelope"></i>
@@ -98,7 +94,6 @@
                   placeholder="Email..."
                 />
               </div>
-              <small class="text-danger">Email required</small>
 
               <div class="formIP">
                 <i class="fa-solid fa-key"></i>
@@ -108,7 +103,6 @@
                   placeholder="Password..."
                 />
               </div>
-              <small class="text-danger">Password required</small>
 
               <div class="formIP">
                 <i class="fa-solid fa-key"></i>
@@ -118,7 +112,6 @@
                   placeholder="Confirm Password..."
                 />
               </div>
-              <small class="text-danger">ConfirmPassword required</small>
 
               <div class="link">
                 <!-- <button type="submit">{{ 'Resgiter' </button> -->
@@ -126,7 +119,7 @@
                   <ng-container
                     *ngIf="!isWaitingForResponse; else loadingAnimation"
                   >
-                    Resgiter"
+                    Resgiter
                   </ng-container>
                 </button>
                 <ng-template #loadingAnimation>
@@ -136,7 +129,7 @@
                 </ng-template>
                 <div class="div">
                   <a href="#loginform"
-                    >Login Account" <i class="fa-solid fa-arrow-right"></i
+                    >Login Account <i class="fa-solid fa-arrow-right"></i
                   ></a>
                 </div>
               </div>

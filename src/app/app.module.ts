@@ -13,11 +13,10 @@ import { ProfileComponent } from './profile/profile.component';
 import { MatchdetailsComponent } from './matchdetails/matchdetails.component';
 import { TintucComponent } from './tintuc/tintuc.component';
 import { ShopComponent } from './shop/shop.component';
-import { RouterModule,Routes  } from '@angular/router';
+import { RouterModule,Routes, Scroll  } from '@angular/router';
 import { ClubComponent } from './club/club.component';
 import { ListmatchComponent } from './listmatch/listmatch.component';
 import { ListclubComponent } from './listclub/listclub.component';
-
 const routes: Routes = [
   {path: "", component: HomeComponent},
   {path: "about", component: AboutComponent},

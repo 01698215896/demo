@@ -356,7 +356,12 @@ iframe {
   }
   .footer-link li {
     margin: 0 10px;
-    width: 100px;}
+    width: 100px;
+  }
+  iframe {
+    width: 350px;
+    border-radius: 20px;
+  }
 }
 
 @media screen and (max-width: 420px) {

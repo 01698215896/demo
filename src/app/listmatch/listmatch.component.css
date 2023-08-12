@@ -226,3 +226,27 @@ margin-left: 20px;
   outline: none;
   border: 1px solid #ccc;
 }
+
+
+@media screen and (max-width: 780px) {
+  .list_box-item {
+    grid-template-columns: 100%;
+  }
+  .containerqq {
+
+    grid-template-columns: 100% ;
+
+  }
+  .fiter  {
+    margin: 10px 0;
+  }
+  .content_img-logo {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+}
+
+
