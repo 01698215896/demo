@@ -55,7 +55,15 @@ export class AppComponent implements OnInit {
       this.renderer.removeStyle(this.check1.nativeElement, 'position');
     }
   }
-  onload(){
-    window.scrollTo(0, 0)
+  onload() {
+    window.scrollTo(0, 0);
+  }
+  admin() {
+    const id = sessionStorage.getItem('idadmin');
+    if (id) {
+      this.router.navigate(['/admin']);
+    } else {
+      this.router.navigate(['/login']);
+    }
   }
 }
