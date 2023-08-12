@@ -12,7 +12,7 @@ export class ListmatchComponent implements OnInit {
   data1: any[] = [];
   data2: any[] = [];
   data5: any[] = [];
-
+  parseExcel: any[] = [];
   activeTab = 0;
 
   constructor(private dataService: DataService, private router: Router) {}
@@ -84,4 +84,6 @@ export class ListmatchComponent implements OnInit {
       this.data2 = this.data;
     });
   }
+
+
 }

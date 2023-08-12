@@ -39,7 +39,7 @@
                 />
               </div>
               <div class="link">
-                <button type="submit" [disabled]="isWaitingForResponse">
+                <button (click)="tk()" type="submit" [disabled]="isWaitingForResponse">
                   <ng-container
                     *ngIf="!isWaitingForResponse; else loadingAnimation"
                   >
